@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tummeliten 1985</title>
+                <title>Tummeliten 1895</title>
                 <respStmt>
                     <resp>Våra namn</resp>
                 </respStmt>
@@ -39,7 +39,8 @@
                     <author>
                         <persName ref="https://libris.kb.se/vs68bwfd1nz46zt#it">
                             <surname>Roos</surname>
-                            <forename>Anna Maria</forename>
+                            <forename>Anna</forename>
+                            <forename>Maria</forename>
                             <name type="pseudonym">Alfvaro</name>
                         </persName>
                     </author>
@@ -60,20 +61,13 @@
                     </author>
                     
                     <author>
-                        <name>Onkel Pompe</name>
-                    </author>
-                    
-                    <author>
                         <persName ref="https://libris.kb.se/rp350359100w24f">
                             <surname>Djurklou</surname>
-                            <forename>Nils Gabriel</forename>
+                            <forename>Nils</forename>
+                            <forename>Gabriel</forename>
                         </persName>
                     </author>
-                    
-                    <author>
-                        <name>Snorre</name>
-                    </author>
-                    
+                                      
                     <author>
                         <persName ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
                             <surname>Bååth</surname>
@@ -83,60 +77,78 @@
                     </author>
                     
                     <author>
-                        <persName>
+                        <persName ref="https://libris.kb.se/sq466t3b4s743md#it">
                             <surname>Adelborg</surname>
                             <forename>Ottilia</forename>
                         </persName>
                     </author>
                     
-                    <editor role="illustrator" ref="https://libris.kb.se/sq466t3b4s743md#it">
-                        <surname>Adelborg</surname>
-                        <forename>Ottilia</forename>
-                    </editor>
+                    <respStmt>
+                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                        <persName ref="https://libris.kb.se/sq466t3b4s743md#it">
+                            <surname>Adelborg</surname>
+                            <forename>Ottilia</forename>
+                        </persName>
+                    </respStmt>
                     
-                    <editor role="illustrator">
+                    <respStmt>
+                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
                         <persName ref="https://libris.kb.se/nl0221063k7n6vq#it">
                             <surname>Engström</surname>
                             <forename>Albert</forename>
                         </persName>
-                    </editor>
+                    </respStmt>
                     
-                    <editor role="illustrator">
+                    <respStmt>
+                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
                         <persName ref="https://libris.kb.se/86lnncqs28j9tm1#it">
                             <surname>Maartman</surname>
                             <surname>Beskow</surname>
                             <forename>Elsa</forename>
                         </persName>
-                    </editor>
+                    </respStmt>
                     
-                    <editor role="illustrator">
+                    <respStmt>
+                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
                         <persName ref="https://libris.kb.se/tr573bbc39xzp2l">
                             <surname>Nyström</surname>
                             <forename>Jenny</forename>
                         </persName>
-                    </editor>
-                    
-                    <editor role="illustrator">
+                    </respStmt>
+
+                    <respStmt>
+                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
                         <persName ref="https://libris.kb.se/v52hlhnzssq8zcr6#it">
                             <surname>Törner</surname>
                             <forename>Carl</forename>
                             <forename>Erik</forename>
                         </persName>
-                    </editor>
+                    </respStmt>
                     
-                    <editor role="illustrator">
-                        <persName ref="https://libris.kb.se/nl037r364xrn5gg#it">
-                            <surname>Hedberg</surname>
-                            <forename>Erik</forename>
-                        </persName>
-                    </editor>
+                   <respStmt>
+                       <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                       <persName ref="https://libris.kb.se/nl037r364xrn5gg#it">
+                           <surname>Hedberg</surname>
+                           <forename>Erik</forename>
+                       </persName>
+                   </respStmt>
                     
-                    <editor role="illustrator">
+                    <respStmt>
+                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
                         <persName ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
                             <surname>Forsström</surname>
                             <forename>Edvard</forename>
                         </persName>
-                    </editor>
+                    </respStmt>
+                    
+                    <author>
+                        <name>Snorre</name>
+                    </author>
+                    
+                    <author>
+                        <name>Onkel Pompe</name>
+                    </author>
+                    
                     
                 </bibl>
             </sourceDesc>
