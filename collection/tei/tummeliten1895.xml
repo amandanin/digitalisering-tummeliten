@@ -15,7 +15,130 @@
                 <publisher></publisher>
             </publicationStmt>
             <sourceDesc>
-                
+                <bibl>
+                    <title type="main">Tummeliten</title>
+                    <title type="sub">Jultidning för smått folk.</title>
+                    <publisher>Svensk läraretidnings förlag</publisher>
+                    <pubPlace>Stockholm</pubPlace>
+                    <date>1895</date>
+                    
+                    <editor role="publisher">
+                        <persName ref="http://viaf.org/viaf/12290298">
+                            <surname>Hammarlund</surname>
+                            <forename>Emil</forename>
+                        </persName>
+                    </editor>
+                    
+                    <author>
+                        <persName ref="https://libris.kb.se/dbqspmvx0kvm6b5#it">
+                            <surname>Wallengren</surname>
+                            <forename>Axel</forename>
+                        </persName>                     
+                    </author>
+                    
+                    <author>
+                        <persName ref="https://libris.kb.se/vs68bwfd1nz46zt#it">
+                            <surname>Roos</surname>
+                            <forename>Anna Maria</forename>
+                            <name type="pseudonym">Alfvaro</name>
+                        </persName>
+                    </author>
+                    
+                    <author>
+                        <persName ref="https://libris.kb.se/86lnrrds29w56g5#it">
+                            <surname>Köhler</surname>
+                            <forename>Emmy</forename>
+                        </persName>
+                    </author>
+                    
+                    <author>
+                        <persName ref="https://libris.kb.se/khwz1l432ldkznl#it">
+                            <surname>Wranér</surname>
+                            <forename>Signe</forename>
+                            <name type="pseudonym">Signe Alvarsson</name>
+                        </persName>
+                    </author>
+                    
+                    <author>
+                        <name>Onkel Pompe</name>
+                    </author>
+                    
+                    <author>
+                        <persName ref="https://libris.kb.se/rp350359100w24f">
+                            <surname>Djurklou</surname>
+                            <forename>Nils Gabriel</forename>
+                        </persName>
+                    </author>
+                    
+                    <author>
+                        <name>Snorre</name>
+                    </author>
+                    
+                    <author>
+                        <persName ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
+                            <surname>Bååth</surname>
+                            <forename>Albert</forename>
+                            <forename>Ulrik</forename>
+                        </persName>
+                    </author>
+                    
+                    <author>
+                        <persName>
+                            <surname>Adelborg</surname>
+                            <forename>Ottilia</forename>
+                        </persName>
+                    </author>
+                    
+                    <editor role="illustrator" ref="https://libris.kb.se/sq466t3b4s743md#it">
+                        <surname>Adelborg</surname>
+                        <forename>Ottilia</forename>
+                    </editor>
+                    
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/nl0221063k7n6vq#it">
+                            <surname>Engström</surname>
+                            <forename>Albert</forename>
+                        </persName>
+                    </editor>
+                    
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/86lnncqs28j9tm1#it">
+                            <surname>Maartman</surname>
+                            <surname>Beskow</surname>
+                            <forename>Elsa</forename>
+                        </persName>
+                    </editor>
+                    
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/tr573bbc39xzp2l">
+                            <surname>Nyström</surname>
+                            <forename>Jenny</forename>
+                        </persName>
+                    </editor>
+                    
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/v52hlhnzssq8zcr6#it">
+                            <surname>Törner</surname>
+                            <forename>Carl</forename>
+                            <forename>Erik</forename>
+                        </persName>
+                    </editor>
+                    
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/nl037r364xrn5gg#it">
+                            <surname>Hedberg</surname>
+                            <forename>Erik</forename>
+                        </persName>
+                    </editor>
+                    
+                    <editor role="illustrator">
+                        <persName ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
+                            <surname>Forsström</surname>
+                            <forename>Edvard</forename>
+                        </persName>
+                    </editor>
+                    
+                </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
