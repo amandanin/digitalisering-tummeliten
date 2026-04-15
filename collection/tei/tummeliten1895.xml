@@ -158,6 +158,20 @@
         
     </facsimile>
     <text>
+        <front>
+                <figure>
+                    <graphic url=""></graphic>
+                    <signed><persName>Albert Engström</persName></signed>
+                </figure>
+                <docTitle>
+                    <titlePart type="main">Tummeliten</titlePart>
+                    <titlePart type="sub">Jultidning för smått folk</titlePart>
+                </docTitle>
+                
+                <docImprint>
+                   Utgifven af <publisher>SVENSK LÄRARETIDNING</publisher><docDate>1895</docDate>
+                </docImprint>
+        </front>
         <body>
             <div>
 
