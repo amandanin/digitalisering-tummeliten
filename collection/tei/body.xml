@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tummeliten 1985</title>
+                <respStmt>
+                    <resp>Våra namn</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher></publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="main">Tummeliten</title>
+                    <title type="sub">Jultidning för smått folk.</title>
+                    <publisher>Svensk läraretidnings förlag</publisher>
+                    <pubPlace>Stockholm</pubPlace>
+                    <date>1895</date>
+
+                    <editor role="publisher">
+                        <persName ref="http://viaf.org/viaf/12290298">
+                            <surname>Hammarlund</surname>
+                            <forename>Emil</forename>
+                        </persName>
+                    </editor>
+
+                    <author>
+                        <persName ref="https://libris.kb.se/dbqspmvx0kvm6b5#it">
+                            <surname>Wallengren</surname>
+                            <forename>Axel</forename>
+                        </persName>
+                    </author>
+
+                    <author>
+                        <persName ref="https://libris.kb.se/vs68bwfd1nz46zt#it">
+                            <surname>Roos</surname>
+                            <forename>Anna Maria</forename>
+                            <name type="pseudonym">Alfvaro</name>
+                        </persName>
+                    </author>
+
+                    <author>
+                        <persName ref="https://libris.kb.se/86lnrrds29w56g5#it">
+                            <surname>Köhler</surname>
+                            <forename>Emmy</forename>
+                        </persName>
+                    </author>
+
+                    <author>
+                        <persName ref="https://libris.kb.se/khwz1l432ldkznl#it">
+                            <surname>Wranér</surname>
+                            <forename>Signe</forename>
+                            <name type="pseudonym">Signe Alvarsson</name>
+                        </persName>
+                    </author>
+
+                    <author>
+                        <name>Onkel Pompe</name>
+                    </author>
+
+                    <author>
+                        <persName ref="https://libris.kb.se/rp350359100w24f">
+                            <surname>Djurklou</surname>
+                            <forename>Nils Gabriel</forename>
+                        </persName>
+                    </author>
+
+                    <author>
+                        <name>Snorre</name>
+                    </author>
+
+                    <author>
+                        <persName ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
+                            <surname>Bååth</surname>
+                            <forename>Albert</forename>
+                            <forename>Ulrik</forename>
+                        </persName>
+                    </author>
+
+                    <author>
+                        <persName>
+                            <surname>Adelborg</surname>
+                            <forename>Ottilia</forename>
+                        </persName>
+                    </author>
+
+                    <editor role="illustrator" ref="https://libris.kb.se/sq466t3b4s743md#it">
+                        <surname>Adelborg</surname>
+                        <forename>Ottilia</forename>
+                    </editor>
+
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/nl0221063k7n6vq#it">
+                            <surname>Engström</surname>
+                            <forename>Albert</forename>
+                        </persName>
+                    </editor>
+
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/86lnncqs28j9tm1#it">
+                            <surname>Maartman</surname>
+                            <surname>Beskow</surname>
+                            <forename>Elsa</forename>
+                        </persName>
+                    </editor>
+
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/tr573bbc39xzp2l">
+                            <surname>Nyström</surname>
+                            <forename>Jenny</forename>
+                        </persName>
+                    </editor>
+
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/v52hlhnzssq8zcr6#it">
+                            <surname>Törner</surname>
+                            <forename>Carl</forename>
+                            <forename>Erik</forename>
+                        </persName>
+                    </editor>
+
+                    <editor role="illustrator">
+                        <persName ref="https://libris.kb.se/nl037r364xrn5gg#it">
+                            <surname>Hedberg</surname>
+                            <forename>Erik</forename>
+                        </persName>
+                    </editor>
+
+                    <editor role="illustrator">
+                        <persName ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
+                            <surname>Forsström</surname>
+                            <forename>Edvard</forename>
+                        </persName>
+                    </editor>
+
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- <facsimile> -->
+
+    <!-- </facsimile> -->
+    <text>
+        <front>
+            <figure>
+                <graphic url="/"></graphic>
+                <signed>
+                    <persName>Albert Engström</persName>
+                </signed>
+            </figure>
+            <docTitle>
+                <titlePart type="main">Tummeliten</titlePart>
+                <titlePart type="sub">Jultidning för smått folk</titlePart>
+            </docTitle>
+
+            <docImprint> Utgifven af <publisher>SVENSK LÄRARETIDNING</publisher><docDate>1895</docDate>
+            </docImprint>
+        </front>
+        <body>
+            <div type="/">
+                <pb facs="/" n="2" />
+                <head>
+                    2
+                    TUMMELITEN 1895
+                    <title>Sagan om Pomperipossa
+                        <lb/>med
+                        <lb/>den långa 
+                        <lb/>näsan
+                    </title>
+                </head>
+
+                <figure>   
+                <ab>/text i bilden/ SNUS</ab>
+                <signed><persName>[signatur] A.E. </persName></signed> 
+                </figure>
+                
+                <cb n="1"/>
+
+                <p>
+                    <hi>D</hi>et var en gång för många, många tusen år se’n en för- 
+                    <lb/>färligt gammal trollpacka, som hette Pomperipossa. Det 
+                    <lb/>är icke precis något vackert namn, men ändå är det 
+                    <lb/>bra mycket vackrare, än hvad hon själf var. Kan ni tänka er, 
+                    <lb/>hur hon såg ut? Hon hade två små röda ögon och en stor 
+                    <lb/>mun med bara tre tänder i. Och hon hade fullt med vårtor 
+                    <lb/>på händerna och en stor puckel på ryggen. Men det värsta 
+                    <lb/>var hennes näsa, för den var en hel aln lång. Ni kan tänka 
+                    <lb/>er, hur mycket snus, som gick åt, när hon snusade! Ett helt 
+                    <lb/>skålpund åt gången!! 
+                </p>
+                <p>
+                    Men det hade Pomperipossa råd till, för hon var rysligt 
+                    <lb/>rik. Hon bodde en- 
+                    <lb/>sam i ett litet hus i 
+                    <lb/>skogen, och det huset 
+                    <lb/>var byggdt utaf korf 
+                    <lb/>och skinkor, och i 
+                    <lb/>stället för tegelstenar 
+                    <lb/>var där stora stycken 
+                    <lb/>sirapsknäck. Så rik 
+                    <lb/>var Pomperipossa.
+                </p>
+                <p>
+                    Men ingen enda 
+                    <lb/>människa vågade sig 
+                    <lb/>till henne och knappt 
+                    <lb/>något troll heller, ty hon var så förskräckligt elak. Om 
+                    <lb/>det kom någon till henne, förtrollade hon honom ögonblick- 
+                    <lb/>ligen till ett bord eller en kittel eller en griffel eller nå- 
+                    <lb/>gonting annat. Hon var en mycket farlig trollpacka. Hen-
+                    <lb/>nes största sorg var den, att hennes näsa blef längre och 
+                    <lb/>längre, för hvarje gång hon förtrollade någon. Det var hen-
+                    <lb/>nes straff!
+                </p>
+                <p>                 
+                    Så var där också en kung i det landet, där Pomperi- 
+                    <lb/>possa bodde, och han hade en liten prins, som hette Pipi, 
+                    <lb/>och en liten prinsessa, som hette Fifi. De gingo en vacker dag 
+                    <lb/>och promenerade i parken, ledsagade af en hofmarskalk, som 
+                    <lb/>var så fin, att han endast kunde svara »Ah!» eller » Ha!» till 
+                    <lb/>allt, som man sade till honom.
+                </p>
+                <p>
+                    <lb/><said aloud="true">–– Jag vill gå ut i skogen! –– </said> sade prins Pipi. 
+                    <lb/><said aloud="true">–– Ah! </said> sade hofmar- 
+                    <lb/>skalken och följde med dem. 
+                </p>
+                <p>
+                    <lb/>Efter en stund kommo 
+                    <lb/>de till ett träsk, och hof- 
+                    <lb/>marskalken blef våt om 
+                    <lb/>fötterna, ty han hade siden- 
+                    <lb/>skor på sig.
+                    <lb/><said aloud="true">–– Ha!</said> sade han och 
+                    <lb/>vände genast om för att 
+                    <lb/>taga på sig ett par krag- 
+                    <lb/>stöflar. Men innan han 
+                    <lb/>gick, lade han fingret på 
+                    <lb/>näsan och sade: <said aloud="true">Bah! –– </said> 
+                    <lb/>det skulle betyda: Vänta  
+                    <cb n="2"/>     
+                    <lb/>här, prins Pipi och prinsessa Fifi, tills jag kommer tillbaka
+                    <lb/>med mina stora kragstöflar på mig!
+                    <lb/>Men det förstodo icke kungabarnen, utan de gingo vidare
+                    <lb/>i skogen.
+                </p>
+                <p>
+                    <lb/>Det var just samma skog, i hvilken Pomperipossa bodde. 
+                    <lb/>Alla fåglar började genast kvittra: <said>Gå inte dit! </said>Men prins
+                    <lb/>Pipi förstod inte fåglalåt utan sade till sin syster:
+                    <lb/><said aloud="true">–– Om vi skulle ge oss ut på äfventyr? Det är så 
+                    <lb/>tråkigt hemma. Jag har visst sex öre. Hur mycket har du,
+                    <lb/>prinsessa?</said>
+                    <lb/><said aloud="true">–– Jag har bara ett enda öre –– </said> svarade Fifi <said aloud="true"> –– men
+                    <lb/>jag kan steka äpplen.</said>
+                    <lb/><said aloud="true">–– Då kan du ju nästan laga mat. Du får bli min
+                    <lb/>hushållerska –– </said>sade prins Pipi.
+                </p>
+                <p>
+                    <lb/>Och så vandrade de ut på äfventyr i den mörka skogen, 
+                    <lb/>ända tills de kommo till Pomperipossas lilla hus, som var 
+                    <lb/>byggdt af korf och skinkor och sirapsknäck.
+                    <lb/><said aloud="true">–– Låt oss äta kvällsmat! </said>sade prins Pipi, som kände
+                    <lb/>sig hungrig, och bröt en stor korf ur huset.
+                    <lb/>Då stack Pomperipossa ut sin långa näsa genom fönstret 
+                    <lb/>och såg på dem. 
+                    <lb/><said aloud="true">–– Kom hit in! ––</said> sade hon genast. <said aloud="true">–– Jag är er
+                    <lb/>snälla gudmor. Ni skall få syltpannkaka af mig.</said> 
+                    <lb/>Prins Pipi och lilla Fifi trodde henne och gingo in, 
+                    <lb/>fastän de voro fasligt rädda.
+                    <lb/><said aloud="true">–– Hm! –– </said>sade Pomperipossa och såg på dem. <said aloud="true">–– Jag 
+                    <lb/>har inte ätit gåsstek på bra länge … </said>
+                    <lb/>Och så trollade hon i  
+                    <lb/>luften, och strax blefvo prins 
+                    <lb/>Pipi och prinsessan Fifi till 
+                    <lb/>två små hvita gäss, som 
+                    <lb/>betraktade hvarandra mycket 
+                    <lb/>förskräckta.
+                    <lb/><said aloud="false">–– Hofmarskalk! ––</said> ville 
+                    <lb/>prins Pipi skrika i sin ång- 
+                    <lb/>est. Men det bara lät som 
+                    <lb/>»Kakaka». Han kunde icke 
+                    <lb/>tala längre, bara kackla.
+                    <lb/><said aloud="true">–– Aj! –– </said>skrek Pom- 
+                    <lb/>peripossa och tog sig åt nä- 
+                    <lb/>san. Den hade blifvit en
+                    <lb/>aln till så lång med detsamma, som hon förtrollade Pipi och 
+                    <lb/>Fifi till gäss.
+                    <lb/><said aloud="true">– – Det var rätt åt henne! </said>skreko alla fåglarna i skogen. 
+                    <lb/><said aloud="true">–– Vänta ni! ––</said> ropade Pomperipossa och knöt näfven 
+                    <lb/>åt dem. <said aloud="true">–– Jag skall skicka min trollkatt på er.</said> 
+                    <lb/><said aloud="true">–– Vi ska’ skaffa hjälp –– </said>sjöngo alla fåglarna och flögo 
+                    <lb/>sin väg för att bedja storken komma dit och ge ett godt råd. 
+                    <lb/>Storken är den visaste af alla fåglar, ty han reser hvarje 
+                    <lb/>vinter till Egypten och studerar hieroglyfer på pyramiderna. 
+                    <lb/><said aloud="true">–– Nu ska’ ni få simma, mina små gäss! –– </said>sade Pom- 
+                    <lb/>peripossa, och dref Pipi och Fifi framför sig med sin stora 
+                    <lb/>käpp. <said aloud="true">–– Det gör er så godt, och så smakar ni bättre, när jag 
+                    <lb/>steker er i kväll. –– </said>Och så körde hon den stackars prinsen 
+                    <lb/>och prinsessan ned till sjön. <said aloud="true">–– »Kakaka»! </said>jämrade de sig, men 
+                    <lb/>de måste ändå ut i det kalla vattnet.
+                    <lb/><said aloud="true">–– Säger ni »kakaka»? –– </said>frågade Pomperipossa. <said aloud="true">–– Ni
+                    <lb/>menar kanske »syltpannkaka»? ––</said> hånade hon dem. De för-
+                    <lb/>trollade gässen måste 
+                    <lb/>äta små svarta grod- 
+                    <lb/>ungar och vått gräs
+                    <lb/>–– det var annat det 
+                    <lb/>än »syltpannkaka»!
+                    <lb/>Pomperipossa stod 
+                    <lb/>på stranden och stödde 
+                    <lb/>sig på sin långa näsa, 
+                    <lb/>som nu var lika lång 
+                    <lb/>som hennes ben. I 
+                    <lb/>detsamma hörde hon 
+                    <lb/>ett prassel bakom sig 
+                    <lb/>i skogen och vände</p>
+                
+                </div>
+                <div>
+                    <!--**** SIDA 3 **** -->
+                    <pb facs="/" n="3"/>
+
+                    <head>
+                        3
+                        TUMMELITEN 1895 
+                    </head>
+
+<cb n="1" />
+<p>sig om. Det var hof- 
+<lb/>marskalken, som hade 
+<lb/>varit hemma efter sina 
+<lb/>kragstöflar och sedan 
+<lb/>dess oroligt letat efter 
+<lb/>de försvunna kunga- 
+<lb/>barnen.
+<lb/><said>–– Ha! –– </said>sade 
+<lb/>hofmarskalken, då han 
+<lb/>fick se trollpackan.
+<lb/><said>–– Pah! –– </said>sade 
+<lb/>han och drog sitt långa 
+<lb/>svärd för att hugga 
+<lb/>näsan af henne. 
+<lb/>Men Pomperipossa förtrollade honom genast till en gam- 
+<lb/>mal kråka, som ängsligt hoppade omkring på stranden och sade 
+<lb/>»kra, kra»!
+<lb/><said>–– Ja, kraxa och kackla ni! ––</said> skrattade Pomperipossa 
+<lb/>belåtet. <said>–– Det är ingenting, som kan befria er från förtrollning- 
+<lb/>en, om ni inte får höra det allra förfärligaste skrik i värl- 
+<lb/>den man kan tänka sig. För då får allt, som jag har för- 
+<lb/>trollat, sin riktiga gestalt igen, och så blir jag själf till en 
+<lb/>sten. Men det ska’ vi hoppas inte sker på ett par millio- 
+<lb/>ner år ännu –– </said>sade Pomperipossa och snusade upp två skål- 
+<lb/>pund snus.
+<lb/><said>–– Det vore rätt åt dig! –– </said>skreko alla de små fåglarna, 
+<lb/>som kommit tillbaka med den vise storken.
+<lb/><said>–– Ni retar mig, så jag blir varm om näsan! –– </said>fräste 
+<lb/>Pomperipossa och stack näsan ner i sjön för 
+<lb/>att svalka den.
+<lb/>Men se, <hi rend="italic"> det</hi> skulle hon aldrig ha gjort. 
+<lb/>För nere i sjön var det en stor kräfta, 
+<lb/>som inte hade fått middag på tre dagar. Och 
+<lb/>den kräftan knep sig fast med sina stora klor
+
+<figure></figure>
+
+
+<lb/>i Pomperipossas långa nos. Och Pomperi- 
+<lb/>possa skrek så förskräckligt, att hon blef all- 
+<lb/>deles blå som ett plommon i hela ansiktet. 
+<lb/>Men kräftan släppte ändå icke sitt tag.
+<lb/>Då skrek trollpackan ändå värre, så att 
+<lb/>det hördes ända långt ner i Afrika.
+<lb/><said>–– <hi rend="italic"/>Det<hi/> var det förfärligaste skrik i 
+<lb/>världen man kan tänka sig! –– </said>sade storken. 
+<lb/>Och han sade sanning, ty ingen fågel kan 
+<lb/>ljuga.
+<lb/>Flux och krux! Då löstes med ens Pipis 
+<lb/>och Fifis förtrollning, och de små hvita gässen 
+<lb/>blefvo prins och prinsessa igen. Och den 
+<lb/>gamla kråkan, som skuttade omkring på stran- 
+<lb/>den, blef hofmarskalk med detsamma, med 
+<lb/>ordnar och peruk och svärd och kragstöflar. 
+<lb/><said>–– Hva’? Ah! Bra! –– </said>sade hofmar- 
+<lb/>skalken och tog prins Pipi och prinsessan 
+<lb/>Fifi, en i hvardera handen, och sprang med 
+<lb/>dem, det värsta han orkade, genom skogen 
+<lb/>tillbaka till slottet, där kungen satt och vän- 
+<lb/>tade på dem med ett riksris i vänstra handen
+<cb n=”2”/>
+
+[signatur på bild] A.E.
+<lb/>och ett stort riksäpple 
+<lb/>i högra handen. Han 
+<lb/>var mycket vredgad, 
+<lb/>för att de varit borta 
+<lb/>så länge.
+<lb/><said>–– Na! –– </said>sade 
+<lb/>hofmarskalken lugnan- 
+<lb/>de. Och kungen för- 
+<lb/>stod genast, att hof- 
+<lb/>marskalken menade, att 
+<lb/>de varit förtrollade af 
+<lb/>Pomperipossa, och att 
+<lb/>de inte kunde hjälpa
+<lb/>det. Då blef kungen rörd, stack riksriset i kråset på hof- 
+<lb/>marskalken såsom en ovanligt fin utmärkelse men gaf prins 
+<lb/>Pipi och prinsessan Fifi hälften hvar af det stora riksäpplet.
+<lb/>Men Pomperipossa förvandlades genast till en stor sten. 
+<lb/>Du kan själf se henne ännu, om du kommer till den där sjön, 
+<lb/>fastän hon nu är så öfvervuxen af mossa och buskar, att hon 
+<lb/>ser ut som ett litet berg. Men en gång om året, på samma 
+<lb/>dag som hon förstenades, blir hon liksom förr. Och då kni- 
+<lb/>per kräftan i hennes näsa, och då skriker hon igen så för- 
+<lb/>skräckligt, att det ger eko i bergen. Men hvilken dag <hi rend=”italic”/>det</hi> 
+<lb/>är –– ja, det vet bara jag, och jag talar inte om det, så det 
+<lb/>tjänar ingenting till, att du går ut och tittar efter, för då blir 
+<lb/>din lilla näsa lika lång som Pomperipossas –– och det vill 
+<lb/>du väl ändå inte?</p>
+
+<hi rend=”italic”><persName>Axel Wallengren.</persName> </hi>
+</div>
+
+<div type=”TYP AV TEXT”>
+[bild]
+1. 
+Nu reser vi
+till
+Amerika!
+
+[bild]
+2
+Nu äter vi!
+
+[bild]
+3.
+Nu blåser
+det!
+
+Nu är det natt!
+4
+
+5
+Nu sofver vi!
+
+6. 
+
+Nu ä vi
+framme!
+
+[signatur] <signed><persName>O Adelborg </persName></signed>
+
+RESAN TILL AMERIKA. Teckningar af <hi rend=”italic”><persName>Ottilia Adelborg.</persName><hi>
+                </div>
+                <!-- **** SIDA 4 *******-->
+                <div>
+                    TUMMELITEN 1895
+____________
+
+<div type=”song”>
+4
+TUMMELITEN 1895
+<head>
+<title>Räf och höns.</title>
+Sånglek.
+</head>
+<cb n=”1”/>
+	<p>(Första hälften af hvarje vers 
+sjunges af hönan och kycklingarna,
+andra hälften af räfven.)</p>
+
+<hi rend=”italic”><stage>Räfven ligger och gråter, hönan åtföljd af kycklingarna till-
+talar honom först på afstånd, sedan närmare:</stage></hi>
+<lg>
+<lg type=”stanza”>
+<l>– Käre herr Räf, käre herr Räf,</l>
+<l>hur står det till med eder?</l>
+<l>– Inte så bra, inte så bra,</l>
+<l>det värker i mina leder.</l>
+</lg>
+
+<lg type=”stanza”>
+<l>– Stackars herr Räf, stackars herr Räf, </l>
+<l>värker det mycket illa?</l>
+<l>– Ja, åtta dar, ja, åtta dar</l>
+<l>jag måste nu vara stilla.</l>
+</lg>
+<lg type=”stanza”>
+<l>– Nu på herr Räf titta vi få,</l>
+<l>nu han ej gör oss illa!</l>
+<l>– Ja, kära små, kom, kära små,</l>
+<l>jag ligger så lugn och stilla!</l>
+	</lg>
+<hi rend=”italic”><stage>Då hönan och kycklingarna kommit helt nära, rusar räfven 
+upp och söker fånga någon af kycklingarna, medan hönan utbre-
+der vingarna för att försvara dem.   Hönan själf får räfven ej
+taga.  Härunder sjunges med dämpad röst:</stage></hi>
+<cb n=”2”/>
+<lg type=”stanza”>
+<l>– Aj då, se där! Räfven far opp!</l> 
+<l>Värken visst flytt hans leder! </l>
+<l>– Hör hvilka rop! Se hvilka hopp!</l>
+<l>Men jag ska’ nog knipa eder!</l>
+</lg>
+
+
+<hi rend=”italic”><stage>Denna vers sjunges tre gånger.    Har räfven därunder lyckats 
+fånga en kyckling, lägger han sig ned jämte denna, och de öfriga
+dansa rundt omkring honom.    Härunder sjunges: </stage></hi>
+<lg type=”stanza”>
+<l>– Räfven sig fick kycklingestek,</l> 
+<l>nöjd han sig lägger neder. </l>
+<l>– Tocken en lek, tocken en lek</l>
+<l>just mjukar upp mina leder.</l>
+</lg>
+<hi rend=”italic”><stage>Har räfven icke lyckats fånga någon, lägger han sig ensam
+ned, och sista versen sjunges då sålunda:</stage></hi>
+<lg type=”stanza”>
+<l>– Räfven ej fick kycklingestek,</l>
+<l>lägger sig ledsen neder.</l>
+<l>– Tocken en lek, tocken en lek</l>
+ <l>dock mjukar upp mina leder.</l>
+</lg>
+
+
+<hi rend=”italic”><stage>Leken börjas ånyo och fortsättes sålunda, tills alla kyckling-
+arna blifvit fångade.</stage></hi>
+<byline><hi rend=”bold”><persName>Alfaro.</persName></byline>
+</div>
+
+
+<hi rend=”italic”>Lifligt. 		<byline>Musik af <persName>Emmy Köhler </persName></byline></hi>
+[NOTER]
+</div>
+
+
+                </div>  
+                <div>
+                <!-- ***** SIDA 5 ****** -->
+                <pb facs="/" n="5"/>
+
+                <div>
+                    TUMMELITEN 1895					5	
+                    
+                </div>
+                <figure></figure>
+                <title>JULBAK.<title> <byline>Teckning för Jultomten af <hi rend=”italic”><persName>Jenny Nyström.</persName></hi></byline>
+
+
+                    <div>
+                        <lg rend="italic">
+                            <lg>
+                                <l>Gullgula julbullar mamma har bakat, </l>
+                                <l>mumsande småttingar »merigt» de smakat.</l>
+                                <l>Nu är där jublande festfröjd i kök –</l>
+                                <l>barnen få göra med julbak försök.</l>
+                            </lg>
+
+                            <lg>
+                                <l>Flitiga flickskaran nu är i tagen –</l>
+                                <l>ärmen är opp öfver armbågen dragen. </l>
+                                <l>Sporre och kafle gnisslande gå – </l>
+                                <l>en får vid ugnen jämt passa på.</l>
+                            </lg>
+
+                            <lg>
+                                <l>Glida vill duken, kring lockarna knuten, </l>
+                                <l/>russin och mandel hällas ur struten;</l>
+                                <l/>gubbe och gumma, kringla och gris</l>
+                                <l/>formas ur degen på växlande vis.</l>
+                            </lg>
+                            <lg>
+                                <l>Lille-bror går där, en smula förlägen: </l>
+                                <l>jämt får han höra, att han är i vägen. </l>
+                                <l>Hästar blott bakar den ifrige pilt –</l>
+                                <l>mjöl uppå byxor och blus har han spillt.</l>
+                            </lg>
+                            <lg>
+                                <l>Lillan i tjusning händerna höjer –</l>
+                                <l>tycker, att julkvällen länge dock dröjer. </l>
+                                <l>Spara på kringlorna är, förstås, bra – </l>
+                                <l>helst hon dock strax ville varma dem ha.</l>
+                            </lg>
+                        </lg>
+                        <byline><persName>Signe Alvarsson.<persName></byline></hi>
+                    </div>
+
+                    <figure>
+                        <p>Se så, låt gå!</p>
+                    </figure>
+
+                </div>  
+                <div>
+                    <!--**** SIDA 6 **** -->
+                    <pb facs="/" n="6"/>
+                    <head>
+                        6 TUMMELITEN 1895
+                        <title> 
+                            Julkakan och vattensån
+                            <lb/>eller
+                            <lb/>Pelles och Lisas misslyckade uträkning.
+                        </title>
+                    </head>
+                    
+                    <cb n="1"/>
+                    <!-- IMAGE  -->
+                    <figure></figure>
+                    <lg rhyme="abaaab">
+                        <l>Per och Lisa fundera’ <rhyme label="a">så</rhyme></l>
+                        <l> — tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et!</rhyme> —</l>
+                        <l rend="indented">Hvad ska’ vi hitta <rhyme label="a">på</rhyme>,</l>
+                        <l rend="indented">så Kajsa hon ska’ <rhyme label="a">må</rhyme>,</l>
+                        <l rend="indented">och vi kakan smaka <rhyme label="a">få</rhyme>?</l>
+                        <l>— Hopp-san-sa! Ä’ <emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
+                    </lg>
+
+                    <cb n="2"/>
+                    <!-- IMAGE  -->
+                    <figure></figure>
+                    <lg rhyme="abaaab">
+                        <l>Kajsas kök vi båda <rhyme label="a">två</rhyme></l>
+                        <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et!</rhyme> —</l>
+                        <l rend="indented">klä’ upp i hvarje <rhyme label="a">vrå</rhyme>,</l>
+                        <l rend="indented">vi klättra, stå på <rhyme label="a">tå</rhyme>,</l>
+                        <l rend="indented">i ett huj det allt skall <rhyme label="a">gå</rhyme>!</l>
+                        <l>— Hopp-san-sa! Ä’<emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
+                    </lg>
+
+                    <cb n="3"/>
+                    <!-- IMAGE  --> 
+                    <figure></figure>
+                    <lg rhyme="abaaab">
+                        <l>Grytring, stöfvel och korfvar <rhyme label="a">två</rhyme></l>
+                        <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
+                        <l rend="indented">Nu kommer Kajsa! <rhyme label="a">Då</rhyme></l>
+                        <l rend="indented">vi strax oss gömma <rhyme label="a">må</rhyme></l>
+                        <l rend="indented">i vedlår’n båda <rhyme label="a">två</rhyme>.</l>
+                        <l> — Hopp-san-sa! Ä’ <emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
+                    </lg>
+
+                    <cb n="1"/>
+                    <!-- IMAGE  -->
+                    <figure></figure>
+                    <lg rhyme="abaaab">
+                        <l>Huj-uj! Huj-uj! Hvad står det <rhyme label="a">på?</rhyme></l>
+                        <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
+                        <l rend="indented">I trappan stod en <rhyme label="a">så</rhyme></l>
+                        <l rend="indented">med vatten fylld <rhyme label="a">ändå</rhyme>,</l>
+                        <l rend="indented">den stötte Kajsa <rhyme label="a">på</rhyme>!</l>
+                        <l>— Hopp-san-sa! Ä’ <emph>hon</emph> med <rhyme label="b">om’et</rhyme>? —</l>
+                    </lg>
+
+                    <cb n="2"/>
+                    <!-- IMAGE  -->
+                    <figure>
+                        <signed></signed>
+                    </figure>
+                    <lg rhyme="abaaab">
+                        <l>En glädje Kajsa skulle <rhyme label="a">få</rhyme></l>
+                        <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
+                        <l rend="indented">Jo jo, nog fick hon <rhyme label="a">så</rhyme>!</l>
+                        <l rend="indented">Men — <emph>kakan</emph>, ack, <rhyme label="a">håhå</rhyme>!</l>
+                        <l rend="indented">Vi långa näsor <rhyme label="a">få</rhyme>.</l>
+                        <l> Hoppsansa! Hvad säges <rhyme label="b">om’et</rhyme></l>
+                    </lg>
+                    <byline><persName>ONKEL POMPE</persName>.</byline>
+
+                </div>
+                <div>
+                    <head>
+                        <title>Pojken och räfven</title>
+                    </head>
+                    <cb n="1"/>
+                    <p>
+                    <hi>D</hi>et var en gång en pojkbyting, som hade fått lof att gå
+                    <lb/>till kyrkan, och så tog han genvägen öfver åkrarna
+                    <lb/>uppåt gärdesbacken. Där låg räfven på en sten af kattgull,
+                    <lb/>som lyste så rart i solskenet, och han såg inte pojken, för
+                    <lb/>den gången sof han. Men pojken hade ögonen med sig, och
+                    <lb/>han såg räfven.</p>
+                    <p rend="indented"><said aloud="false">— Här kan jag göra mig ett godt kap,</said> tänkte han, och
+                    <lb/>tog en stor sten i handen. <said aloud="false"> Jag skall slå ihjäl räfven och
+                    <lb/>sälja skinnet, så får jag pengar. För de pengarna köper jag
+                    <lb/>råg, och den rågen sår jag ut här på fars åker. När då
+                    <lb/>kyrkfolket kommer, så bli de storögda. — » Åh nej, åh nej,
+                    <cb n="2"/>
+                    <lb/>sådan rar råg den pojken har! » — Då säger jag åt dem:
+                    <lb/>»Klif inte i rågen!» Men det akta de inte. Då ropar jag
+                    <lb/>högre åt dem: »Klif inte i rågen!» Men de akta inte det
+                    <lb/>heller. Då skriker jag åt dem det mesta jag orkar: »Klif
+                    <lb/>inte i rågen, hör Ni!» Och det akta de och gå ur åkern.</said></p>
+                    <p rend="indented">Men när pojken gallskrek, vaknade räfven och stack i
+                    <lb/>väg inåt skogen med en sådan fart, att pojken fick inte en
+                    <lb/>gång så mycket som ett hårstrå ur svansen på honom. Och
+                    <lb/>så var det slut med den glädjen. Nej —
+                    
+                    <lb rend="indented"/>bäst att ta’, när man kan få,
+                    <lb rend="indented"/>ogjordt aldrig lita på.</p>
+                   <byline><persName>G. Djurklou.</persName></byline> 
+
+                </div>
+                <div>
+
+                    <!-- **** SIDA 7 **** -->
+                    <pb facs="/" n="7"/>
+                    <div>
+                        <cb n="1"/>
+                        <head>
+                            TUMMELITEN 1895 7
+                            <title>Jul=Visa.</title>
+                        </head>
+                        <lg rend="italic" rhyme="aabba">
+                            <lg>
+                                <l><hi>S</hi>nart slutar terminen, och skollof vi <rhyme label="a">få</rhyme>,</l>
+                                <l>och julstöket börjar, och vi få se <rhyme label="a">på</rhyme>.</l>
+                                <l rend="indented">I spiseln skall <rhyme label="b">spraka</rhyme>,</l>
+                                <l rend="indented">och mamma skall <rhyme label="b">baka</rhyme></l>
+                                <l>de raraste bullar båd’ stora och <rhyme label="a">små.</rhyme></l>
+                            </lg>
+                            <lg>    
+                                <l>Det stökas och fejas från morgon till <rhyme label="a">kväll</rhyme>,</l>
+                                <l>och mamma man hjälper, om blott man är <rhyme label="a">snäll</rhyme>,</l>
+                                <l rend="indented">det har ingen <rhyme label="b">fara</rhyme>,</l>
+                                <l rend="indented">ty fint skall det <rhyme label="b">vara</rhyme>,</l>
+                                <l>när ändtligt den kommer, den signade <rhyme label="a"> kväll</rhyme>.</l>
+                            </lg>
+                            <lg>    
+                                <l>Den vackraste granen man ta’r utan <rhyme label="a">krus</rhyme></l>
+                                <l>från skogen och smyckar med äpplen och <rhyme label="a">ljus.</rhyme></l>
+                                <l rend="indented">Vi barn så <rhyme label="b">förnöjda</rhyme></l>
+                                <l rend="indented">åt ståten oss <rhyme label="b">fröjda</rhyme>,</l>
+                                <l>och snart är det jul i hvartendaste <rhyme label="a">hus</rhyme>.</l>
+                            </lg>
+                            <lg>
+                                <l>Och gammal som ung är så lycklig och <rhyme label="a">nöjd</rhyme>,</l>
+                                <l>och ögonen stråla af varmaste <rhyme label="a">fröjd</rhyme>.</l>
+                                <l rend="indented">Med ifriga <rhyme label="b">händer</rhyme></l>
+                                <l rend="indented">man julljusen <rhyme label="b">tänder</rhyme>,</l>
+                                <l>och julfriden kommer från himmelens <rhyme label="a">höjd</rhyme>.</l>
+                            </lg>
+                            <lg>    
+                                <l>Så tåga vi alla om granen i <rhyme label="a">ring</rhyme></l>
+                                <l>med pappa och mamma och dansa <rhyme label="a">omkring</rhyme>.</l>
+                                <l rend="indented">Då trippa små <rhyme label="b">fötter</rhyme>,</l>
+                                <l rend="indented">och ingen blir <rhyme label="b">trötter</rhyme>,</l>
+                                <l>och faller man kull, gör det rakt <rhyme label="a">ingenting</rhyme>.</l>
+                            </lg>
+                            <lg>    
+                                <l>Och kanske att julbocken se’n hälsar <rhyme label="a">på</rhyme>,</l>
+                                <l>då blifva förskräckta och rädda de <rhyme label="a">små</rhyme>.</l>
+                                <l rend="indented">Till pappa och <rhyme label="b">mamma</rhyme></l>
+                                <l rend="indented">de fly med<rhyme label="b"> detsamma</rhyme>,</l>
+                                <l>vi större oss gömma i mörkaste <rhyme label="a">vrå.</rhyme></l>
+                            </lg>
+                            <lg>    
+                                <l>Men julbocken är ju så vänlig och <rhyme label="a">rar</rhyme>,</l>
+                                <l>de vackraste skänker till barnen han <rhyme label="a">har</rhyme>.</l>
+                                <l rend="indented">Ej mer de sig <rhyme label="b">gömma,</rhyme></l>
+                                <l rend="indented">sin rädsla de <rhyme label="b">glömma</rhyme></l>
+                                <l>men titta, om mer han i korgen har <rhyme label="a">kvar</rhyme>.</l>
+                            </lg>
+                            <lg>    
+                                <l>Och en får en mössa och en får en <rhyme label="a">kjol,</rhyme></l>
+                                <l>en blåser trumpet och en spelar <rhyme label="a">fiol</rhyme>.</l>
+                                <l rend="indented">Visst julbocken <rhyme label="b">trollar</rhyme>,</l>
+                                <l rend="indented">ty snurror och <rhyme label="b">bollar</rhyme></l>
+                                <l>och leksaker har han långt mer än i <rhyme label="a">fjol</rhyme>.</l>
+                            </lg>
+                            <lg>    
+                                <l>Men den kvällen också skall sluta en <rhyme label="a">gång</rhyme>,</l>
+                                <l>då knäppa vi händren till bön och till <rhyme label="a">sång</rhyme>.</l>
+                                <l rend="indented">Oss mamma skall <rhyme label="b">lofva</rhyme>,</l>
+                                <l rend="indented">om blott vi nu <rhyme label="b">sofva</rhyme>,</l>
+                                <l>till julottan fara, fast vägen är <rhyme label="a">lång</rhyme>.</l>
+                            </lg>
+                        </lg>
+                        <byline><persName>SNORRE</persName>.</byline>
+                    </div>
+                    <div>
+                       <head><title> Talöfning.</title></head>
+                       <lg> 
+                            <l>Min fru hade tre döttrar.</l>
+                            <l>Den första hette Blinka,</l>
+                            <l>den andra hette Bibliblinka,</l>
+                            <l>och den tredje hette Sten-knick-</l>
+                            <l>knafveli-klinka.</l>
+                            <l>Så tog Blinka en sten</l>
+                            <l>och kasta’ på Bibliblinkas ben,</l>
+                            <l>så Sten-knick-knafveli-klinka skrek.</l>
+                        </lg>
+                    </div>
+                    <cb n="2"/>
+                    <!--**** VILKEN SORTS TYPE?? ****-->
+                    <div type="/">
+                        <head><title>Små spelorrar.</title></head>
+                        
+                        <figure facs="/" xml:id="ss1" next="ss2">
+                            <ab>Johan spelar med Per om knappar.</ab>
+                        </figure>
+                        
+                        <figure facs="/" xml:id="ss2" next="ss3" prev="ss1">
+                            <ab>Johan vinner och Pelle tappar.</ab>
+                        </figure>
+                        
+                        <figure facs="/" xml:id="ss3" next="ss4" prev="ss2">
+                            <ab>Johan högtals med knappar har,
+                            <lb/>ej ens i jackan Per dem har kvar.</ab>
+                        </figure>
+        
+                        <figure facs="/" xml:id="ss4" next="ss5" prev="ss3">
+                            <ab>Johan skrattar och Pelle gråter;
+                            <lb/>sin förlust får ej stackar’n åter</ab>
+                        </figure>
+                        
+                        <figure facs="/" xml:id="ss5" next="ss6" prev="ss4">
+                            <ab>Den skrattar bäst dock, som skrattar sist,
+                            <lb/>ty moster Anna nu kom – förvisst.</ab>
+                        </figure>
+                        
+                        <figure facs="/" xml:id="ss6" next="ss7" prev="ss5">
+                            <ab>Hon reda tog uppå hela saken,
+                            <lb/>och Johan fick, så det sved på baken.</ab>
+                        </figure>
+                           
+                        <figure facs="/" xml:id="ss7" next="ss8" prev="ss6">
+                            <ab> Nog Pelle lofva »så mer ej göra»
+                            <lb/> men fick sig ändå ett nyp i öra’.</ab>
+                        </figure>    
+                         
+                        <figure facs="/" xml:id="ss8" prev="ss7">
+                            <ab> På ändan illa det går, du finner,
+                            <lb/>för den, som spelar, om ock han vinner. </ab>
+                        </figure>
+                                         
+                        <byline><persName>ECKE H.</persName></byline>
+
+                    </div>
+                </div>
+                <div>
+                    <!-- **** SIDA 8 **** --> 
+                    <pb facs="/" n="8"/>
+                    <p>0750</p>
+                    <figure facs="/">
+                        <signed><persName>Forsström</persName></signed>
+                    </figure>
+                    <lg>
+                        <lg rhyme="aabb">
+                            <l><hi>U</hi>te de ljusa flingorna <rhyme label="a">falla</rhyme>;</l>
+                            <l>se, hur de hvitna, gårdarna <rhyme label="a">alla</rhyme>,</l>
+                            <l>doftande lador och stackar och <rhyme label="b">skjul</rhyme>.</l>
+                            <l>Snöhvit skall jorden varda till <rhyme label="b">jul</rhyme>.</l>
+                        </lg>
+                        <lg>
+                            <l>Inne är fejadt och fint och <rhyme label="a">enadt</rhyme>,</l>
+                            <l>allt är så kärligt, hjärteligt <rhyme label="a">menadt</rhyme>.</l>
+                            <l>Doppa i grytan är bäst dock af <rhyme label="b">allt</rhyme>,</l>
+                            <l>medan därute är bistert och <rhyme label="b">kallt</rhyme>.</l>
+                        </lg>
+                        <lg>
+                            <l>Gårds-katt får komma med, om han <rhyme label="a">bara</rhyme></l>
+                            <l>låter i fred de små mössen <rhyme label="a">vara</rhyme>,</l>
+                            <l>att de må trifvas i <rhyme label="b">julenatt</rhyme>,</l>
+                            <l>spisa i ro, hvad godt de få <rhyme label="b">fatt</rhyme>.</l>
+                        </lg>
+                        <lg>
+                            <l>När för små barnen, mätta och <rhyme label="a">glada</rhyme>,</l>
+                            <l>drömmar i skenet af grenljus sig <rhyme label="a">bada</rhyme>,</l>
+                            <l>vare i snöhvita lador och <rhyme label="b">skjul</rhyme></l>
+                            <l>äfven en fridsam, hugnerik <rhyme label="b">jul</rhyme>!</l>
+                        </lg>
+                    </lg>   
+                    <byline><persName><hi rend="italic">A. U. BÅÅTH.</hi></persName>.</byline>
+                </div>
+            </div>
+
+        </body>
+        <back>
+            <cb n="1"/>
+                <p>För redaktionen: EMIL HAMMARLUND.
+                <lb/>Stockholm, Iduns Tryckeri Aktiebolag, 1895.</p>
+            <cb n="2"/>
+                <p>Pris 15 öre</p>
+            <cb n="3"/>
+                <p>Beställningar insändas till Svensk Läraretidnings exp., Stockholm.</p>
+            <div>
+                <p>JULTOMTEN utsänder 1896 sin sjette årgång. Rekvireras före den 10
+                <lb/>november 1896 hos Svensk Läraretidning, Stockholm N.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
