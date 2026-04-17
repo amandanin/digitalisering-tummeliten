@@ -41,6 +41,10 @@
                     <publisher>Svensk läraretidnings förlag</publisher>
                     <pubPlace>Stockholm</pubPlace>
                     <date>1895</date>
+                    <extent>
+                        <measure type="height" unit="cm">32,5</measure>
+                        <measure type="width" unit="cm">23,7</measure>
+                    </extent>
                     
                     <editor role="publisher">
                         <persName ref="http://viaf.org/viaf/12290298">
@@ -173,6 +177,14 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="https://id.kb.se/term/saogf">
+                    <term ref="https://id.kb.se/term/saogf/Jultidningar">Jultidningar</term>
+                    <term ref="https://id.kb.se/term/saogf/Barntidningar">Barntidningar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
     </teiHeader>
     <facsimile>
         
