@@ -104,7 +104,7 @@
                     </author>
                     
                     <respStmt>
-                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                        <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
                         <persName ref="https://libris.kb.se/sq466t3b4s743md#it">
                             <surname>Adelborg</surname>
                             <forename>Ottilia</forename>
@@ -112,7 +112,7 @@
                     </respStmt>
                     
                     <respStmt>
-                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                        <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
                         <persName ref="https://libris.kb.se/nl0221063k7n6vq#it">
                             <surname>Engström</surname>
                             <forename>Albert</forename>
@@ -120,7 +120,7 @@
                     </respStmt>
                     
                     <respStmt>
-                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                        <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
                         <persName ref="https://libris.kb.se/86lnncqs28j9tm1#it">
                             <surname>Maartman</surname>
                             <surname>Beskow</surname>
@@ -129,7 +129,7 @@
                     </respStmt>
                     
                     <respStmt>
-                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                        <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
                         <persName ref="https://libris.kb.se/tr573bbc39xzp2l">
                             <surname>Nyström</surname>
                             <forename>Jenny</forename>
@@ -137,7 +137,7 @@
                     </respStmt>
 
                     <respStmt>
-                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                        <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
                         <persName ref="https://libris.kb.se/v52hlhnzssq8zcr6#it">
                             <surname>Törner</surname>
                             <forename>Carl</forename>
@@ -146,7 +146,7 @@
                     </respStmt>
                     
                    <respStmt>
-                       <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                       <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
                        <persName ref="https://libris.kb.se/nl037r364xrn5gg#it">
                            <surname>Hedberg</surname>
                            <forename>Erik</forename>
@@ -154,7 +154,7 @@
                    </respStmt>
                     
                     <respStmt>
-                        <resp ref="https://id.kb.se/relator/illustrator">Illustratör</resp>
+                        <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
                         <persName ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
                             <surname>Forsström</surname>
                             <forename>Edvard</forename>
