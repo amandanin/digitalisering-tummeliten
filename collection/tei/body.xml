@@ -559,71 +559,81 @@
             </head>
             <cb n="1"/>
 	        <p>(Första hälften af hvarje vers 
-                sjunges af hönan och kycklingarna,
-andra hälften af räfven.)</p>
+                <lb/>sjunges af hönan och kycklingarna,
+                <lb/>andra hälften af räfven.)
+            </p>
 
-<hi rend=”italic”><stage>Räfven ligger och gråter, hönan åtföljd af kycklingarna till-
-talar honom först på afstånd, sedan närmare:</stage></hi>
-<lg>
-<lg type=”stanza”>
-<l>– Käre herr Räf, käre herr Räf,</l>
-<l>hur står det till med eder?</l>
-<l>– Inte så bra, inte så bra,</l>
-<l>det värker i mina leder.</l>
-</lg>
+            <stage><hi rend="italic indented">Räfven ligger och gråter, hönan åtföljd af kycklingarna till-
+            <lb/>talar honom först på afstånd, sedan närmare:</hi></stage>
+            
+            <lg>
+                <lg type="/">
+                    <l>– Käre herr Räf, käre herr Räf,</l>
+                    <l>hur står det till med eder?</l>
+                    <l>– Inte så bra, inte så bra,</l>
+                    <l>det värker i mina leder.</l>
+                </lg>
 
-<lg type=”stanza”>
-<l>– Stackars herr Räf, stackars herr Räf, </l>
-<l>värker det mycket illa?</l>
-<l>– Ja, åtta dar, ja, åtta dar</l>
-<l>jag måste nu vara stilla.</l>
-</lg>
-<lg type=”stanza”>
-<l>– Nu på herr Räf titta vi få,</l>
-<l>nu han ej gör oss illa!</l>
-<l>– Ja, kära små, kom, kära små,</l>
-<l>jag ligger så lugn och stilla!</l>
-	</lg>
-<hi rend=”italic”><stage>Då hönan och kycklingarna kommit helt nära, rusar räfven 
-upp och söker fånga någon af kycklingarna, medan hönan utbre-
-der vingarna för att försvara dem.   Hönan själf får räfven ej
-taga.  Härunder sjunges med dämpad röst:</stage></hi>
-<cb n=”2”/>
-<lg type=”stanza”>
-<l>– Aj då, se där! Räfven far opp!</l> 
-<l>Värken visst flytt hans leder! </l>
-<l>– Hör hvilka rop! Se hvilka hopp!</l>
-<l>Men jag ska’ nog knipa eder!</l>
-</lg>
+                <lg type="/">
+                    <l>– Stackars herr Räf, stackars herr Räf, </l>
+                    <l>värker det mycket illa?</l>
+                    <l>– Ja, åtta dar, ja, åtta dar</l>
+                    <l>jag måste nu vara stilla.</l>
+                </lg>
+
+                <lg type="/">
+                    <l>– Nu på herr Räf titta vi få,</l>
+                    <l>nu han ej gör oss illa!</l>
+                    <l>– Ja, kära små, kom, kära små,</l>
+                    <l>jag ligger så lugn och stilla!</l>
+	            </lg>
+            </lg>
+            <stage><hi rend="italic indented">Då hönan och kycklingarna kommit helt nära, rusar räfven 
+                <lb/>upp och söker fånga någon af kycklingarna, medan hönan utbre-
+                <lb/>der vingarna för att försvara dem.   Hönan själf får räfven ej
+                <lb/>taga.  Härunder sjunges med dämpad röst:</hi>
+            </stage>
+            
+            <cb n="2"/>
+            <lg type="/">
+                <l>– Aj då, se där! Räfven far opp!</l> 
+                <l>Värken visst flytt hans leder! </l>
+                <l>– Hör hvilka rop! Se hvilka hopp!</l>
+                <l>Men jag ska’ nog knipa eder!</l>
+            </lg>
+
+            <stage><hi rend="italic">Denna vers sjunges tre gånger. Har räfven därunder lyckats 
+            <lb/>fånga en kyckling, lägger han sig ned jämte denna, och de öfriga
+            <lb/>dansa rundt omkring honom. Härunder sjunges:</hi></stage>
+            
+            <lg type="/">
+                <l>– Räfven sig fick kycklingestek,</l> 
+                <l>nöjd han sig lägger neder. </l>
+                <l>– Tocken en lek, tocken en lek</l>
+                <l>just mjukar upp mina leder.</l>
+            </lg>
+            <stage><hi rend="italic">Har räfven icke lyckats fånga någon, lägger han sig ensam
+            <lb/>ned, och sista versen sjunges då sålunda:</hi></stage>
+
+            <lg type="/">
+                <l>– Räfven ej fick kycklingestek,</l>
+                <l>lägger sig ledsen neder.</l>
+                <l>– Tocken en lek, tocken en lek</l>
+                <l>dock mjukar upp mina leder.</l>
+            </lg>
 
 
-<hi rend=”italic”><stage>Denna vers sjunges tre gånger.    Har räfven därunder lyckats 
-fånga en kyckling, lägger han sig ned jämte denna, och de öfriga
-dansa rundt omkring honom.    Härunder sjunges: </stage></hi>
-<lg type=”stanza”>
-<l>– Räfven sig fick kycklingestek,</l> 
-<l>nöjd han sig lägger neder. </l>
-<l>– Tocken en lek, tocken en lek</l>
-<l>just mjukar upp mina leder.</l>
-</lg>
-<hi rend=”italic”><stage>Har räfven icke lyckats fånga någon, lägger han sig ensam
-ned, och sista versen sjunges då sålunda:</stage></hi>
-<lg type=”stanza”>
-<l>– Räfven ej fick kycklingestek,</l>
-<l>lägger sig ledsen neder.</l>
-<l>– Tocken en lek, tocken en lek</l>
- <l>dock mjukar upp mina leder.</l>
-</lg>
+            <stage><hi rend="italic">Leken börjas ånyo och fortsättes sålunda, tills alla kyckling-
+            <lb/>arna blifvit fångade.</hi></stage>
+            
+            <byline><hi rend="bold"><persName>Alfaro.</persName></hi></byline>
+        
+            <p><hi rend="italic">Lifligt. 		<byline>Musik af <persName>Emmy Köhler </persName></byline></hi></p>
+            <!-- Lägg till NOTMARKERING HÄR -->
+        </div>
 
 
-<hi rend=”italic”><stage>Leken börjas ånyo och fortsättes sålunda, tills alla kyckling-
-arna blifvit fångade.</stage></hi>
-<byline><hi rend=”bold”><persName>Alfaro.</persName></byline>
-</div>
 
-
-<hi rend=”italic”>Lifligt. 		<byline>Musik af <persName>Emmy Köhler </persName></byline></hi>
-[NOTER]
 </div>
 
 
