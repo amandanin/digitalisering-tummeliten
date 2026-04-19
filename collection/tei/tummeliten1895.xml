@@ -127,8 +127,11 @@
                         <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
                         <persName xml:id="ElsaMaartman" ref="https://libris.kb.se/86lnncqs28j9tm1#it">
                             <surname>Maartman</surname>
-                            <surname>Beskow</surname>
+                            <surname type="married">Beskow</surname>
                             <forename>Elsa</forename>
+                            <note>Identifierad i Svensk läraretidning nr 45, 1895. 
+                                Se inscannad sida: <ref target="https://runeberg.org/svlartid/1895/0596.html">Projekt Runeberg</ref>
+                            </note>
                         </persName>
                     </respStmt>
                     
@@ -173,10 +176,19 @@
                         <name xml:id="OnkelPompe">Onkel Pompe</name>
                     </author>
                     
-                    
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Detta digitaliseringsprojekt syftar till att tillgängliggöra 1895 års utgåva av barntidningen 
+                    "Tummeliten : Jultidning för smått folk".</p>
+                <p>Valet av material motiveras av tidningens betydelse som en del av det svenska barnlitterära kulturarvet.</p>
+                <p>Projektet genomförs inom ramen för kursen "Digitalisering för bevarande och tillgänglighet" som en del av 
+                    masterprogrammet i biblioteks- och informationsvetenskap vid Högskolan i Borås, vårterminen 2026. 
+                    Arbetet har skett i dialog med Svenska barnboksinstitutet som har tillhandahållit det fysiska materialet.</p>
+            </projectDesc>
+        </encodingDesc>
         <profileDesc>
             <textClass>
                 <keywords scheme="https://id.kb.se/term/saogf">
@@ -186,6 +198,8 @@
             </textClass>
         </profileDesc>
     </teiHeader>
+    
+    
     <facsimile>
         
     </facsimile>
