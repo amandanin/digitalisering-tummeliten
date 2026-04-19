@@ -175,8 +175,9 @@
                 </head>
 
                 <figure>   
-                <ab>/text i bilden/ SNUS</ab>
-                <signed><persName>[signatur] A.E. </persName></signed> 
+                    <figDesc></figDesc>
+                    <ab>text i bilden SNUS</ab>
+                    <signed><persName>A.E.</persName></signed> 
                 </figure>
                 
                 <cb n="1"/>
@@ -193,6 +194,9 @@
                     <lb/>er, hur mycket snus, som gick åt, när hon snusade! Ett helt 
                     <lb/>skålpund åt gången!! 
                 </p>
+                <figure>
+                    <figDesc>Ett enplanshus omgivet av skog. På taket sitter en svart fågel.</figDesc>
+                </figure>
                 <p>
                     Men det hade Pomperipossa råd till, för hon var rysligt 
                     <lb/>rik. Hon bodde en- 
@@ -230,6 +234,10 @@
                     <lb/><said aloud="true">–– Ah! </said> sade hofmar- 
                     <lb/>skalken och följde med dem. 
                 </p>
+                <figure>
+                    <figDesc>Hofmarskalken, prins Pipi och prinsessan Fifi.</figDesc>
+                    <!-- Koppla ihop med illustratören? -->
+                </figure>
                 <p>
                     <lb/>Efter en stund kommo 
                     <lb/>de till ett träsk, och hof- 
@@ -281,6 +289,13 @@
                     <lb/>två små hvita gäss, som 
                     <lb/>betraktade hvarandra mycket 
                     <lb/>förskräckta.
+                </p>
+                <figure>
+                    <figDesc>Pomperipossa står med händerna i luften, som att hon trollar, och framför henne står två vita gäss. I bakgrunden skymtar några träd.</figDesc>
+                <!-- Koppla ihop med illustratör? -->
+                </figure>
+
+                <p>    
                     <lb/><said aloud="false">–– Hofmarskalk! ––</said> ville 
                     <lb/>prins Pipi skrika i sin ång- 
                     <lb/>est. Men det bara lät som 
@@ -311,6 +326,8 @@
                     <lb/>ungar och vått gräs
                     <lb/>–– det var annat det 
                     <lb/>än »syltpannkaka»!
+                </p>
+                <p>
                     <lb/>Pomperipossa stod 
                     <lb/>på stranden och stödde 
                     <lb/>sig på sin långa näsa, 
@@ -318,223 +335,305 @@
                     <lb/>som hennes ben. I 
                     <lb/>detsamma hörde hon 
                     <lb/>ett prassel bakom sig 
-                    <lb/>i skogen och vände</p>
+                    <lb/>i skogen och vände
+                </p>
+                <figure>
+                    <figDesc>I en sjö simmar två vita fåglar. Pomperipossa står och tittar på dem, stödd på sin långa näsa. Hofmarsalken står bakom henne.</figDesc>
+                <!-- Koppla ihop med illustratören? -->
+                </figure>
                 
-                </div>
-                <div>
+            </div>
+            <div>
                     <!--**** SIDA 3 **** -->
-                    <pb facs="/" n="3"/>
+                <pb facs="/" n="3"/>
 
-                    <head>
-                        3
-                        TUMMELITEN 1895 
-                    </head>
+                <head>
+                    3
+                    TUMMELITEN 1895 
+                </head>
 
-<cb n="1" />
-<p>sig om. Det var hof- 
-<lb/>marskalken, som hade 
-<lb/>varit hemma efter sina 
-<lb/>kragstöflar och sedan 
-<lb/>dess oroligt letat efter 
-<lb/>de försvunna kunga- 
-<lb/>barnen.
-<lb/><said>–– Ha! –– </said>sade 
-<lb/>hofmarskalken, då han 
-<lb/>fick se trollpackan.
-<lb/><said>–– Pah! –– </said>sade 
-<lb/>han och drog sitt långa 
-<lb/>svärd för att hugga 
-<lb/>näsan af henne. 
-<lb/>Men Pomperipossa förtrollade honom genast till en gam- 
-<lb/>mal kråka, som ängsligt hoppade omkring på stranden och sade 
-<lb/>»kra, kra»!
-<lb/><said>–– Ja, kraxa och kackla ni! ––</said> skrattade Pomperipossa 
-<lb/>belåtet. <said>–– Det är ingenting, som kan befria er från förtrollning- 
-<lb/>en, om ni inte får höra det allra förfärligaste skrik i värl- 
-<lb/>den man kan tänka sig. För då får allt, som jag har för- 
-<lb/>trollat, sin riktiga gestalt igen, och så blir jag själf till en 
-<lb/>sten. Men det ska’ vi hoppas inte sker på ett par millio- 
-<lb/>ner år ännu –– </said>sade Pomperipossa och snusade upp två skål- 
-<lb/>pund snus.
-<lb/><said>–– Det vore rätt åt dig! –– </said>skreko alla de små fåglarna, 
-<lb/>som kommit tillbaka med den vise storken.
-<lb/><said>–– Ni retar mig, så jag blir varm om näsan! –– </said>fräste 
-<lb/>Pomperipossa och stack näsan ner i sjön för 
-<lb/>att svalka den.
-<lb/>Men se, <hi rend="italic"> det</hi> skulle hon aldrig ha gjort. 
-<lb/>För nere i sjön var det en stor kräfta, 
-<lb/>som inte hade fått middag på tre dagar. Och 
-<lb/>den kräftan knep sig fast med sina stora klor
+                <cb n="1" />
 
-<figure></figure>
+                <figure>
+                    <figDesc>
+                        Pomperipossa står vid stranden av en sjö med ena handen i luften. Hon lutar sig mot sin långa näsa. Framför henne står en svart fågel. I bakgrunden, i sjön, kan man se de två vita fåglarna.
+                    <!-- Koppla ihop med illustratören? -->
+                    </figDesc>
+                </figure>
+
+                <p>
+                    <lb/>sig om. Det var hof- 
+                    <lb/>marskalken, som hade 
+                    <lb/>varit hemma efter sina 
+                    <lb/>kragstöflar och sedan 
+                    <lb/>dess oroligt letat efter 
+                    <lb/>de försvunna kunga- 
+                    <lb/>barnen.
+                </p>
+                <p>
+                    <lb/><said aloud="true">–– Ha! –– </said>sade 
+                    <lb/>hofmarskalken, då han 
+                    <lb/>fick se trollpackan.
+                    <lb/><said aloud="true">–– Pah! –– </said>sade 
+                    <lb/>han och drog sitt långa 
+                    <lb/>svärd för att hugga 
+                    <lb/>näsan af henne. 
+                </p>
+                <p>
+                    <lb/>Men Pomperipossa förtrollade honom genast till en gam- 
+                    <lb/>mal kråka, som ängsligt hoppade omkring på stranden och sade 
+                    <lb/><said aloud="true">»kra, kra»!</said>
+                </p>
+                <p>  
+                    <lb/><said aloud="true">–– Ja, kraxa och kackla ni! ––</said> skrattade Pomperipossa
+                    <lb/>belåtet. <said aloud="true">–– Det är ingenting, som kan befria er från förtrollning- 
+                    <lb/>en, om ni inte får höra det allra förfärligaste skrik i värl- 
+                    <lb/>den man kan tänka sig. För då får allt, som jag har för- 
+                    <lb/>trollat, sin riktiga gestalt igen, och så blir jag själf till en 
+                    <lb/>sten. Men det ska’ vi hoppas inte sker på ett par millio- 
+                    <lb/>ner år ännu –– </said>sade Pomperipossa och snusade upp två skål- 
+                    <lb/>pund snus.
+                </p>
+                <p>
+                    <lb/><said aloud="true">–– Det vore rätt åt dig! –– </said>skreko alla de små fåglarna, 
+                    <lb/>som kommit tillbaka med den vise storken.
+                    <lb/><said aloud="true">–– Ni retar mig, så jag blir varm om näsan! –– </said>fräste 
+                    <lb/>Pomperipossa och stack näsan ner i sjön för 
+                    <lb/>att svalka den.
+                </p>
+                <p>
+                    <lb rend="indented"/>Men se, <emph><hi rend="italic"> det</hi></emph> skulle hon aldrig ha gjort. 
+                    <lb rend="idented"/>För nere i sjön var det en stor kräfta, 
+                    <lb/>som inte hade fått middag på tre dagar. Och 
+                    <lb/>den kräftan knep sig fast med sina stora klor
+
+                    <figure>
+                        <figDesc>En stor kräfta har knipit tag längst ut på Pomperipossas långa näsa. Pomperipossa skriker.</figDesc>
+                    </figure>
 
 
-<lb/>i Pomperipossas långa nos. Och Pomperi- 
-<lb/>possa skrek så förskräckligt, att hon blef all- 
-<lb/>deles blå som ett plommon i hela ansiktet. 
-<lb/>Men kräftan släppte ändå icke sitt tag.
-<lb/>Då skrek trollpackan ändå värre, så att 
-<lb/>det hördes ända långt ner i Afrika.
-<lb/><said>–– <hi rend="italic"/>Det<hi/> var det förfärligaste skrik i 
-<lb/>världen man kan tänka sig! –– </said>sade storken. 
-<lb/>Och han sade sanning, ty ingen fågel kan 
-<lb/>ljuga.
-<lb/>Flux och krux! Då löstes med ens Pipis 
-<lb/>och Fifis förtrollning, och de små hvita gässen 
-<lb/>blefvo prins och prinsessa igen. Och den 
-<lb/>gamla kråkan, som skuttade omkring på stran- 
-<lb/>den, blef hofmarskalk med detsamma, med 
-<lb/>ordnar och peruk och svärd och kragstöflar. 
-<lb/><said>–– Hva’? Ah! Bra! –– </said>sade hofmar- 
-<lb/>skalken och tog prins Pipi och prinsessan 
-<lb/>Fifi, en i hvardera handen, och sprang med 
-<lb/>dem, det värsta han orkade, genom skogen 
-<lb/>tillbaka till slottet, där kungen satt och vän- 
-<lb/>tade på dem med ett riksris i vänstra handen
-<cb n=”2”/>
+                    <lb/>i Pomperipossas långa nos. Och Pomperi- 
+                    <lb/>possa skrek så förskräckligt, att hon blef all- 
+                    <lb/>deles blå som ett plommon i hela ansiktet. 
+                    <lb/>Men kräftan släppte ändå icke sitt tag.
+                </p>
+                <p>
+                    <lb rend="indented"/>Då skrek trollpackan ändå värre, så att 
+                    <lb/>det hördes ända långt ner i Afrika.
+                </p>
+                <p>
+                    <lb/><said aloud="true">–– <hi rend="italic"/>Det<hi/> var det förfärligaste skrik i 
+                    <lb/>världen man kan tänka sig! –– </said>sade storken. 
+                    <lb/>Och han sade sanning, ty ingen fågel kan 
+                    <lb/>ljuga.
+                </p>
+                <p>
+                    <lb rend="indented"/>Flux och krux! Då löstes med ens Pipis 
+                    <lb/>och Fifis förtrollning, och de små hvita gässen 
+                    <lb/>blefvo prins och prinsessa igen. Och den 
+                    <lb/>gamla kråkan, som skuttade omkring på stran- 
+                    <lb/>den, blef hofmarskalk med detsamma, med 
+                    <lb/>ordnar och peruk och svärd och kragstöflar.
+                </p>
+                <p> 
+                    <lb/><said aloud="true">–– Hva’? Ah! Bra! –– </said>sade hofmar- 
+                    <lb/>skalken och tog prins Pipi och prinsessan 
+                    <lb/>Fifi, en i hvardera handen, och sprang med 
+                    <lb/>dem, det värsta han orkade, genom skogen 
+                    <lb/>tillbaka till slottet, där kungen satt och vän- 
+                    <lb/>tade på dem med ett riksris i vänstra handen
+                        
+                    <cb n="2"/>
 
-[signatur på bild] A.E.
-<lb/>och ett stort riksäpple 
-<lb/>i högra handen. Han 
-<lb/>var mycket vredgad, 
-<lb/>för att de varit borta 
-<lb/>så länge.
-<lb/><said>–– Na! –– </said>sade 
-<lb/>hofmarskalken lugnan- 
-<lb/>de. Och kungen för- 
-<lb/>stod genast, att hof- 
-<lb/>marskalken menade, att 
-<lb/>de varit förtrollade af 
-<lb/>Pomperipossa, och att 
-<lb/>de inte kunde hjälpa
-<lb/>det. Då blef kungen rörd, stack riksriset i kråset på hof- 
-<lb/>marskalken såsom en ovanligt fin utmärkelse men gaf prins 
-<lb/>Pipi och prinsessan Fifi hälften hvar af det stora riksäpplet.
-<lb/>Men Pomperipossa förvandlades genast till en stor sten. 
-<lb/>Du kan själf se henne ännu, om du kommer till den där sjön, 
-<lb/>fastän hon nu är så öfvervuxen af mossa och buskar, att hon 
-<lb/>ser ut som ett litet berg. Men en gång om året, på samma 
-<lb/>dag som hon förstenades, blir hon liksom förr. Och då kni- 
-<lb/>per kräftan i hennes näsa, och då skriker hon igen så för- 
-<lb/>skräckligt, att det ger eko i bergen. Men hvilken dag <hi rend=”italic”/>det</hi> 
-<lb/>är –– ja, det vet bara jag, och jag talar inte om det, så det 
-<lb/>tjänar ingenting till, att du går ut och tittar efter, för då blir 
-<lb/>din lilla näsa lika lång som Pomperipossas –– och det vill 
-<lb/>du väl ändå inte?</p>
+                    <lb/>och ett stort riksäpple 
+                    <lb/>i högra handen. Han 
+                    <lb/>var mycket vredgad, 
+                    <lb/>för att de varit borta 
+                    <lb/>så länge.
+                </p>
+                <figure>
+                    <figDesc>
+                    Kungen sitter på en tron. Framför honom står hofmarskalken, prinsessan Fifi och prins Pipi. Hofmarskalken bugar sig för kungen.
+                    </figDesc>
+                    <signed><name>A.E.</name></signed>
+                </figure>
+                <p>
+                    <lb/><said aloud="true">–– Na! –– </said>sade 
+                    <lb/>hofmarskalken lugnan- 
+                    <lb/>de. Och kungen för- 
+                    <lb/>stod genast, att hof- 
+                    <lb/>marskalken menade, att 
+                    <lb/>de varit förtrollade af 
+                    <lb/>Pomperipossa, och att 
+                    <lb/>de inte kunde hjälpa
+                    <lb/>det. Då blef kungen rörd, stack riksriset i kråset på hof- 
+                    <lb/>marskalken såsom en ovanligt fin utmärkelse men gaf prins 
+                    <lb/>Pipi och prinsessan Fifi hälften hvar af det stora riksäpplet.
+                </p>
+                <p>
+                    <lb rend="indented" />Men Pomperipossa förvandlades genast till en stor sten. 
+                    <lb/>Du kan själf se henne ännu, om du kommer till den där sjön, 
+                    <lb/>fastän hon nu är så öfvervuxen af mossa och buskar, att hon 
+                    <lb/>ser ut som ett litet berg. Men en gång om året, på samma 
+                    <lb/>dag som hon förstenades, blir hon liksom förr. Och då kni- 
+                    <lb/>per kräftan i hennes näsa, och då skriker hon igen så för- 
+                    <lb/>skräckligt, att det ger eko i bergen. Men hvilken dag <hi rend="italic">det</hi> 
+                    <lb/>är –– ja, det vet bara jag, och jag talar inte om det, så det 
+                    <lb/>tjänar ingenting till, att du går ut och tittar efter, för då blir 
+                    <lb/>din lilla näsa lika lång som Pomperipossas –– och det vill 
+                    <lb/>du väl ändå inte?
+                </p>
 
-<hi rend=”italic”><persName>Axel Wallengren.</persName> </hi>
-</div>
+                <ab><hi rend="italic"><persName>Axel Wallengren.</persName> </hi></ab>
+            </div>
 
-<div type=”TYP AV TEXT”>
-[bild]
-1. 
-Nu reser vi
-till
-Amerika!
+            <div type="/">
+                <figure>
+                    <figDesc>Två barn sitter tillsammans med en korg bredvid sig. Det ena barnet håller i ett paraply.</figDesc>
+                    <ab>
+                        1.
+                        <lb/> Nu reser vi
+                        <lb/> till
+                        <lb/>Amerika!
+                    </ab>
+                    <!-- Länka till illustratör -->
+                </figure>
 
-[bild]
-2
-Nu äter vi!
+                <figure>
+                    <figDesc>De två barnen sitter tillsammans och äter någon sorts mat. Paraplyet ligger ihopfällt bredvid dem. </figDesc>
+                    <ab>
+                        2
+                        <lb/>Nu äter vi!
+                    </ab>
+                    <!-- Länka till illustratör -->
+                </figure>
+            
+                <figure>
+                    <figDesc>De två barnen sitter tillsammans. Barnet till vänster håller sig på magen, och barnet till höger har fällt ut paraplyet.</figDesc>
+                    <ab>
+                        3.
+                        <lb/>Nu blåser det
+                        <lb/>det!
+                    </ab>
+                    <!-- Länka till illustratör -->
+                </figure>
 
-[bild]
-3.
-Nu blåser
-det!
 
-Nu är det natt!
-4
+                <figure>
+                    <figDesc>De två barnen lutar sig mot varandra. Barnet till vänster blundar.</figDesc>
+                    <ab>
+                        Nu är det
+                        <lb/> natt!
+                        <lb/>4
+                    </ab>
+                    <ab>
+                        <lb/>Nu sofver vi!
+                    </ab>
+                    <!-- Länka till illustratör -->
+                </figure>
 
-5
-Nu sofver vi!
+                <figure>
+                    <figDesc>De två barnen står bredvid varandra och håller varandra i handen.</figDesc>
+                    <ab>
+                    Nu ä vi framme!
+                    <lb/>
+                    <!-- Unreadable hitta tag till -->
+                    6
+                    </ab>
+                    <!-- Länka till illustratör -->
+                    <signed><persName>O Adelborg </persName></signed>
+                </figure>
 
-6. 
+                <ab>RESAN TILL AMERIKA. Teckningar af <hi rend="italic"><persName>Ottilia Adelborg.</persName></hi></ab>
 
-Nu ä vi
-framme!
-
-[signatur] <signed><persName>O Adelborg </persName></signed>
-
-RESAN TILL AMERIKA. Teckningar af <hi rend=”italic”><persName>Ottilia Adelborg.</persName><hi>
-                </div>
+            </div>
                 <!-- **** SIDA 4 *******-->
-                <div>
-                    TUMMELITEN 1895
-____________
+        <div>
+            TUMMELITEN 1895
+            <div type="song">
+            <head>
+                4
+                TUMMELITEN 1895
+                <title type="main">Räf och höns.</title>
+                <title type="sub">Sånglek.</title>
+            </head>
+            <cb n="1"/>
+	        <p>(Första hälften af hvarje vers 
+                <lb/>sjunges af hönan och kycklingarna,
+                <lb/>andra hälften af räfven.)
+            </p>
 
-<div type=”song”>
-4
-TUMMELITEN 1895
-<head>
-<title>Räf och höns.</title>
-Sånglek.
-</head>
-<cb n=”1”/>
-	<p>(Första hälften af hvarje vers 
-sjunges af hönan och kycklingarna,
-andra hälften af räfven.)</p>
+            <stage><hi rend="italic indented">Räfven ligger och gråter, hönan åtföljd af kycklingarna till-
+            <lb/>talar honom först på afstånd, sedan närmare:</hi></stage>
+            
+            <lg>
+                <lg type="/">
+                    <l>– Käre herr Räf, käre herr Räf,</l>
+                    <l>hur står det till med eder?</l>
+                    <l>– Inte så bra, inte så bra,</l>
+                    <l>det värker i mina leder.</l>
+                </lg>
 
-<hi rend=”italic”><stage>Räfven ligger och gråter, hönan åtföljd af kycklingarna till-
-talar honom först på afstånd, sedan närmare:</stage></hi>
-<lg>
-<lg type=”stanza”>
-<l>– Käre herr Räf, käre herr Räf,</l>
-<l>hur står det till med eder?</l>
-<l>– Inte så bra, inte så bra,</l>
-<l>det värker i mina leder.</l>
-</lg>
+                <lg type="/">
+                    <l>– Stackars herr Räf, stackars herr Räf, </l>
+                    <l>värker det mycket illa?</l>
+                    <l>– Ja, åtta dar, ja, åtta dar</l>
+                    <l>jag måste nu vara stilla.</l>
+                </lg>
 
-<lg type=”stanza”>
-<l>– Stackars herr Räf, stackars herr Räf, </l>
-<l>värker det mycket illa?</l>
-<l>– Ja, åtta dar, ja, åtta dar</l>
-<l>jag måste nu vara stilla.</l>
-</lg>
-<lg type=”stanza”>
-<l>– Nu på herr Räf titta vi få,</l>
-<l>nu han ej gör oss illa!</l>
-<l>– Ja, kära små, kom, kära små,</l>
-<l>jag ligger så lugn och stilla!</l>
-	</lg>
-<hi rend=”italic”><stage>Då hönan och kycklingarna kommit helt nära, rusar räfven 
-upp och söker fånga någon af kycklingarna, medan hönan utbre-
-der vingarna för att försvara dem.   Hönan själf får räfven ej
-taga.  Härunder sjunges med dämpad röst:</stage></hi>
-<cb n=”2”/>
-<lg type=”stanza”>
-<l>– Aj då, se där! Räfven far opp!</l> 
-<l>Värken visst flytt hans leder! </l>
-<l>– Hör hvilka rop! Se hvilka hopp!</l>
-<l>Men jag ska’ nog knipa eder!</l>
-</lg>
+                <lg type="/">
+                    <l>– Nu på herr Räf titta vi få,</l>
+                    <l>nu han ej gör oss illa!</l>
+                    <l>– Ja, kära små, kom, kära små,</l>
+                    <l>jag ligger så lugn och stilla!</l>
+	            </lg>
+            </lg>
+            <stage><hi rend="italic indented">Då hönan och kycklingarna kommit helt nära, rusar räfven 
+                <lb/>upp och söker fånga någon af kycklingarna, medan hönan utbre-
+                <lb/>der vingarna för att försvara dem.   Hönan själf får räfven ej
+                <lb/>taga.  Härunder sjunges med dämpad röst:</hi>
+            </stage>
+            
+            <cb n="2"/>
+            <lg type="/">
+                <l>– Aj då, se där! Räfven far opp!</l> 
+                <l>Värken visst flytt hans leder! </l>
+                <l>– Hör hvilka rop! Se hvilka hopp!</l>
+                <l>Men jag ska’ nog knipa eder!</l>
+            </lg>
 
+            <stage><hi rend="italic">Denna vers sjunges tre gånger. Har räfven därunder lyckats 
+            <lb/>fånga en kyckling, lägger han sig ned jämte denna, och de öfriga
+            <lb/>dansa rundt omkring honom. Härunder sjunges:</hi></stage>
+            
+            <lg type="/">
+                <l>– Räfven sig fick kycklingestek,</l> 
+                <l>nöjd han sig lägger neder. </l>
+                <l>– Tocken en lek, tocken en lek</l>
+                <l>just mjukar upp mina leder.</l>
+            </lg>
+            <stage><hi rend="italic">Har räfven icke lyckats fånga någon, lägger han sig ensam
+            <lb/>ned, och sista versen sjunges då sålunda:</hi></stage>
 
-<hi rend=”italic”><stage>Denna vers sjunges tre gånger.    Har räfven därunder lyckats 
-fånga en kyckling, lägger han sig ned jämte denna, och de öfriga
-dansa rundt omkring honom.    Härunder sjunges: </stage></hi>
-<lg type=”stanza”>
-<l>– Räfven sig fick kycklingestek,</l> 
-<l>nöjd han sig lägger neder. </l>
-<l>– Tocken en lek, tocken en lek</l>
-<l>just mjukar upp mina leder.</l>
-</lg>
-<hi rend=”italic”><stage>Har räfven icke lyckats fånga någon, lägger han sig ensam
-ned, och sista versen sjunges då sålunda:</stage></hi>
-<lg type=”stanza”>
-<l>– Räfven ej fick kycklingestek,</l>
-<l>lägger sig ledsen neder.</l>
-<l>– Tocken en lek, tocken en lek</l>
- <l>dock mjukar upp mina leder.</l>
-</lg>
+            <lg type="/">
+                <l>– Räfven ej fick kycklingestek,</l>
+                <l>lägger sig ledsen neder.</l>
+                <l>– Tocken en lek, tocken en lek</l>
+                <l>dock mjukar upp mina leder.</l>
+            </lg>
 
 
-<hi rend=”italic”><stage>Leken börjas ånyo och fortsättes sålunda, tills alla kyckling-
-arna blifvit fångade.</stage></hi>
-<byline><hi rend=”bold”><persName>Alfaro.</persName></byline>
-</div>
+            <stage><hi rend="italic">Leken börjas ånyo och fortsättes sålunda, tills alla kyckling-
+            <lb/>arna blifvit fångade.</hi></stage>
+            
+            <byline><hi rend="bold"><persName>Alfaro.</persName></hi></byline>
+        
+            <p><hi rend="italic">Lifligt. 		<byline>Musik af <persName>Emmy Köhler </persName></byline></hi></p>
+            <!-- Lägg till NOTMARKERING HÄR -->
+        </div>
 
 
-<hi rend=”italic”>Lifligt. 		<byline>Musik af <persName>Emmy Köhler </persName></byline></hi>
-[NOTER]
+
 </div>
 
 
@@ -590,7 +689,8 @@ arna blifvit fångade.</stage></hi>
                     </div>
 
                     <figure>
-                        <p>Se så, låt gå!</p>
+                        <figDesc></figDesc>
+                        <ab>Se så, låt gå!</ab>
                     </figure>
 
                 </div>  
