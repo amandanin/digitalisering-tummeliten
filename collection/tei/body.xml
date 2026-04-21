@@ -149,9 +149,11 @@
         <front>
             <pb facs="/" n="1" />
             <figure>
-                <graphic url="/"></graphic>
+                <figDesc>
+                    Sju barn spelar musik tillsammans. En av dem bär en hög hatt och en annan lockar på en katt. I taket hänger lampor i varierande storlek. 
+                </figDesc>
                 <signed>
-                    <persName>Albert Engström</persName>
+                    <persName ref="a_engstrom">Albert Engström</persName>
                 </signed>
             </figure>
             <docTitle>
@@ -461,7 +463,7 @@
                         <figDesc>
                         Kungen sitter på en tron. Framför honom står hofmarskalken, prinsessan Fifi och prins Pipi. Hofmarskalken bugar sig för kungen.
                         </figDesc>
-                        <signed><name>A.E.</name></signed>
+                        <signed><persName ref="a_engstrom">A.E.</persName></signed>
                     </figure>
                     <p>
                         <lb/><said aloud="true">–– Na! –– </said>sade 
@@ -490,7 +492,7 @@
                         <lb/>du väl ändå inte?
                     </p>
 
-                    <ab><hi rend="italic"><persName>Axel Wallengren.</persName> </hi></ab>
+                    <ab><hi rend="italic"><persName ref="#a_wallengren">Axel Wallengren.</persName> </hi></ab>
                 </div>
             
                 <div type="/">
@@ -549,7 +551,7 @@
                         <signed><persName ref="#o_adelborg">O Adelborg </persName></signed>
                     </figure>
 
-                    <ab>RESAN TILL AMERIKA. Teckningar af <hi rend="italic"><persName ref="#o_adelborg">Ottilia Adelborg.</persName></hi></ab>
+                    <ab>RESAN TILL AMERIKA.</ab><byline> Teckningar af <hi rend="italic"><persName ref="#o_adelborg">Ottilia Adelborg.</persName></hi></byline>
 
                 </div>
             </div>
@@ -660,7 +662,7 @@
                 </div>
                 
                 <figure>
-                    <figDesc></figDesc>
+                    <figDesc>Sju barn i olika åldrar bakar tillsammans vid ett stort bord.</figDesc>
                     <ab>JULBAK.</ab> <byline>Teckning för Jultomten af <hi rend="italic"><persName ref="#j_nystrom">Jenny Nyström.</persName></hi></byline>
                 </figure>
 
@@ -706,7 +708,7 @@
                 </div>
 
                 <figure>
-                    <figDesc></figDesc>
+                    <figDesc>23 katter gungar på en gungbräda gjord av en stor, nedhuggen trädstam.</figDesc>
                     <ab>Se så, låt gå!</ab>
                 </figure>
             </div>    
@@ -726,86 +728,89 @@
                     </head>
                     
                     <cb n="1"/>
-                    <!-- IMAGE  -->
-                    <figure>
-                        <figDesc>
-
-                        </figDesc>
-                    </figure>
-                    <lg rhyme="abaaab">
-                        <l>Per och Lisa fundera’ <rhyme label="a">så</rhyme></l>
-                        <l> — tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et!</rhyme> —</l>
-                        <l rend="indented">Hvad ska’ vi hitta <rhyme label="a">på</rhyme>,</l>
-                        <l rend="indented">så Kajsa hon ska’ <rhyme label="a">må</rhyme>,</l>
-                        <l rend="indented">och vi kakan smaka <rhyme label="a">få</rhyme>?</l>
-                        <l>— Hopp-san-sa! Ä’ <emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
-                    </lg>
-
+                    
+                    <div>
+                        <figure>
+                            <figDesc>
+                                Per och Lisa står och pratar tillsammans.
+                            </figDesc>
+                        </figure>
+                        <lg rhyme="abaaab">
+                            <l>Per och Lisa fundera’ <rhyme label="a">så</rhyme></l>
+                            <l> — tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et!</rhyme> —</l>
+                            <l rend="indented">Hvad ska’ vi hitta <rhyme label="a">på</rhyme>,</l>
+                            <l rend="indented">så Kajsa hon ska’ <rhyme label="a">må</rhyme>,</l>
+                            <l rend="indented">och vi kakan smaka <rhyme label="a">få</rhyme>?</l>
+                            <l>— Hopp-san-sa! Ä’ <emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
+                        </lg>
+                    </div>
                     <cb n="2"/>
-                    <!-- IMAGE  -->
-                    <figure>
-                        <figDesc>
-
-                        </figDesc>
-                    </figure>
-                    <lg rhyme="abaaab">
-                        <l>Kajsas kök vi båda <rhyme label="a">två</rhyme></l>
-                        <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et!</rhyme> —</l>
-                        <l rend="indented">klä’ upp i hvarje <rhyme label="a">vrå</rhyme>,</l>
-                        <l rend="indented">vi klättra, stå på <rhyme label="a">tå</rhyme>,</l>
-                        <l rend="indented">i ett huj det allt skall <rhyme label="a">gå</rhyme>!</l>
-                        <l>— Hopp-san-sa! Ä’<emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
-                    </lg>
-
+                    
+                    <div>
+                        <figure>
+                            <figDesc>
+                                Per släpar på en gran i förgrunden, och i bakgrunden syns Lisa som står på en stol och sträcker sig efter en tallrik (?).
+                            </figDesc>
+                        </figure>
+                        <lg rhyme="abaaab">
+                            <l>Kajsas kök vi båda <rhyme label="a">två</rhyme></l>
+                            <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et!</rhyme> —</l>
+                            <l rend="indented">klä’ upp i hvarje <rhyme label="a">vrå</rhyme>,</l>
+                            <l rend="indented">vi klättra, stå på <rhyme label="a">tå</rhyme>,</l>
+                            <l rend="indented">i ett huj det allt skall <rhyme label="a">gå</rhyme>!</l>
+                            <l>— Hopp-san-sa! Ä’<emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
+                        </lg>
+                    </div>
                     <cb n="3"/>
-                    <!-- IMAGE  --> 
-                    <figure>
-                        <figDesc>
-
-                        </figDesc>
-                    </figure>
-                    <lg rhyme="abaaab">
-                        <l>Grytring, stöfvel och korfvar <rhyme label="a">två</rhyme></l>
-                        <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
-                        <l rend="indented">Nu kommer Kajsa! <rhyme label="a">Då</rhyme></l>
-                        <l rend="indented">vi strax oss gömma <rhyme label="a">må</rhyme></l>
-                        <l rend="indented">i vedlår’n båda <rhyme label="a">två</rhyme>.</l>
-                        <l> — Hopp-san-sa! Ä’ <emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
-                    </lg>
-
+                    <div>
+                        <figure>
+                            <figDesc>
+                                En person, Kajsa, kommer gäspande nedför trappan med ett ljus i handen. Det ligger en sopkvast tvärsöver trappan och framför den står en skurhink.
+                            </figDesc>
+                        </figure>
+                        <lg rhyme="abaaab">
+                            <l>Grytring, stöfvel och korfvar <rhyme label="a">två</rhyme></l>
+                            <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
+                            <l rend="indented">Nu kommer Kajsa! <rhyme label="a">Då</rhyme></l>
+                            <l rend="indented">vi strax oss gömma <rhyme label="a">må</rhyme></l>
+                            <l rend="indented">i vedlår’n båda <rhyme label="a">två</rhyme>.</l>
+                            <l> — Hopp-san-sa! Ä’ <emph>du</emph> med <rhyme label="b">om’et?</rhyme> —</l>
+                        </lg>
+                    </div>
                     <cb n="1"/>
-                    <!-- IMAGE  -->
-                    <figure>
-                        <figDesc>
-
-                        </figDesc>
-                    </figure>
-                    <lg rhyme="abaaab">
-                        <l>Huj-uj! Huj-uj! Hvad står det <rhyme label="a">på?</rhyme></l>
-                        <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
-                        <l rend="indented">I trappan stod en <rhyme label="a">så</rhyme></l>
-                        <l rend="indented">med vatten fylld <rhyme label="a">ändå</rhyme>,</l>
-                        <l rend="indented">den stötte Kajsa <rhyme label="a">på</rhyme>!</l>
-                        <l>— Hopp-san-sa! Ä’ <emph>hon</emph> med <rhyme label="b">om’et</rhyme>? —</l>
-                    </lg>
-
+                    <div>
+                        <figure>
+                            <figDesc>
+                                Kajsa snubblar på sopkvasten och faller med huvudet före ner i skurhinken.
+                            </figDesc>
+                        </figure>
+                        <lg rhyme="abaaab">
+                            <l>Huj-uj! Huj-uj! Hvad står det <rhyme label="a">på?</rhyme></l>
+                            <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
+                            <l rend="indented">I trappan stod en <rhyme label="a">så</rhyme></l>
+                            <l rend="indented">med vatten fylld <rhyme label="a">ändå</rhyme>,</l>
+                            <l rend="indented">den stötte Kajsa <rhyme label="a">på</rhyme>!</l>
+                            <l>— Hopp-san-sa! Ä’ <emph>hon</emph> med <rhyme label="b">om’et</rhyme>? —</l>
+                        </lg>
+                    </div>
                     <cb n="2"/>
-                    <!-- IMAGE  -->
-                    <figure>
-                        <figDesc>
-
-                        </figDesc>
-                        <signed></signed>
-                    </figure>
-                    <lg rhyme="abaaab">
-                        <l>En glädje Kajsa skulle <rhyme label="a">få</rhyme></l>
-                        <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
-                        <l rend="indented">Jo jo, nog fick hon <rhyme label="a">så</rhyme>!</l>
-                        <l rend="indented">Men — <emph>kakan</emph>, ack, <rhyme label="a">håhå</rhyme>!</l>
-                        <l rend="indented">Vi långa näsor <rhyme label="a">få</rhyme>.</l>
-                        <l> Hoppsansa! Hvad säges <rhyme label="b">om’et</rhyme></l>
-                    </lg>
-                    <byline><persName>ONKEL POMPE</persName>.</byline>
+                    <div>
+                        <figure>
+                            <figDesc>
+                                Kajsa ramlar in i köket där någon har skrivit "GOD JUL KAJSA LILLA" med diverse köksredskap och mat. Per och Lisa sitter gömda i en kista, och bara deras huvuden sticker upp.
+                            </figDesc>
+                            <signed><persName ref="#ce_torner">C.E Törner</persName></signed>
+                        </figure>
+                        <lg rhyme="abaaab">
+                            <l>En glädje Kajsa skulle <rhyme label="a">få</rhyme></l>
+                            <l>— tyss, tyss, tyss, tal’ inte <rhyme label="b">om’et</rhyme>! —</l>
+                            <l rend="indented">Jo jo, nog fick hon <rhyme label="a">så</rhyme>!</l>
+                            <l rend="indented">Men — <emph>kakan</emph>, ack, <rhyme label="a">håhå</rhyme>!</l>
+                            <l rend="indented">Vi långa näsor <rhyme label="a">få</rhyme>.</l>
+                            <l> Hoppsansa! Hvad säges <rhyme label="b">om’et</rhyme></l>
+                        </lg>
+                    </div>
+                    <byline><persName ref="onkel_pompe">ONKEL POMPE</persName>.</byline>
                 </div>
               
                 <div>
@@ -989,8 +994,8 @@
             <div>
                 <ab rend="handwritten">0750</ab>
 
-                <figure facs="/">
-                    <figDesc></figDesc>
+                <figure>
+                    <figDesc>I förgrunden står fem barn och en katt runt en vedspis och doppar i grytan. Bredvid grytan står också en katt. I bakgrunden sitter två vuxna vid ett bord och tittar på. </figDesc>
                     <signed><persName ref="#e_forsstrom">Forsström</persName></signed>
                 </figure>
                 <lg>
@@ -1023,16 +1028,18 @@
             </div>
         </body>
         <back>
-            <cb n="1"/>
-                <ab>För redaktionen: EMIL HAMMARLUND.
+            <div type="colophon">
+                <cb n="1"/>
+                <ab>För redaktionen: <persName ref="#e_hammarlund">EMIL HAMMARLUND</persName>.
                 <lb/>Stockholm, Iduns Tryckeri Aktiebolag, 1895.</ab>
-            <cb n="2"/>
+                <cb n="2"/>
                 <ab>Pris 15 öre</ab>
-            <cb n="3"/>
+                <cb n="3"/>
                 <ab>Beställningar insändas till Svensk Läraretidnings exp., Stockholm.</ab>
-            <div>
-                <p>JULTOMTEN utsänder 1896 sin sjette årgång. Rekvireras före den 10
-                <lb/>november 1896 hos Svensk Läraretidning, Stockholm N.</p>
+                <div>
+                    <p>JULTOMTEN utsänder 1896 sin sjette årgång. Rekvireras före den 10
+                    <lb/>november 1896 hos Svensk Läraretidning, Stockholm N.</p>
+                </div>
             </div>
         </back>
     </text>
