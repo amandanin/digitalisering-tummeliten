@@ -47,21 +47,21 @@
                     </extent>
                     
                     <editor role="publisher">
-                        <persName xml:id="EmilHammarlund" ref="http://viaf.org/viaf/12290298">
+                        <persName xml:id="e_hammarlund" ref="http://viaf.org/viaf/12290298">
                             <surname>Hammarlund</surname>
                             <forename>Emil</forename>
                         </persName>
                     </editor>
                     
                     <author>
-                        <persName xml:id="AxelWallengren" ref="https://libris.kb.se/dbqspmvx0kvm6b5#it">
+                        <persName xml:id="a_wallengren" ref="https://libris.kb.se/dbqspmvx0kvm6b5#it">
                             <surname>Wallengren</surname>
                             <forename>Axel</forename>
                         </persName>                     
                     </author>
                     
                     <author>
-                        <persName xml:id="Alfaro" ref="https://libris.kb.se/vs68bwfd1nz46zt#it">
+                        <persName xml:id="am_roos" ref="https://libris.kb.se/vs68bwfd1nz46zt#it">
                             <surname>Roos</surname>
                             <forename>Anna</forename>
                             <forename>Maria</forename>
@@ -70,14 +70,14 @@
                     </author>
                     
                     <author>
-                        <persName xml:id="EmmyKöhler" ref="https://libris.kb.se/86lnrrds29w56g5#it">
+                        <persName xml:id="e_kohler" ref="https://libris.kb.se/86lnrrds29w56g5#it">
                             <surname>Köhler</surname>
                             <forename>Emmy</forename>
                         </persName>
                     </author>
                     
                     <author>
-                        <persName xml:id="SigneAlvarsson" ref="https://libris.kb.se/khwz1l432ldkznl#it">
+                        <persName xml:id="s_alvarsson" ref="https://libris.kb.se/khwz1l432ldkznl#it">
                             <surname>Wranér</surname>
                             <forename>Signe</forename>
                             <name type="pseudonym">Signe Alvarsson</name>
@@ -85,7 +85,7 @@
                     </author>
                     
                     <author>
-                        <persName xml:id="GDjurklou" ref="https://libris.kb.se/rp350359100w24f">
+                        <persName xml:id="ng_djurklou" ref="https://libris.kb.se/rp350359100w24f">
                             <surname>Djurklou</surname>
                             <forename>Nils</forename>
                             <forename>Gabriel</forename>
@@ -93,7 +93,7 @@
                     </author>
                                       
                     <author>
-                        <persName xml:id="AUBååth" ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
+                        <persName xml:id="au_baath" ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
                             <surname>Bååth</surname>
                             <forename>Albert</forename>
                             <forename>Ulrik</forename>
@@ -101,7 +101,7 @@
                     </author>
                     
                     <author>
-                        <persName xml:id="OttiliaAdelborg" ref="https://libris.kb.se/sq466t3b4s743md#it">
+                        <persName xml:id="o_adelborg" ref="https://libris.kb.se/sq466t3b4s743md#it">
                             <surname>Adelborg</surname>
                             <forename>Ottilia</forename>
                         </persName>
@@ -117,7 +117,7 @@
                     
                     <respStmt>
                         <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
-                        <persName xml:id="AlbertEngström" ref="https://libris.kb.se/nl0221063k7n6vq#it">
+                        <persName xml:id="a_engstrom" ref="https://libris.kb.se/nl0221063k7n6vq#it">
                             <surname>Engström</surname>
                             <forename>Albert</forename>
                         </persName>
@@ -125,7 +125,7 @@
                     
                     <respStmt>
                         <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
-                        <persName xml:id="ElsaMaartman" ref="https://libris.kb.se/86lnncqs28j9tm1#it">
+                        <persName xml:id="e_maartman" ref="https://libris.kb.se/86lnncqs28j9tm1#it">
                             <surname>Maartman</surname>
                             <surname type="married">Beskow</surname>
                             <forename>Elsa</forename>
@@ -137,7 +137,7 @@
                     
                     <respStmt>
                         <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
-                        <persName xml:id="JennyNyström" ref="https://libris.kb.se/tr573bbc39xzp2l">
+                        <persName xml:id="j_nystrom" ref="https://libris.kb.se/tr573bbc39xzp2l">
                             <surname>Nyström</surname>
                             <forename>Jenny</forename>
                         </persName>
@@ -145,7 +145,7 @@
 
                     <respStmt>
                         <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
-                        <persName xml:id="CETörner" ref="https://libris.kb.se/v52hlhnzssq8zcr6#it">
+                        <persName xml:id="ce_torner" ref="https://libris.kb.se/v52hlhnzssq8zcr6#it">
                             <surname>Törner</surname>
                             <forename>Carl</forename>
                             <forename>Erik</forename>
@@ -154,7 +154,7 @@
                     
                    <respStmt>
                        <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
-                       <persName xml:id="EckeHedberg" ref="https://libris.kb.se/nl037r364xrn5gg#it">
+                       <persName xml:id="e_hedberg" ref="https://libris.kb.se/nl037r364xrn5gg#it">
                            <surname>Hedberg</surname>
                            <forename>Erik</forename>
                        </persName>
@@ -162,18 +162,18 @@
                     
                     <respStmt>
                         <resp ref="http://id.loc.gov/vocabulary/relators/ill">Illustratör</resp>
-                        <persName xml:id="EForsström" ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
+                        <persName xml:id="e_forsstrom" ref="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=14393">
                             <surname>Forsström</surname>
                             <forename>Edvard</forename>
                         </persName>
                     </respStmt>
                     
                     <author>
-                        <name xml:id="Snorre">Snorre</name>
+                        <name xml:id="snorre">Snorre</name>
                     </author>
                     
                     <author>
-                        <name xml:id="OnkelPompe">Onkel Pompe</name>
+                        <name xml:id="onkel_pompe">Onkel Pompe</name>
                     </author>
                     
                 </bibl>
