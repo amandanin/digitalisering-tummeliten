@@ -29,7 +29,7 @@ h1, h2, h3 {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
-    /* text-align: center; */
+    text-align: center;
     color: var(--darkblue);
 }
 
@@ -138,4 +138,9 @@ footer {
 
 }
 
+/* Läsvy styling */
 
+.zoom-img {
+  width: 100%;
+  transition: transform 0.9s ease;
+}
