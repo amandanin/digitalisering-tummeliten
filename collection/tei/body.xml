@@ -237,10 +237,10 @@
                         <lb/>allt, som man sade till honom.
                     </p>
                     <p>
-                        <said aloud="true">–– Jag vill gå ut i skogen! –– </said> sade prins Pipi. 
+                        <said aloud="true" rend="indented">–– Jag vill gå ut i skogen! –– </said> sade prins Pipi. 
                     </p>
                     <p>
-                        <said aloud="true">–– Ah! </said> sade hofmar- 
+                        <said aloud="true" rend="indented">–– Ah! </said> sade hofmar- 
                         <lb/>skalken och följde med dem. 
                     </p>
                     <figure>
@@ -248,12 +248,14 @@
                         <!-- Koppla ihop med illustratören? -->
                     </figure>
                     <p>
-                        <lb/>Efter en stund kommo 
+                        <lb rend="indented"/>Efter en stund kommo 
                         <lb/>de till ett träsk, och hof- 
                         <lb/>marskalken blef våt om 
                         <lb/>fötterna, ty han hade siden- 
                         <lb/>skor på sig.
-                        <lb/><said aloud="true">–– Ha!</said> sade han och 
+                    </p>
+                    <p>
+                        <said aloud="true" rend="indented">–– Ha!</said> sade han och 
                         <lb/>vände genast om för att 
                         <lb/>taga på sig ett par krag- 
                         <lb/>stöflar. Men innan han 
@@ -263,36 +265,44 @@
                         <cb n="2"/>     
                         <lb/>här, prins Pipi och prinsessa Fifi, tills jag kommer tillbaka
                         <lb/>med mina stora kragstöflar på mig!
-                        <lb/>Men det förstodo icke kungabarnen, utan de gingo vidare
+                        <lb rend="indented"/>Men det förstodo icke kungabarnen, utan de gingo vidare
                         <lb/>i skogen.
                     </p>
                     <p>
-                        <lb/>Det var just samma skog, i hvilken Pomperipossa bodde. 
+                        <lb rend="indented"/>Det var just samma skog, i hvilken Pomperipossa bodde. 
                         <lb/>Alla fåglar började genast kvittra: <said>Gå inte dit! </said>Men prins
                         <lb/>Pipi förstod inte fåglalåt utan sade till sin syster:
-                        <lb/><said aloud="true">–– Om vi skulle ge oss ut på äfventyr? Det är så 
+                    </p>
+                    <p>
+                        <lb rend="indented"/><said aloud="true">–– Om vi skulle ge oss ut på äfventyr? Det är så 
                         <lb/>tråkigt hemma. Jag har visst sex öre. Hur mycket har du,
                         <lb/>prinsessa?</said>
-                        <lb/><said aloud="true">–– Jag har bara ett enda öre –– </said> svarade Fifi <said aloud="true"> –– men
+                        <lb rend="indented"/><said aloud="true">–– Jag har bara ett enda öre –– </said> svarade Fifi <said aloud="true"> –– men
                         <lb/>jag kan steka äpplen.</said>
-                        <lb/><said aloud="true">–– Då kan du ju nästan laga mat. Du får bli min
+                        <lb rend="indented"/><said aloud="true">–– Då kan du ju nästan laga mat. Du får bli min
                         <lb/>hushållerska –– </said>sade prins Pipi.
                     </p>
                     <p>
-                        <lb/>Och så vandrade de ut på äfventyr i den mörka skogen, 
+                        <lb rend="indented"/>Och så vandrade de ut på äfventyr i den mörka skogen, 
                         <lb/>ända tills de kommo till Pomperipossas lilla hus, som var 
                         <lb/>byggdt af korf och skinkor och sirapsknäck.
-                        <lb/><said aloud="true">–– Låt oss äta kvällsmat! </said>sade prins Pipi, som kände
+                    </p>
+                    <p>
+                        <lb rend="indented"/><said aloud="true">–– Låt oss äta kvällsmat! </said>sade prins Pipi, som kände
                         <lb/>sig hungrig, och bröt en stor korf ur huset.
-                        <lb/>Då stack Pomperipossa ut sin långa näsa genom fönstret 
+                        <lb rend="indented"/>Då stack Pomperipossa ut sin långa näsa genom fönstret 
                         <lb/>och såg på dem. 
-                        <lb/><said aloud="true">–– Kom hit in! ––</said> sade hon genast. <said aloud="true">–– Jag är er
+                    </p>
+                    <p>
+                        <lb rend="indented"/><said aloud="true">–– Kom hit in! ––</said> sade hon genast. <said aloud="true">–– Jag är er
                         <lb/>snälla gudmor. Ni skall få syltpannkaka af mig.</said> 
-                        <lb/>Prins Pipi och lilla Fifi trodde henne och gingo in, 
+                        <lb rend="indented"/>Prins Pipi och lilla Fifi trodde henne och gingo in, 
                         <lb/>fastän de voro fasligt rädda.
-                        <lb/><said aloud="true">–– Hm! –– </said>sade Pomperipossa och såg på dem. <said aloud="true">–– Jag 
+                    </p>
+                    <p>        
+                        <lb rend="indented"/><said aloud="true">–– Hm! –– </said>sade Pomperipossa och såg på dem. <said aloud="true">–– Jag 
                         <lb/>har inte ätit gåsstek på bra länge … </said>
-                        <lb/>Och så trollade hon i  
+                        <lb rend="indented"/>Och så trollade hon i  
                         <lb/>luften, och strax blefvo prins 
                         <lb/>Pipi och prinsessan Fifi till 
                         <lb/>två små hvita gäss, som 
@@ -306,30 +316,42 @@
                     </figure>
 
                     <p>    
-                        <lb/><said aloud="false">–– Hofmarskalk! ––</said> ville 
+                        <lb rend="indented"/><said aloud="false">–– Hofmarskalk! ––</said> ville 
                         <lb/>prins Pipi skrika i sin ång- 
                         <lb/>est. Men det bara lät som 
                         <lb/>»Kakaka». Han kunde icke 
                         <lb/>tala längre, bara kackla.
-                        <lb/><said aloud="true">–– Aj! –– </said>skrek Pom- 
+                    </p>
+                    <p>
+                        <lb rend="indented"/><said aloud="true">–– Aj! –– </said>skrek Pom- 
                         <lb/>peripossa och tog sig åt nä- 
                         <lb/>san. Den hade blifvit en
                         <lb/>aln till så lång med detsamma, som hon förtrollade Pipi och 
                         <lb/>Fifi till gäss.
-                        <lb/><said aloud="true">– – Det var rätt åt henne! </said>skreko alla fåglarna i skogen. 
-                        <lb/><said aloud="true">–– Vänta ni! ––</said> ropade Pomperipossa och knöt näfven 
-                        <lb/>åt dem. <said aloud="true">–– Jag skall skicka min trollkatt på er.</said> 
-                        <lb/><said aloud="true">–– Vi ska’ skaffa hjälp –– </said>sjöngo alla fåglarna och flögo 
+                    </p>
+                    <p>
+                        <lb rend="indented"/><said aloud="true">– – Det var rätt åt henne! </said>skreko alla fåglarna i skogen.
+                    </p>
+                    <p> 
+                        <lb rend="indented"/><said aloud="true">–– Vänta ni! ––</said> ropade Pomperipossa och knöt näfven 
+                        <lb/>åt dem. <said aloud="true">–– Jag skall skicka min trollkatt på er.</said>
+                    </p>
+                    <p> 
+                        <lb rend="indented"/><said aloud="true">–– Vi ska’ skaffa hjälp –– </said>sjöngo alla fåglarna och flögo 
                         <lb/>sin väg för att bedja storken komma dit och ge ett godt råd. 
                         <lb/>Storken är den visaste af alla fåglar, ty han reser hvarje 
-                        <lb/>vinter till Egypten och studerar hieroglyfer på pyramiderna. 
+                        <lb/>vinter till Egypten och studerar hieroglyfer på pyramiderna.
+                    </p>
+                    <p> 
                         <lb/><said aloud="true">–– Nu ska’ ni få simma, mina små gäss! –– </said>sade Pom- 
                         <lb/>peripossa, och dref Pipi och Fifi framför sig med sin stora 
                         <lb/>käpp. <said aloud="true">–– Det gör er så godt, och så smakar ni bättre, när jag 
                         <lb/>steker er i kväll. –– </said>Och så körde hon den stackars prinsen 
                         <lb/>och prinsessan ned till sjön. <said aloud="true">–– »Kakaka»! </said>jämrade de sig, men 
                         <lb/>de måste ändå ut i det kalla vattnet.
-                        <lb/><said aloud="true">–– Säger ni »kakaka»? –– </said>frågade Pomperipossa. <said aloud="true">–– Ni
+                    </p>
+                    <p>
+                        <lb rend="indented"/><said aloud="true">–– Säger ni »kakaka»? –– </said>frågade Pomperipossa. <said aloud="true">–– Ni
                         <lb/>menar kanske »syltpannkaka»? ––</said> hånade hon dem. De för-
                         <lb/>trollade gässen måste 
                         <lb/>äta små svarta grod- 
@@ -338,7 +360,7 @@
                         <lb/>än »syltpannkaka»!
                     </p>
                     <p>
-                        <lb/>Pomperipossa stod 
+                        <lb rend="indented"/>Pomperipossa stod 
                         <lb/>på stranden och stödde 
                         <lb/>sig på sin långa näsa, 
                         <lb/>som nu var lika lång 
@@ -380,16 +402,18 @@
                         <lb/>barnen.
                     </p>
                     <p>
-                        <lb/><said aloud="true">–– Ha! –– </said>sade 
+                        <lb rend="indented"/><said aloud="true">–– Ha! –– </said>sade 
                         <lb/>hofmarskalken, då han 
                         <lb/>fick se trollpackan.
-                        <lb/><said aloud="true">–– Pah! –– </said>sade 
+                    </p>
+                    <p>
+                        <lb rend="indented"/><said aloud="true">–– Pah! –– </said>sade 
                         <lb/>han och drog sitt långa 
                         <lb/>svärd för att hugga 
                         <lb/>näsan af henne. 
                     </p>
                     <p>
-                        <lb/>Men Pomperipossa förtrollade honom genast till en gam- 
+                        <lb rend="indented"/>Men Pomperipossa förtrollade honom genast till en gam- 
                         <lb/>mal kråka, som ängsligt hoppade omkring på stranden och sade 
                         <lb/><said aloud="true">»kra, kra»!</said>
                     </p>
@@ -404,9 +428,11 @@
                         <lb/>pund snus.
                     </p>
                     <p>
-                        <lb/><said aloud="true">–– Det vore rätt åt dig! –– </said>skreko alla de små fåglarna, 
+                        <lb rend="indented"/><said aloud="true">–– Det vore rätt åt dig! –– </said>skreko alla de små fåglarna, 
                         <lb/>som kommit tillbaka med den vise storken.
-                        <lb/><said aloud="true">–– Ni retar mig, så jag blir varm om näsan! –– </said>fräste 
+                    </p>
+                    <p>
+                        <lb rend="indented"/><said aloud="true">–– Ni retar mig, så jag blir varm om näsan! –– </said>fräste 
                         <lb/>Pomperipossa och stack näsan ner i sjön för 
                         <lb/>att svalka den.
                     </p>
@@ -430,7 +456,7 @@
                         <lb/>det hördes ända långt ner i Afrika.
                     </p>
                     <p>
-                        <lb/><said aloud="true">–– <hi rend="italic"/>Det<hi/> var det förfärligaste skrik i 
+                        <lb rend="indented"/><said aloud="true">–– <hi rend="italic"/>Det<hi/> var det förfärligaste skrik i 
                         <lb/>världen man kan tänka sig! –– </said>sade storken. 
                         <lb/>Och han sade sanning, ty ingen fågel kan 
                         <lb/>ljuga.
@@ -444,7 +470,7 @@
                         <lb/>ordnar och peruk och svärd och kragstöflar.
                     </p>
                     <p> 
-                        <lb/><said aloud="true">–– Hva’? Ah! Bra! –– </said>sade hofmar- 
+                        <lb rend="indented"/><said aloud="true">–– Hva’? Ah! Bra! –– </said>sade hofmar- 
                         <lb/>skalken och tog prins Pipi och prinsessan 
                         <lb/>Fifi, en i hvardera handen, och sprang med 
                         <lb/>dem, det värsta han orkade, genom skogen 
@@ -466,7 +492,7 @@
                         <signed><persName ref="a_engstrom">A.E.</persName></signed>
                     </figure>
                     <p>
-                        <lb/><said aloud="true">–– Na! –– </said>sade 
+                        <lb rend="indented"/><said aloud="true">–– Na! –– </said>sade 
                         <lb/>hofmarskalken lugnan- 
                         <lb/>de. Och kungen för- 
                         <lb/>stod genast, att hof- 
@@ -492,7 +518,7 @@
                         <lb/>du väl ändå inte?
                     </p>
 
-                    <ab><hi rend="italic"><persName ref="#a_wallengren">Axel Wallengren.</persName> </hi></ab>
+                    <byline><hi rend="italic"><persName ref="#a_wallengren">Axel Wallengren.</persName> </hi></byline>
                 </div>
             
                 <div type="/">
@@ -668,40 +694,40 @@
 
                 <!--markera upp rytm  -->
                 <div>
-                    <lg rend="italic">
+                    <lg rend="italic" rhyme="aabb">
                         <lg>
-                            <l>Gullgula julbullar mamma har bakat, </l>
-                            <l>mumsande småttingar »merigt» de smakat.</l>
-                            <l>Nu är där jublande festfröjd i kök –</l>
-                            <l>barnen få göra med julbak försök.</l>
+                            <l>Gullgula julbullar mamma har <rhyme label="a">bakat</rhyme>, </l>
+                            <l>mumsande småttingar »merigt» de <rhyme label="a">smakat</rhyme>.</l>
+                            <l>Nu är där jublande festfröjd i <rhyme label="b">kök</rhyme> –</l>
+                            <l>barnen få göra med julbak <rhyme label="b">försök</rhyme>.</l>
                         </lg>
 
                         <lg>
-                            <l>Flitiga flickskaran nu är i tagen –</l>
-                            <l>ärmen är opp öfver armbågen dragen. </l>
-                            <l>Sporre och kafle gnisslande gå – </l>
-                            <l>en får vid ugnen jämt passa på.</l>
+                            <l>Flitiga flickskaran nu är i <rhyme label="a">tagen</rhyme> –</l>
+                            <l>ärmen är opp öfver armbågen <rhyme label="a">dragen</rhyme>. </l>
+                            <l>Sporre och kafle gnisslande <rhyme label="b">gå</rhyme>– </l>
+                            <l>en får vid ugnen jämt passa <rhyme label="b">på</rhyme>.</l>
                         </lg>
 
                         <lg>
-                            <l>Glida vill duken, kring lockarna knuten, </l>
-                            <l>russin och mandel hällas ur struten;</l>
-                            <l>gubbe och gumma, kringla och gris</l>
-                            <l>formas ur degen på växlande vis.</l>
+                            <l>Glida vill duken, kring lockarna <rhyme label="a">knuten</rhyme>, </l>
+                            <l>russin och mandel hällas ur <rhyme label="a">struten</rhyme>;</l>
+                            <l>gubbe och gumma, kringla och <rhyme label="b">gris</rhyme></l>
+                            <l>formas ur degen på växlande <rhyme label="b">vis</rhyme>.</l>
                         </lg>
                 
                         <lg>
-                            <l>Lille-bror går där, en smula förlägen: </l>
-                            <l>jämt får han höra, att han är i vägen. </l>
-                            <l>Hästar blott bakar den ifrige pilt –</l>
-                            <l>mjöl uppå byxor och blus har han spillt.</l>
+                            <l>Lille-bror går där, en smula <rhyme label="a">förlägen</rhyme>: </l>
+                            <l>jämt får han höra, att han är <rhyme label="a">i vägen</rhyme>. </l>
+                            <l>Hästar blott bakar den ifrige <rhyme label="b">pilt</rhyme> –</l>
+                            <l>mjöl uppå byxor och blus har han <rhyme label="b">spillt</rhyme>.</l>
                         </lg>
 
                         <lg>
-                            <l>Lillan i tjusning händerna höjer –</l>
-                            <l>tycker, att julkvällen länge dock dröjer. </l>
-                            <l>Spara på kringlorna är, förstås, bra – </l>
-                            <l>helst hon dock strax ville varma dem ha.</l>
+                            <l>Lillan i tjusning händerna <rhyme label="a">höjer</rhyme> –</l>
+                            <l>tycker, att julkvällen länge dock <rhyme label="a">dröjer</rhyme>. </l>
+                            <l>Spara på kringlorna är, förstås, <rhyme label="b">bra</rhyme> – </l>
+                            <l>helst hon dock strax ville varma dem <rhyme label="b">ha</rhyme>.</l>
                         </lg>
                     </lg>
                     <byline><persName ref="#s_alvarsson"><hi rend="italic">Signe Alvarsson.</hi></persName></byline>
