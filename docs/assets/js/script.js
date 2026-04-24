@@ -9,7 +9,7 @@ document.querySelectorAll('.zoom-img').forEach(img => {
     const y = (e.clientY - rect.top) / rect.height * 100;
 
     this.style.transformOrigin = `${x}% ${y}%`;
-    this.style.transform = "scale(2)";
+    this.style.transform = "scale(3)";
   });
 
   img.addEventListener('mouseleave', function() {

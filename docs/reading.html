@@ -13,65 +13,82 @@
    </head>
    <body>
       <header>
-         <h1 class="header"><a href="index.html">Tummeliten, digitaliserad version av 1895 års utgåva</a></h1>
+         <h1 class="header"><a href="index.html">Tummeliten 1895</a></h1>
+         <h2 class="header">Digitaliserad version av 1895 års utgåva</h2>
       </header>
       <nav>
-         <a href="index.html">Hem</a>
-         <a href="diplomatic.html">Diplomatisk transkribering</a>
-         <a href="reading.html">Läsvy</a>
-         <a href="authors.html">Om författarna</a>
-         <a href="aboutproject.html">Om projektet</a>
+         <ul class="nav justify-content-center">
+            <li class="nav-item">
+               <a class="nav-link" href="index.html">Hem</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="diplomatic.html">Diplomatisk transkribering</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="reading.html">Läsvy</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="authors.html">Om författarna</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="aboutproject.html">Om projektet</a>
+            </li>
+         </ul>
       </nav>
       <main>
-         <div>
-            <div class="container">
-               <h1></h1>
-               <p>Presentation av innehållet</p>
+         <div class="container">
+            <div class="read_text_container">
+               <h2>Läsvy</h2>
+               <p>Här kan du läsa Tummeliten 1895:</p>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide container">
-               <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                     aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                     aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                     aria-label="Slide 3"></button>
+            <div class="carousel-container">
+               <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img src="/docs/assets/img/documents/Mobilkamera_01.jpeg" class="d-block w-100 zoom-img" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="/docs/assets/img/documents/Mobilkamera_02.jpeg" class="d-block w-100 zoom-img" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="/docs/assets/img/documents/Mobilkamera_03.jpeg" class="d-block w-100 zoom-img" alt="...">
+                     </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                  </button>
                </div>
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <img src="/docs/assets/img/documents/Mobilkamera_01.jpeg" class="d-block w-100 zoom-img" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="/docs/assets/img/documents/Mobilkamera_02.jpeg" class="d-block w-100 zoom-img" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="/docs/assets/img/documents/Mobilkamera_03.jpeg" class="d-block w-100 zoom-img" alt="...">
-                  </div>
-               </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-               </button>
             </div>
             
          </div>
       </main>
       <footer>
-      <div class="copyright_logos">
-         
-         <a class="copyright_link_container" href="https://creativecommons.org/licenses/by/4.0/legalcode"><img
-               src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License">
-               <img
-               src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International">
-         </a>
-      </div>
-      <div class="copyright_text">
-         2026. Tina Ericsson Ljungberg, Sara Danckwardt och Amanda Olsson
-      </div>
+         <div class="container text-center">
+            <div class="copyright_logos">
+               <a class="copyright_link_container" href="https://creativecommons.org/licenses/by/4.0/legalcode">
+                  <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License">
+                  <img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International">
+               </a>
+            </div>
+      
+            <div>
+               2026. Tina Ericsson Ljungberg, Sara Danckwardt och Amanda Olsson
+            </div>
+         </div>
+         </div>
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
       <script src="/docs/assets/js/script.js"></script>
