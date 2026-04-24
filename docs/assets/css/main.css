@@ -33,10 +33,12 @@ body {
     margin-bottom: 0px;
     color: var(--bgcolor);
     font-family: "Playfair", serif;
+    text-align: center;
 }
 
 .header h1 {
     font-size: 3rem;
+
 }
 
 .header h2 {
@@ -57,7 +59,7 @@ h1, h2, h3 {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
-    text-align: center;
+    /* text-align: center; */
     color: var(--darkblue);
 }
 
@@ -178,6 +180,8 @@ footer {
     font-size: 1.2rem;
 }
 
+/* om projektet styling */
+
 
 
 /* Läsvy styling */
@@ -187,7 +191,7 @@ footer {
 }
 
 .read_text_container {
-    max-width: 700px;
+    max-width: 700px; /* justera när riktiga bilderna på plats */
     margin: 0 auto;
 }
 
@@ -210,6 +214,10 @@ footer {
   .carousel-container {
     margin: 0 auto;
     width: 100%;
+    }
+
+    .about_project_container, .author_container, .reading_container, .footer_container {
+        padding: 1rem;
     }
 
 }
