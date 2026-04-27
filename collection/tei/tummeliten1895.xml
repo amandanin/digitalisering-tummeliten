@@ -27,7 +27,7 @@
                 <publisher>Högskolan i Borås</publisher>
                 <pubPlace>Borås</pubPlace>
                 <date>2026</date>
-                <availability status="free">
+                <availability status="restricted">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">
                         <p>Det digitala materialet är licenserat under Creative Commons Erkännande-Icke-Kommersiell 4.0 Internationell</p>
                     </licence>
@@ -175,8 +175,22 @@
                     <author>
                         <name xml:id="onkel_pompe">Onkel Pompe</name>
                     </author>
-                    
                 </bibl>
+                
+                <listBibl>
+                    <head>Sekundärkällor för verifiering av upphovspersoner</head>
+                    <bibl xml:id="svensk_lararetidning_45" type="journal">
+                        <title>Svensk läraretidning, nr 45</title>
+                        <date when="1895-11-06">6 november 1895</date>
+                        <ref target="https://runeberg.org/svlartid/1895/0596.html">Svensk läraretidning (1895), nr 45, sid 592 (via Projekt Runeberg)</ref>
+                    </bibl>
+                    <bibl xml:id="svensk_lararetidning_49" type="journal">
+                        <title>Svensk läraretidning, nr 49</title>
+                        <date when="1895-12-04">4 december 1895</date>
+                        <ref target="https://runeberg.org/svlartid/1895/0660.html">Svensk läraretidning (1895), nr 49, sid 656 (via Projekt Runeberg)</ref>
+                    </bibl>
+                </listBibl>
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
