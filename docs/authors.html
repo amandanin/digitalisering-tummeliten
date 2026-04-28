@@ -9,10 +9,11 @@
 
       Tummeliten 1895 - digital edition
    </title>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
    <link rel="stylesheet" href="assets/css/main.css">
-   <link rel="stylesheet" href="assets/css/desktop.css">
 </head>
 
 <body>
@@ -48,6 +49,7 @@
                   <p>Utgåva 1895 av Tummeliten är fylld av mer eller mindre kända författare och illustratörer, från den
                      mystiska signaturen Onkel P till Elsa Beskow då hon fortfarande var ogift. Här har vi för avsikt att
                      presentera illustratörerna och författarna lite närmare.</p>
+                  <p>Klicka på namnen nedan för mer information om upphovspersonerna.</p>
                </div>
             </div>
             <div class="col">
@@ -56,11 +58,24 @@
                </div>
             </div>
          </div>
-         <div>
+         <div class="author_list_container">
+            
             <h3>
-               Författare
-               illustratörer
+               Upphovspersoner
             </h3>
+            <ul>
+               <li><span id="author_name" onclick="toggleText()">Adelborg Ottilia</span>
+                  <p id="author_desc_text" class="hide_text open_author"><span class="italic">(1880-1920)</span><br/>
+                     Ottilla lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem
+                     placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar
+                     vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc
+                     posuere.<br/>
+                     <br/>
+                     <a href="" class="author_link">Se Ottilias bidrag <span class="author_link_arrow">&#10132; </span></a>
+                  </p>
+               </li>
+               <li><span id="author_name">Jenny Nyström</span></li>
+            </ul>
          </div>
          <div class="ref_container">
             <h4>Referenser:</h4>
@@ -79,20 +94,12 @@
             </div>
          
             <div>
-               2026. Tina Ericsson Ljungberg, Sara Danckwardt och Amanda Olsson
+               2026. Tina Ericsson Ljungberg, Sara Danckwardt &amp; Amanda Olsson
             </div>
-         </div>
       </div>
    </footer>
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   <script src="assets/js/script.js"></script>
 </body>
 
 </html>
