@@ -199,7 +199,7 @@ footer {
 }
 
 .author_list_container {
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .author_list_container ul {
@@ -302,18 +302,13 @@ footer {
     text-align: start;
 }
 
-.carousel-container {
-    max-width: 550px; /* Storlek på karusellen */
-    margin: 0 auto;
-}
-
-.carousel-item {
-    width: 550px; /* storlek på karusellen */
-}
-
 .carousel-item img {
     max-width: 100%;
-    height: 750px; /* är satt för att bilderna inte ska "hacka" när man swipear */
+    height: 760px; /*är satt för att bilderna inte ska "hacka" när man swipear */
+}
+
+.reading_spread_container{
+    padding-top: 2rem;
 }
 
 /* Media queries */
