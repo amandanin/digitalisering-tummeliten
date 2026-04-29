@@ -246,7 +246,7 @@
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
                 <!-- Pomperipossa -->
-                <div type="/"> 
+                <div type="story"> 
                     <head>
                         Sagan om Pomperipossa
                         <lb/>med
@@ -577,7 +577,7 @@
                         <lb/>Pipi och prinsessan Fifi hälften hvar af det stora riksäpplet.
                     </p>
                     <p>
-                        <lb rend="indented" />Men Pomperipossa förvandlades genast till en stor sten. 
+                        <lb rend="indented"/>Men Pomperipossa förvandlades genast till en stor sten. 
                         <lb/>Du kan själf se henne ännu, om du kommer till den där sjön, 
                         <lb/>fastän hon nu är så öfvervuxen af mossa och buskar, att hon 
                         <lb/>ser ut som ett litet berg. Men en gång om året, på samma 
@@ -593,7 +593,7 @@
                     <byline><hi rend="italic"><persName ref="#a_wallengren">Axel Wallengren.</persName> </hi></byline>
                 </div>
             
-                <div type="/">
+                <div type="pictureStory">
                     <figure>
                         <figDesc>Två barn sitter tillsammans med en korg bredvid sig. Det ena barnet håller i ett paraply.</figDesc>
                         <ab>
@@ -664,7 +664,7 @@
 
                 <cb n="1"/>
 
-                <div type="song">
+                <div type="poem" subtype="song">
                     <head type="main">Räf och höns.</head>
                     <lb/>
                     <head type="sub">Sånglek.</head>
@@ -679,21 +679,21 @@
                     </stage>
                     
                     <lg>
-                        <lg type="/">
+                        <lg>
                             <l>– Käre herr Räf, käre herr Räf,</l>
                             <l>hur står det till med eder?</l>
                             <l>– Inte så bra, inte så bra,</l>
                             <l>det värker i mina leder.</l>
                         </lg>
 
-                        <lg type="/">
+                        <lg>
                             <l>– Stackars herr Räf, stackars herr Räf, </l>
                             <l>värker det mycket illa?</l>
                             <l>– Ja, åtta dar, ja, åtta dar</l>
                             <l>jag måste nu vara stilla.</l>
                         </lg>
 
-                        <lg type="/">
+                        <lg>
                             <l>– Nu på herr Räf titta vi få,</l>
                             <l>nu han ej gör oss illa!</l>
                             <l>– Ja, kära små, kom, kära små,</l>
@@ -707,7 +707,7 @@
                         </stage>
                 
                         <cb n="2"/>
-                        <lg type="/">
+                        <lg>
                             <l>– Aj då, se där! Räfven far opp!</l> 
                             <l>Värken visst flytt hans leder! </l>
                             <l>– Hör hvilka rop! Se hvilka hopp!</l>
@@ -719,17 +719,18 @@
                             <lb/>dansa rundt omkring honom. Härunder sjunges:</hi>
                         </stage>
                 
-                        <lg type="/">
+                        <lg>
                             <l>– Räfven sig fick kycklingestek,</l> 
                             <l>nöjd han sig lägger neder. </l>
                             <l>– Tocken en lek, tocken en lek</l>
                             <l>just mjukar upp mina leder.</l>
                         </lg>
+                        
                         <stage><hi rend="italic">Har räfven icke lyckats fånga någon, lägger han sig ensam
                             <lb/>ned, och sista versen sjunges då sålunda:</hi>
                         </stage>
 
-                        <lg type="/">
+                        <lg>
                             <l>– Räfven ej fick kycklingestek,</l>
                             <l>lägger sig ledsen neder.</l>
                             <l>– Tocken en lek, tocken en lek</l>
@@ -765,7 +766,7 @@
                 </figure>
 
                 
-                <div type="">
+                <div type="poem">
                     <lg rend="italic" rhyme="aabb">
                         <lg>
                             <l>Gullgula julbullar mamma har <rhyme label="a">bakat</rhyme>, </l>
@@ -818,7 +819,7 @@
                     <fw type="pageNum" place="top-left">6</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
-                <div>
+                <div type="pictureStory">
                     <head>
                         Julkakan och vattensån
                         <lb/>eller
@@ -911,7 +912,7 @@
                     <byline><persName ref="onkel_pompe">ONKEL POMPE</persName>.</byline>
                 </div>
               
-                <div>
+                <div type="story">
                     <head>
                         Pojken och räfven
                     </head>
@@ -954,7 +955,7 @@
                     <fw type="pageNum" place="top-right">7</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
-                <div>
+                <div type="poem" subtype="song">
                     <cb n="1"/>
                     <head>
                         Jul=Visa.
@@ -1026,7 +1027,7 @@
                     </lg>
                     <byline><persName ref="snorre">SNORRE</persName>.</byline>
                 </div>
-                <div>
+                <div type="poem" subtype="languageExercise">
                     <head>Talöfning.</head>
                    <lg> 
                         <l>Min fru hade tre döttrar.</l>
@@ -1041,7 +1042,7 @@
                 </div>
                 <cb n="2"/>
                     
-                <div type="/">
+                <div type="pictureStory">
                     <head>Små spelorrar.</head>
                         
                     <figure facs="/" xml:id="ss1" next="ss2">
@@ -1091,11 +1092,13 @@
             <pb facs="/" n="8"/>
             <div>
                 <ab rend="handwritten">0750</ab>
-
+            </div>
+            
                 <figure>
                     <figDesc>I förgrunden står fem barn och en katt runt en vedspis och doppar i grytan. Bredvid grytan står också en katt. I bakgrunden sitter två vuxna vid ett bord och tittar på. </figDesc>
                     <signed><persName ref="#e_forsstrom">Forsström</persName></signed>
                 </figure>
+            <div type="poem">
                 <lg>
                     <lg rhyme="aabb">
                         <l><hi>U</hi>te de ljusa flingorna <rhyme label="a">falla</rhyme>;</l>
