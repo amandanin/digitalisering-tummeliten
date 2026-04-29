@@ -60,7 +60,7 @@ h1, h2, h3 {
     font-weight: 600;
     letter-spacing: 0.5px;
     /* text-align: center; */
-    color: var(--darkblue);
+    color: var(--darkblue); /*ändrar färgen på alla rubriker */
 }
 
 
@@ -99,7 +99,7 @@ nav {
     text-align: center;
     font-weight: 400;
     letter-spacing: 0.5px;
-    background-color: var(--darkblue);
+    background-color: var(--darkblue); /*ändrar bakgrundsfärg på navigation */
 }
 
 .nav-item a, .nav-item a:hover {
