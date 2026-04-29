@@ -168,7 +168,7 @@
         <body>
             <!-- Sida 2 -->
             <pb facs="/" n="2" />
-            <div n="2">
+            <div type="page" n="2">
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-left">2</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
@@ -438,7 +438,7 @@
                     </p>
                     <p>
                         <lb rend="indented"/>Men se, <emph><hi rend="italic"> det</hi></emph> skulle hon aldrig ha gjort. 
-                        <lb rend="idented"/>För nere i sjön var det en stor kräfta, 
+                        <lb rend="indented"/>För nere i sjön var det en stor kräfta, 
                         <lb/>som inte hade fått middag på tre dagar. Och 
                         <lb/>den kräftan knep sig fast med sina stora klor
 
@@ -689,11 +689,11 @@
                 
                 <figure>
                     <figDesc>Sju barn i olika åldrar bakar tillsammans vid ett stort bord.</figDesc>
-                    <ab>JULBAK.</ab> <byline>Teckning för Jultomten af <hi rend="italic"><persName ref="#j_nystrom">Jenny Nyström.</persName></hi></byline>
+                    <head>JULBAK.</head> <byline>Teckning för Jultomten af <hi rend="italic"><persName ref="#j_nystrom">Jenny Nyström.</persName></hi></byline>
                 </figure>
 
-                <!--markera upp rytm  -->
-                <div>
+                
+                <div type="">
                     <lg rend="italic" rhyme="aabb">
                         <lg>
                             <l>Gullgula julbullar mamma har <rhyme label="a">bakat</rhyme>, </l>
