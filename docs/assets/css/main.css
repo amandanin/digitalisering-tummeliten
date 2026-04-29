@@ -22,7 +22,7 @@
 
 body {
 	padding: 1vw;
-    font-family: 'Open Sans', serif;
+    font-family: 'Open Sans', serif; /* ändrar typsnitt på paragraftext*/
 	font-weight: 400;
     width: 100%;
     margin: 0px;
@@ -36,7 +36,7 @@ body {
     padding-top: 1.2rem;
     margin-bottom: 0px;
     color: var(--bgcolor);
-    font-family: "Playfair", serif;
+    font-family: "Playfair", serif; /* ändrar typsnitt på titeln */
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ body {
 .header a {
     color: var(--bgcolor);
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 4rem; /* ändrar storlek på rubriken "Tummeliten 1895" */
 }
 
 .header a:hover {
@@ -151,7 +151,7 @@ nav {
 /* Footer styling */
 footer {
     background-color: var(--darkblue);
-    color: var(--bgcolor);
+    color: var(--bgcolor); /* ändrar färg på textfärg i footer */
 }
 
 .copyright {
