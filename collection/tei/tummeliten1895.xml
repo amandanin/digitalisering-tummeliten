@@ -213,13 +213,36 @@
         </profileDesc>
     </teiHeader>
     
-    
     <facsimile>
-        
+        <surface xml:id="tummeliten_01">
+            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-01.tif"/>
+        </surface>
+        <surface xml:id="tummeliten_02">
+            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-02.tif"/>
+        </surface>
+        <surface xml:id="tummeliten_03">
+            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-03.tif"/>
+        </surface>
+        <surface xml:id="tummeliten_04">
+            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-04.tif"/>
+        </surface>
+        <surface xml:id="tummeliten_05">
+            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-05.tif"/>
+        </surface>
+        <surface xml:id="tummeliten_06">
+            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-06.tif"/>
+        </surface>
+        <surface xml:id="tummeliten_07">
+            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-07.tif"/>
+        </surface>
+        <surface xml:id="tummeliten_08">
+            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-08.tif"/>
+        </surface>
     </facsimile>
+    
     <text>
         <front>
-            <pb facs="/" n="1" />
+            <pb facs="#tummeliten_01" n="1" />
             <figure>
                 <figDesc>
                     Sju barn spelar musik tillsammans. En av dem bär en hög hatt och en annan lockar på en katt. I taket hänger lampor i varierande storlek. 
@@ -239,7 +262,7 @@
         </front>
         <body>
             <!-- Sida 2 -->
-            <pb facs="/" n="2" />
+            <pb facs="#tummeliten_02" n="2" />
             <div type="page" n="2">
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-left">2</fw>
@@ -449,7 +472,7 @@
             </div>
 
             <!-- Sida 3 -->
-            <pb facs="/" n="3"/>
+            <pb facs="#tummeliten_03" n="3"/>
             <div n="3">    
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-right">3</fw>
@@ -655,7 +678,7 @@
             </div>
 
             <!-- Sida 4-->
-            <pb facs="/" n="4"/>
+            <pb facs="#tummeliten_04" n="4"/>
             <div n="4"> 
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-left">4</fw>
@@ -753,7 +776,7 @@
             </div>    
   
             <!-- Sida 5 -->
-            <pb facs="/" n="5"/>
+            <pb facs="#tummeliten_05" n="5"/>
             <div n="5">   
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-right">5</fw>
@@ -813,7 +836,7 @@
             </div>    
         
             <!-- Sida 6 -->
-            <pb facs="/" n="6"/>
+            <pb facs="#tummeliten_06" n="6"/>
             <div n="6">    
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-left">6</fw>
@@ -948,7 +971,7 @@
             </div>   
 
             <!-- Sida 7 -->
-            <pb facs="/" n="7"/>
+            <pb facs="#tummeliten_07" n="7"/>
             <div n="7">
     
                 <div type="pageHeader">
@@ -1089,7 +1112,7 @@
             </div>
             
             <!-- Sida 8 -->
-            <pb facs="/" n="8"/>
+            <pb facs="#tummeliten_08" n="8"/>
             <div>
                 <ab rend="handwritten">0750</ab>
             </div>
