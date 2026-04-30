@@ -215,31 +215,31 @@
     
     <facsimile>
         <surface xml:id="tummeliten_01">
-            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-01.tif"/>
+            <graphic url="../img/L-Tummeliten-1895-sida-01.tif"/>
         </surface>
         <surface xml:id="tummeliten_02">
-            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-02.tif"/>
+            <graphic url="../img/L-Tummeliten-1895-sida-02.tif"/>
         </surface>
         <surface xml:id="tummeliten_03">
-            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-03.tif"/>
+            <graphic url="../img/L-Tummeliten-1895-sida-03.tif"/>
         </surface>
         <surface xml:id="tummeliten_04">
-            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-04.tif"/>
+            <graphic url="../img/L-Tummeliten-1895-sida-04.tif"/>
         </surface>
         <surface xml:id="tummeliten_05">
-            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-05.tif"/>
+            <graphic url="../img/L-Tummeliten-1895-sida-05.tif"/>
         </surface>
         <surface xml:id="tummeliten_06">
-            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-06.tif"/>
+            <graphic url="../img/L-Tummeliten-1895-sida-06.tif"/>
         </surface>
         <surface xml:id="tummeliten_07">
-            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-07.tif"/>
+            <graphic url="../img/L-Tummeliten-1895-sida-07.tif"/>
         </surface>
         <surface xml:id="tummeliten_08">
-            <graphic url="../img/collection/img/L-Tummeliten-1895-sida-08.tif"/>
+            <graphic url="../img/L-Tummeliten-1895-sida-08.tif"/>
         </surface>
     </facsimile>
-    
+
     <text>
         <front>
             <pb facs="#tummeliten_01" n="1" />
