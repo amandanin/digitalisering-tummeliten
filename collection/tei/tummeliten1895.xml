@@ -57,6 +57,7 @@
                         <persName xml:id="a_wallengren" ref="https://libris.kb.se/dbqspmvx0kvm6b5#it">
                             <surname>Wallengren</surname>
                             <forename>Axel</forename>
+                            <addName type="pseudonym">Falstaff, fakir</addName>
                         </persName>                     
                     </author>
                     
@@ -65,7 +66,7 @@
                             <surname>Roos</surname>
                             <forename>Anna</forename>
                             <forename>Maria</forename>
-                            <name type="pseudonym">Alfvaro</name>
+                            <roleName type="pseudonym">Alfvaro</roleName>
                         </persName>
                     </author>
                     
@@ -80,7 +81,7 @@
                         <persName xml:id="s_alvarsson" ref="https://libris.kb.se/khwz1l432ldkznl#it">
                             <surname>Wranér</surname>
                             <forename>Signe</forename>
-                            <name type="pseudonym">Signe Alvarsson</name>
+                            <roleName type="pseudonym">Signe Alvarsson</roleName>
                         </persName>
                     </author>
                     
@@ -169,11 +170,11 @@
                     </respStmt>
                     
                     <author>
-                        <name xml:id="snorre">Snorre</name>
+                        <name xml:id="snorre" type="pseudonym">Snorre</name>
                     </author>
                     
                     <author>
-                        <name xml:id="onkel_pompe">Onkel Pompe</name>
+                        <name xml:id="onkel_pompe" type="pseudonym">Onkel Pompe</name>
                     </author>
                 </bibl>
                 
@@ -248,7 +249,7 @@
                     Sju barn spelar musik tillsammans. En av dem bär en hög hatt och en annan lockar på en katt. I taket hänger lampor i varierande storlek. 
                 </figDesc>
                 <signed>
-                    <persName ref="a_engstrom">Albert Engström</persName>
+                    <persName ref="#a_engstrom">Albert Engström</persName>
                 </signed>
             </figure>
             <docTitle>
@@ -285,7 +286,7 @@
                     <cb n="1"/>
 
                     <p>
-                        <hi>D</hi>et var en gång för många, många tusen år se’n en för- 
+                        <hi rend="initial">D</hi>et var en gång för många, många tusen år se’n en för- 
                         <lb/>färligt gammal trollpacka, som hette Pomperipossa. Det 
                         <lb/>är icke precis något vackert namn, men ändå är det 
                         <lb/>bra mycket vackrare, än hvad hon själf var. Kan ni tänka er, 
@@ -296,7 +297,7 @@
                         <lb/>er, hur mycket snus, som gick åt, när hon snusade! Ett helt 
                         <lb/>skålpund åt gången!! 
                     </p>
-                    <figure>
+                    <figure resp="#a_engstrom">
                         <figDesc>Ett enplanshus omgivet av skog. På taket sitter en svart fågel.</figDesc>
                     </figure>
                     <p>
@@ -338,9 +339,8 @@
                         <said aloud="true" rend="indented">–– Ah! </said> sade hofmar- 
                         <lb/>skalken och följde med dem. 
                     </p>
-                    <figure>
+                    <figure resp="#a_engstrom">
                         <figDesc>Hofmarskalken, prins Pipi och prinsessan Fifi.</figDesc>
-                        <!-- Koppla ihop med illustratören? -->
                     </figure>
                     <p>
                         <lb rend="indented"/>Efter en stund kommo 
@@ -405,9 +405,8 @@
                         <lb/>förskräckta.
                     </p>
 
-                    <figure>
+                    <figure resp="#a_engstrom">
                         <figDesc>Pomperipossa står med händerna i luften, som att hon trollar, och framför henne står två vita gäss. I bakgrunden skymtar några träd.</figDesc>
-                    <!-- Koppla ihop med illustratör? -->
                     </figure>
 
                     <p>    
@@ -464,9 +463,8 @@
                         <lb/>ett prassel bakom sig 
                         <lb/>i skogen och vände
                     </p>
-                    <figure>
+                    <figure resp="#a_engstrom">
                         <figDesc>I en sjö simmar två vita fåglar. Pomperipossa står och tittar på dem, stödd på sin långa näsa. Hofmarsalken står bakom henne.</figDesc>
-                    <!-- Koppla ihop med illustratören? -->
                     </figure>
                 </div>
             </div>
@@ -481,10 +479,9 @@
                 
                 <div>
                     <cb n="1" />
-                    <figure>
+                    <figure resp="#a_engstrom">
                         <figDesc>
                             Pomperipossa står vid stranden av en sjö med ena handen i luften. Hon lutar sig mot sin långa näsa. Framför henne står en svart fågel. I bakgrunden, i sjön, kan man se de två vita fåglarna.
-                        <!-- Koppla ihop med illustratören? -->
                         </figDesc>
                     </figure>
                     <p>
@@ -537,7 +534,7 @@
                         <lb/>som inte hade fått middag på tre dagar. Och 
                         <lb/>den kräftan knep sig fast med sina stora klor
 
-                        <figure>
+                        <figure resp="#a_engstrom">
                             <figDesc>En stor kräfta har knipit tag längst ut på Pomperipossas långa näsa. Pomperipossa skriker.</figDesc>
                         </figure>
 
@@ -617,7 +614,7 @@
                 </div>
             
                 <div type="pictureStory">
-                    <figure>
+                    <figure resp="#o_adelborg">
                         <figDesc>Två barn sitter tillsammans med en korg bredvid sig. Det ena barnet håller i ett paraply.</figDesc>
                         <ab>
                             1.
@@ -625,29 +622,26 @@
                             <lb/> till
                             <lb/>Amerika!
                         </ab>
-                        <!-- Länka till illustratör -->
                     </figure>
 
-                    <figure>
+                    <figure resp="#o_adelborg">
                         <figDesc>De två barnen sitter tillsammans och äter någon sorts mat. Paraplyet ligger ihopfällt bredvid dem. </figDesc>
                         <ab>
                             2
                             <lb/>Nu äter vi!
                         </ab>
-                        <!-- Länka till illustratör -->
                     </figure>
                 
-                    <figure>
+                    <figure resp="#o_adelborg">
                         <figDesc>De två barnen sitter tillsammans. Barnet till vänster håller sig på magen, och barnet till höger har fällt ut paraplyet.</figDesc>
                         <ab>
                             3.
                             <lb/>Nu blåser det
                             <lb/>det!
                         </ab>
-                        <!-- Länka till illustratör -->
                     </figure>
 
-                    <figure>
+                    <figure resp="#o_adelborg">
                         <figDesc>De två barnen lutar sig mot varandra. Barnet till vänster blundar.</figDesc>
                         <ab>
                             Nu är det
@@ -657,7 +651,6 @@
                         <ab>
                             <lb/>Nu sofver vi!
                         </ab>
-                        <!-- Länka till illustratör -->
                     </figure>
 
                     <figure>
@@ -665,11 +658,9 @@
                         <ab>
                         Nu ä vi framme!
                         <lb/>
-                        <!-- Unreadable hitta tag till -->
-                        6
+                            <unclear reason="illegible"/> 6.
                         </ab>
-                        <!-- Länka till illustratör -->
-                        <signed><persName ref="#o_adelborg">O Adelborg </persName></signed>
+                        <signed><persName ref="#o_adelborg">O Adelborg</persName></signed>
                     </figure>
 
                     <ab>RESAN TILL AMERIKA.</ab><byline> Teckningar af <hi rend="italic"><persName ref="#o_adelborg">Ottilia Adelborg.</persName></hi></byline>
@@ -771,7 +762,9 @@
                 <div>
                     <ab rend="italic">Lifligt.</ab> 
                     <byline><hi rend="italic">Musik af <persName ref="#e_kohler">Emmy Köhler </persName></hi></byline>
-                    <!-- Lägg till NOTMARKERING HÄR -->
+                    <figure>
+                        <figDesc>Noter till "Räf och höns".</figDesc>
+                    </figure>
                 </div>
             </div>    
   
@@ -783,11 +776,10 @@
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
                 
-                <figure>
+                <figure resp="#j_nystrom">
                     <figDesc>Sju barn i olika åldrar bakar tillsammans vid ett stort bord.</figDesc>
                     <head>JULBAK.</head> <byline>Teckning för Jultomten af <hi rend="italic"><persName ref="#j_nystrom">Jenny Nyström.</persName></hi></byline>
                 </figure>
-
                 
                 <div type="poem">
                     <lg rend="italic" rhyme="aabb">
@@ -852,7 +844,7 @@
                     <cb n="1"/>
                     
                     <div>
-                        <figure>
+                        <figure resp="#ce_torner">
                             <figDesc>
                                 Per och Lisa står och pratar tillsammans.
                             </figDesc>
@@ -869,7 +861,7 @@
                     <cb n="2"/>
                     
                     <div>
-                        <figure>
+                        <figure resp="#ce_torner">
                             <figDesc>
                                 Per släpar på en gran i förgrunden, och i bakgrunden syns Lisa som står på en stol och sträcker sig efter en tallrik (?).
                             </figDesc>
@@ -885,7 +877,7 @@
                     </div>
                     <cb n="3"/>
                     <div>
-                        <figure>
+                        <figure resp="#ce_torner">
                             <figDesc>
                                 En person, Kajsa, kommer gäspande nedför trappan med ett ljus i handen. Det ligger en sopkvast tvärsöver trappan och framför den står en skurhink.
                             </figDesc>
@@ -901,7 +893,7 @@
                     </div>
                     <cb n="1"/>
                     <div>
-                        <figure>
+                        <figure resp="#ce_torner">
                             <figDesc>
                                 Kajsa snubblar på sopkvasten och faller med huvudet före ner i skurhinken.
                             </figDesc>
@@ -917,7 +909,7 @@
                     </div>
                     <cb n="2"/>
                     <div>
-                        <figure>
+                        <figure resp="#ce_torner">
                             <figDesc>
                                 Kajsa ramlar in i köket där någon har skrivit "GOD JUL KAJSA LILLA" med diverse köksredskap och mat. Per och Lisa sitter gömda i en kista, och bara deras huvuden sticker upp.
                             </figDesc>
@@ -932,7 +924,7 @@
                             <l> Hoppsansa! Hvad säges <rhyme label="b">om’et</rhyme></l>
                         </lg>
                     </div>
-                    <byline><persName ref="onkel_pompe">ONKEL POMPE</persName>.</byline>
+                    <byline><persName ref="#onkel_pompe">ONKEL POMPE</persName>.</byline>
                 </div>
               
                 <div type="story">
@@ -941,7 +933,7 @@
                     </head>
                     <cb n="1"/>
                     <p>
-                    <hi>D</hi>et var en gång en pojkbyting, som hade fått lof att gå
+                    <hi rend="initial">D</hi>et var en gång en pojkbyting, som hade fått lof att gå
                     <lb/>till kyrkan, och så tog han genvägen öfver åkrarna
                     <lb/>uppåt gärdesbacken. Där låg räfven på en sten af kattgull,
                     <lb/>som lyste så rart i solskenet, och han såg inte pojken, för
@@ -985,7 +977,7 @@
                     </head>
                     <lg rend="italic" rhyme="aabba">
                         <lg>
-                            <l><hi>S</hi>nart slutar terminen, och skollof vi <rhyme label="a">få</rhyme>,</l>
+                            <l><hi rend="initial">S</hi>nart slutar terminen, och skollof vi <rhyme label="a">få</rhyme>,</l>
                             <l>och julstöket börjar, och vi få se <rhyme label="a">på</rhyme>.</l>
                             <l rend="indented">I spiseln skall <rhyme label="b">spraka</rhyme>,</l>
                             <l rend="indented">och mamma skall <rhyme label="b">baka</rhyme></l>
@@ -1048,7 +1040,7 @@
                             <l>till julottan fara, fast vägen är <rhyme label="a">lång</rhyme>.</l>
                         </lg>
                     </lg>
-                    <byline><persName ref="snorre">SNORRE</persName>.</byline>
+                    <byline><persName ref="#snorre">SNORRE</persName>.</byline>
                 </div>
                 <div type="poem" subtype="languageExercise">
                     <head>Talöfning.</head>
@@ -1068,40 +1060,40 @@
                 <div type="pictureStory">
                     <head>Små spelorrar.</head>
                         
-                    <figure facs="/" xml:id="ss1" next="ss2">
+                    <figure facs="/" resp="#e_hedberg" xml:id="ss1" next="ss2">
                         <ab>Johan spelar med Per om knappar.</ab>
                     </figure>
                         
-                    <figure facs="/" xml:id="ss2" next="ss3" prev="ss1">
+                    <figure facs="/" resp="#e_hedberg" xml:id="ss2" next="ss3" prev="ss1">
                         <ab>Johan vinner och Pelle tappar.</ab>
                     </figure>
                         
-                    <figure facs="/" xml:id="ss3" next="ss4" prev="ss2">
+                    <figure facs="/" resp="#e_hedberg" xml:id="ss3" next="ss4" prev="ss2">
                         <ab>Johan högtals med knappar har,
                         <lb/>ej ens i jackan Per dem har kvar.</ab>
                     </figure>
         
-                    <figure facs="/" xml:id="ss4" next="ss5" prev="ss3">
+                    <figure facs="/" resp="#e_hedberg" xml:id="ss4" next="ss5" prev="ss3">
                         <ab>Johan skrattar och Pelle gråter;
                         <lb/>sin förlust får ej stackar’n åter</ab>
                     </figure>
                         
-                    <figure facs="/" xml:id="ss5" next="ss6" prev="ss4">
+                    <figure facs="/" resp="#e_hedberg" xml:id="ss5" next="ss6" prev="ss4">
                         <ab>Den skrattar bäst dock, som skrattar sist,
                         <lb/>ty moster Anna nu kom – förvisst.</ab>
                     </figure>
                         
-                    <figure facs="/" xml:id="ss6" next="ss7" prev="ss5">
+                    <figure facs="/" resp="#e_hedberg" xml:id="ss6" next="ss7" prev="ss5">
                         <ab>Hon reda tog uppå hela saken,
                         <lb/>och Johan fick, så det sved på baken.</ab>
                     </figure>
                            
-                    <figure facs="/" xml:id="ss7" next="ss8" prev="ss6">
+                    <figure facs="/" resp="#e_hedberg" xml:id="ss7" next="ss8" prev="ss6">
                         <ab> Nog Pelle lofva »så mer ej göra»
                         <lb/> men fick sig ändå ett nyp i öra’.</ab>
                     </figure>    
                          
-                    <figure facs="/" xml:id="ss8" prev="ss7">
+                    <figure facs="/" resp="#e_hedberg" xml:id="ss8" prev="ss7">
                         <ab> På ändan illa det går, du finner,
                         <lb/>för den, som spelar, om ock han vinner. </ab>
                     </figure>
@@ -1117,14 +1109,14 @@
                 <ab rend="handwritten">0750</ab>
             </div>
             
-                <figure>
+                <figure resp="#e_forsstrom">
                     <figDesc>I förgrunden står fem barn och en katt runt en vedspis och doppar i grytan. Bredvid grytan står också en katt. I bakgrunden sitter två vuxna vid ett bord och tittar på. </figDesc>
                     <signed><persName ref="#e_forsstrom">Forsström</persName></signed>
                 </figure>
             <div type="poem">
                 <lg>
                     <lg rhyme="aabb">
-                        <l><hi>U</hi>te de ljusa flingorna <rhyme label="a">falla</rhyme>;</l>
+                        <l><hi rend="initial">U</hi>te de ljusa flingorna <rhyme label="a">falla</rhyme>;</l>
                         <l>se, hur de hvitna, gårdarna <rhyme label="a">alla</rhyme>,</l>
                         <l>doftande lador och stackar och <rhyme label="b">skjul</rhyme>.</l>
                         <l>Snöhvit skall jorden varda till <rhyme label="b">jul</rhyme>.</l>
