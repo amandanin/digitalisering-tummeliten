@@ -37,7 +37,7 @@
                             <a class="nav-link" href="reading.html">Läsvy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="authors.html">Om författarna</a>
+                            <a class="nav-link"  href="authors.html">Författare &amp; illustratörer</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="aboutproject.html">Om projektet</a>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:div[@type='page']">
+                        <xsl:for-each select="//tei:pb">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
                             <div class="row">
