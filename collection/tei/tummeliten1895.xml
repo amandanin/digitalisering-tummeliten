@@ -216,34 +216,35 @@
     
     <facsimile>
         <surface xml:id="tummeliten_01">
-            <graphic url="/assets/img/documents/Tummeliten-1895-01.jpg"/>
+            <graphic url="assets/img/documents/Tummeliten-1895-sida-01.jpg"/>
         </surface>
         <surface xml:id="tummeliten_02">
-            <graphic url="/assets/img/documents/Tummeliten-1895-02.jpg"/>
+            <graphic url="assets/img/documents/Tummeliten-1895-sida-02.jpg"/>
         </surface>
         <surface xml:id="tummeliten_03">
-            <graphic url="/assets/img/documents/Tummeliten-1895-03.jpg"/>
+            <graphic url="assets/img/documents/Tummeliten-1895-sida-03.jpg"/>
         </surface>
         <surface xml:id="tummeliten_04">
-            <graphic url="/assets/img/documents/Tummeliten-1895-04.jpg"/>
+            <graphic url="assets/img/documents/Tummeliten-1895-sida-04.jpg"/>
         </surface>
         <surface xml:id="tummeliten_05">
-            <graphic url="/assets/img/documents/Tummeliten-1895-05.jpg"/>
+            <graphic url="assets/img/documents/Tummeliten-1895-sida-05.jpg"/>
         </surface>
         <surface xml:id="tummeliten_06">
-            <graphic url="/assets/img/documents/Tummeliten-1895-06.jpg"/>
+            <graphic url="assets/img/documents/Tummeliten-1895-sida-06.jpg"/>
         </surface>
         <surface xml:id="tummeliten_07">
-            <graphic url="/assets/img/documents/Tummeliten-1895-07.jpg"/>
+            <graphic url="assets/img/documents/Tummeliten-1895-sida-07.jpg"/>
         </surface>
         <surface xml:id="tummeliten_08">
-            <graphic url="/assets/img/documents/Tummeliten-1895-08.jpg"/>
+            <graphic url="assets/img/documents/Tummeliten-1895-sida-08.jpg"/>
         </surface>
     </facsimile>
 
     <text>
-        <front>
+        <front facs="#tummeliten_01">
             <pb facs="#tummeliten_01" n="1" />
+            
             <figure>
                 <figDesc>
                     Sju barn spelar musik tillsammans. En av dem bär en hög hatt och en annan lockar på en katt. I taket hänger lampor i varierande storlek. 
@@ -264,7 +265,7 @@
         <body>
             <!-- Sida 2 -->
             <pb facs="#tummeliten_02" n="2" />
-            <div type="page" n="2">
+            <div type="page" facs="#tummeliten_02" n="2">
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-left">2</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
@@ -471,7 +472,7 @@
 
             <!-- Sida 3 -->
             <pb facs="#tummeliten_03" n="3"/>
-            <div n="3">    
+            <div type="page" n="3" facs="#tummeliten_03">    
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-right">3</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
@@ -670,7 +671,7 @@
 
             <!-- Sida 4-->
             <pb facs="#tummeliten_04" n="4"/>
-            <div n="4"> 
+            <div type="page" facs="#tummeliten_04" n="4"> 
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-left">4</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
@@ -770,7 +771,7 @@
   
             <!-- Sida 5 -->
             <pb facs="#tummeliten_05" n="5"/>
-            <div n="5">   
+            <div type="page" facs="#tummeliten_05" n="5">   
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-right">5</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
@@ -829,7 +830,7 @@
         
             <!-- Sida 6 -->
             <pb facs="#tummeliten_06" n="6"/>
-            <div n="6">    
+            <div type="page" facs="#tummeliten_06" n="6">    
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-left">6</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
@@ -964,7 +965,7 @@
 
             <!-- Sida 7 -->
             <pb facs="#tummeliten_07" n="7"/>
-            <div n="7">
+            <div type="page" facs="#tummeliten_07" n="7">
     
                 <div type="pageHeader">
                     <fw type="pageNum" place="top-right">7</fw>
@@ -1105,43 +1106,45 @@
             
             <!-- Sida 8 -->
             <pb facs="#tummeliten_08" n="8"/>
-            <div>
-                <ab rend="handwritten">0750</ab>
-            </div>
-            
+            <div type="page" n="8" facs="#tummeliten_08">
+                <div>
+                    <ab rend="handwritten">0750</ab>
+                </div>
+                
                 <figure resp="#e_forsstrom">
                     <figDesc>I förgrunden står fem barn och en katt runt en vedspis och doppar i grytan. Bredvid grytan står också en katt. I bakgrunden sitter två vuxna vid ett bord och tittar på. </figDesc>
                     <signed><persName ref="#e_forsstrom">Forsström</persName></signed>
                 </figure>
-            <div type="poem">
-                <lg>
-                    <lg rhyme="aabb">
-                        <l><hi rend="initial">U</hi>te de ljusa flingorna <rhyme label="a">falla</rhyme>;</l>
-                        <l>se, hur de hvitna, gårdarna <rhyme label="a">alla</rhyme>,</l>
-                        <l>doftande lador och stackar och <rhyme label="b">skjul</rhyme>.</l>
-                        <l>Snöhvit skall jorden varda till <rhyme label="b">jul</rhyme>.</l>
-                    </lg>
+                <div type="poem">
                     <lg>
-                        <l>Inne är fejadt och fint och <rhyme label="a">enadt</rhyme>,</l>
-                        <l>allt är så kärligt, hjärteligt <rhyme label="a">menadt</rhyme>.</l>
-                        <l>Doppa i grytan är bäst dock af <rhyme label="b">allt</rhyme>,</l>
-                        <l>medan därute är bistert och <rhyme label="b">kallt</rhyme>.</l>
-                    </lg>
-                    <lg>
-                        <l>Gårds-katt får komma med, om han <rhyme label="a">bara</rhyme></l>
-                        <l>låter i fred de små mössen <rhyme label="a">vara</rhyme>,</l>
-                        <l>att de må trifvas i <rhyme label="b">julenatt</rhyme>,</l>
-                        <l>spisa i ro, hvad godt de få <rhyme label="b">fatt</rhyme>.</l>
-                    </lg>
-                    <lg>
-                        <l>När för små barnen, mätta och <rhyme label="a">glada</rhyme>,</l>
-                        <l>drömmar i skenet af grenljus sig <rhyme label="a">bada</rhyme>,</l>
-                        <l>vare i snöhvita lador och <rhyme label="b">skjul</rhyme></l>
-                        <l>äfven en fridsam, hugnerik <rhyme label="b">jul</rhyme>!</l>
+                        <lg rhyme="aabb">
+                            <l><hi rend="initial">U</hi>te de ljusa flingorna <rhyme label="a">falla</rhyme>;</l>
+                            <l>se, hur de hvitna, gårdarna <rhyme label="a">alla</rhyme>,</l>
+                            <l>doftande lador och stackar och <rhyme label="b">skjul</rhyme>.</l>
+                            <l>Snöhvit skall jorden varda till <rhyme label="b">jul</rhyme>.</l>
+                        </lg>
+                        <lg>
+                            <l>Inne är fejadt och fint och <rhyme label="a">enadt</rhyme>,</l>
+                            <l>allt är så kärligt, hjärteligt <rhyme label="a">menadt</rhyme>.</l>
+                            <l>Doppa i grytan är bäst dock af <rhyme label="b">allt</rhyme>,</l>
+                            <l>medan därute är bistert och <rhyme label="b">kallt</rhyme>.</l>
+                        </lg>
+                        <lg>
+                            <l>Gårds-katt får komma med, om han <rhyme label="a">bara</rhyme></l>
+                            <l>låter i fred de små mössen <rhyme label="a">vara</rhyme>,</l>
+                            <l>att de må trifvas i <rhyme label="b">julenatt</rhyme>,</l>
+                            <l>spisa i ro, hvad godt de få <rhyme label="b">fatt</rhyme>.</l>
+                        </lg>
+                        <lg>
+                            <l>När för små barnen, mätta och <rhyme label="a">glada</rhyme>,</l>
+                            <l>drömmar i skenet af grenljus sig <rhyme label="a">bada</rhyme>,</l>
+                            <l>vare i snöhvita lador och <rhyme label="b">skjul</rhyme></l>
+                            <l>äfven en fridsam, hugnerik <rhyme label="b">jul</rhyme>!</l>
                         </lg>
                     </lg>   
                     <byline><persName ref="#au_baath"><hi rend="italic">A. U. BÅÅTH.</hi></persName>.</byline>
-            </div>
+                </div>
+            </div>    
         </body>
         <back>
             <div type="colophon">

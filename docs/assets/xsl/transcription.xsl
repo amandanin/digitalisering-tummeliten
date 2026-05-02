@@ -10,9 +10,7 @@
         <html lang="en" xml:lang="en">
             <head>
                 <title>
-                    <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab-->
-                    DCHM Template: Diplomatic View
+                    Tummeliten 1895 - Diplomatisk transkribering
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
@@ -58,10 +56,42 @@
                                 <h3>Diplomatisk transkribering</h3>
                             </div>
                         </div>
-                        <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:pb">
+                        <xsl:for-each select="//tei:front">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
+                            
+                            <div class="row">
+                                <!-- fill the first column with this page's image -->
+                                <div class="col-sm">
+                                    <article>
+                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                        <img class="img-full">
+                                           
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:graphic/@url"/>
+                                            </xsl:attribute>
+                                            <!-- <xsl:attribute name="title">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute> -->
+                                        </img>
+                                    </article>
+                                </div>
+                                <div class='col-sm'>
+                                    <article class="transcription">
+                                            <xsl:apply-templates/>                                      
+                                    </article>
+                                </div>
+                            </div>
+                        </xsl:for-each>
+                        
+                        <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
+                        <xsl:for-each select="//tei:div[@type='page']">
+                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
+                            <xsl:variable name="facs" select="@facs"/>
+                            
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
@@ -82,14 +112,14 @@
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:graphic/@url"/>
                                             </xsl:attribute>
-                                            <xsl:attribute name="title">
+                                            <!-- <xsl:attribute name="title">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
+                                            </xsl:attribute> -->
                                         </img>
                                     </article>
                                 </div>
@@ -101,7 +131,50 @@
                                 </div>
                             </div>
                         </xsl:for-each>
-                        </div>
+                        <xsl:for-each select="//tei:div[@type='colophon']">
+                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
+                            <!-- <xsl:variable name="facs" select="@facs"/> -->
+                            
+                            <div class="row">
+                                <!-- fill the first column with this page's image -->
+                                <div class="col-sm">
+                                    <article>
+                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                        <!-- <img class="img-full"> -->
+                                            <!-- give this HTML <img> attribute three more attributes:
+                                                    @src to locate the image file
+                                                    @title for a mouse-over effect
+                                                    @alt for alternative text (in case the image fails to load, 
+                                                        and so people with a visual impairment can still understant what the image displays 
+                                                  
+                                                  in the XPath expressions below, we use the variable $facs (declared above) 
+                                                        so we can use this page's @facs element with to find the corresponding <surface>
+                                                        (because it matches with the <surface's @xml:id) 
+                                            
+                                                  we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
+                                                        we want to disregard the hashtag in the @facs attribute-->
+                                            
+                                            <!-- <xsl:attribute name="src">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:graphic/@url"/>
+                                            </xsl:attribute> -->
+                                            <!-- <xsl:attribute name="title">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute> -->
+                                        <!-- </img> -->
+                                    </article>
+                                </div>
+                                <!-- fill the second column with our transcription -->
+                                <div class='col-sm'>
+                                    <article class="transcription">
+                                            <xsl:apply-templates/>                                      
+                                    </article>
+                                </div>
+                            </div>
+                        </xsl:for-each>
+                    </div>
                 </main>
                 <footer>
                     <div class="container text-center footer_container">
@@ -156,18 +229,18 @@
     </xsl:template>
 
     <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
+    <!-- <xsl:template match="tei:del">
         <del>
             <xsl:apply-templates/>
         </del>
-    </xsl:template>
+    </xsl:template> -->
 
     <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
+    <!-- <xsl:template match="tei:add">
         <sup>
             <xsl:apply-templates/>
         </sup>
-    </xsl:template>
+    </xsl:template> -->
 
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
@@ -175,6 +248,13 @@
         <u>
             <xsl:apply-templates/>
         </u>
+    </xsl:template>
+
+    <xsl:template match="tei:l">
+        <span class="line">
+        <xsl:apply-templates/>
+        </span>
+        <br/>
     </xsl:template>
 
 
