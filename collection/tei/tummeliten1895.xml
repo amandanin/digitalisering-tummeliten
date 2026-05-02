@@ -277,7 +277,7 @@
                         <lb/>den långa 
                         <lb/>näsan
                         
-                        <figure>   
+                        <figure resp="#a_engstrom">   
                             <figDesc>Pomperipossa står och snusar. Bredvid henne, till vänster, står en tunna märkt med "SNUS", en pall och en gryta.</figDesc>
                             <signed><persName ref="#a_engstrom">A.E.</persName></signed> 
                         </figure>
@@ -1060,40 +1060,40 @@
                 <div type="pictureStory">
                     <head>Små spelorrar.</head>
                         
-                    <figure facs="/" resp="#e_hedberg" xml:id="ss1" next="ss2">
+                    <figure resp="#e_hedberg" xml:id="ss1" next="#ss2">
                         <ab>Johan spelar med Per om knappar.</ab>
                     </figure>
                         
-                    <figure facs="/" resp="#e_hedberg" xml:id="ss2" next="ss3" prev="ss1">
+                    <figure resp="#e_hedberg" xml:id="ss2" next="#ss3" prev="#ss1">
                         <ab>Johan vinner och Pelle tappar.</ab>
                     </figure>
                         
-                    <figure facs="/" resp="#e_hedberg" xml:id="ss3" next="ss4" prev="ss2">
+                    <figure resp="#e_hedberg" xml:id="ss3" next="#ss4" prev="#ss2">
                         <ab>Johan högtals med knappar har,
                         <lb/>ej ens i jackan Per dem har kvar.</ab>
                     </figure>
         
-                    <figure facs="/" resp="#e_hedberg" xml:id="ss4" next="ss5" prev="ss3">
+                    <figure resp="#e_hedberg" xml:id="ss4" next="#ss5" prev="#ss3">
                         <ab>Johan skrattar och Pelle gråter;
                         <lb/>sin förlust får ej stackar’n åter</ab>
                     </figure>
                         
-                    <figure facs="/" resp="#e_hedberg" xml:id="ss5" next="ss6" prev="ss4">
+                    <figure resp="#e_hedberg" xml:id="ss5" next="#ss6" prev="#ss4">
                         <ab>Den skrattar bäst dock, som skrattar sist,
                         <lb/>ty moster Anna nu kom – förvisst.</ab>
                     </figure>
                         
-                    <figure facs="/" resp="#e_hedberg" xml:id="ss6" next="ss7" prev="ss5">
+                    <figure resp="#e_hedberg" xml:id="ss6" next="#ss7" prev="#ss5">
                         <ab>Hon reda tog uppå hela saken,
                         <lb/>och Johan fick, så det sved på baken.</ab>
                     </figure>
                            
-                    <figure facs="/" resp="#e_hedberg" xml:id="ss7" next="ss8" prev="ss6">
+                    <figure resp="#e_hedberg" xml:id="ss7" next="#ss8" prev="#ss6">
                         <ab> Nog Pelle lofva »så mer ej göra»
                         <lb/> men fick sig ändå ett nyp i öra’.</ab>
                     </figure>    
                          
-                    <figure facs="/" resp="#e_hedberg" xml:id="ss8" prev="ss7">
+                    <figure resp="#e_hedberg" xml:id="ss8" prev="#ss7">
                         <ab> På ändan illa det går, du finner,
                         <lb/>för den, som spelar, om ock han vinner. </ab>
                     </figure>
@@ -1140,7 +1140,7 @@
                         <l>äfven en fridsam, hugnerik <rhyme label="b">jul</rhyme>!</l>
                         </lg>
                     </lg>   
-                    <byline><persName ref="au_baath"><hi rend="italic">A. U. BÅÅTH.</hi></persName>.</byline>
+                    <byline><persName ref="#au_baath"><hi rend="italic">A. U. BÅÅTH.</hi></persName>.</byline>
             </div>
         </body>
         <back>
