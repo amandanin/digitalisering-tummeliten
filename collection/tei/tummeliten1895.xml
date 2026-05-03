@@ -302,7 +302,7 @@
                         <figDesc>Ett enplanshus omgivet av skog. På taket sitter en svart fågel.</figDesc>
                     </figure>
                     <p>
-                        Men det hade Pomperipossa råd till, för hon var rysligt 
+                        <lb rend="indented"/>Men det hade Pomperipossa råd till, för hon var rysligt 
                         <lb/>rik. Hon bodde en- 
                         <lb/>sam i ett litet hus i 
                         <lb/>skogen, och det huset 
@@ -314,7 +314,7 @@
                         <lb/>var Pomperipossa.
                     </p>
                     <p>
-                        Men ingen enda 
+                        <lb rend="indented"/>Men ingen enda 
                         <lb/>människa vågade sig 
                         <lb/>till henne och knappt 
                         <lb/>något troll heller, ty hon var så förskräckligt elak. Om 
@@ -326,7 +326,7 @@
                         <lb/>nes straff!
                     </p>
                     <p>                 
-                        Så var där också en kung i det landet, där Pomperi- 
+                        <lb rend="indented"/>Så var där också en kung i det landet, där Pomperi- 
                         <lb/>possa bodde, och han hade en liten prins, som hette Pipi, 
                         <lb/>och en liten prinsessa, som hette Fifi. De gingo en vacker dag 
                         <lb/>och promenerade i parken, ledsagade af en hofmarskalk, som 
@@ -361,6 +361,8 @@
                         <cb n="2"/>     
                         <lb/>här, prins Pipi och prinsessa Fifi, tills jag kommer tillbaka
                         <lb/>med mina stora kragstöflar på mig!
+                    </p>
+                    <p>
                         <lb rend="indented"/>Men det förstodo icke kungabarnen, utan de gingo vidare
                         <lb/>i skogen.
                     </p>
@@ -373,8 +375,12 @@
                         <lb rend="indented"/><said aloud="true">–– Om vi skulle ge oss ut på äfventyr? Det är så 
                         <lb/>tråkigt hemma. Jag har visst sex öre. Hur mycket har du,
                         <lb/>prinsessa?</said>
+                    </p>
+                    <p>
                         <lb rend="indented"/><said aloud="true">–– Jag har bara ett enda öre –– </said> svarade Fifi <said aloud="true"> –– men
                         <lb/>jag kan steka äpplen.</said>
+                    </p>
+                    <p>
                         <lb rend="indented"/><said aloud="true">–– Då kan du ju nästan laga mat. Du får bli min
                         <lb/>hushållerska –– </said>sade prins Pipi.
                     </p>
@@ -386,18 +392,24 @@
                     <p>
                         <lb rend="indented"/><said aloud="true">–– Låt oss äta kvällsmat! </said>sade prins Pipi, som kände
                         <lb/>sig hungrig, och bröt en stor korf ur huset.
+                    </p>
+                    <p>
                         <lb rend="indented"/>Då stack Pomperipossa ut sin långa näsa genom fönstret 
                         <lb/>och såg på dem. 
                     </p>
                     <p>
                         <lb rend="indented"/><said aloud="true">–– Kom hit in! ––</said> sade hon genast. <said aloud="true">–– Jag är er
-                        <lb/>snälla gudmor. Ni skall få syltpannkaka af mig.</said> 
+                        <lb/>snälla gudmor. Ni skall få syltpannkaka af mig.</said>
+                    </p>
+                    <p> 
                         <lb rend="indented"/>Prins Pipi och lilla Fifi trodde henne och gingo in, 
                         <lb/>fastän de voro fasligt rädda.
                     </p>
                     <p>        
                         <lb rend="indented"/><said aloud="true">–– Hm! –– </said>sade Pomperipossa och såg på dem. <said aloud="true">–– Jag 
                         <lb/>har inte ätit gåsstek på bra länge … </said>
+                    </p>
+                    <p>
                         <lb rend="indented"/>Och så trollade hon i  
                         <lb/>luften, och strax blefvo prins 
                         <lb/>Pipi och prinsessan Fifi till 
@@ -438,7 +450,7 @@
                         <lb/>vinter till Egypten och studerar hieroglyfer på pyramiderna.
                     </p>
                     <p> 
-                        <lb/><said aloud="true">–– Nu ska’ ni få simma, mina små gäss! –– </said>sade Pom- 
+                        <lb rend="indented"/><said aloud="true">–– Nu ska’ ni få simma, mina små gäss! –– </said>sade Pom- 
                         <lb/>peripossa, och dref Pipi och Fifi framför sig med sin stora 
                         <lb/>käpp. <said aloud="true">–– Det gör er så godt, och så smakar ni bättre, när jag 
                         <lb/>steker er i kväll. –– </said>Och så körde hon den stackars prinsen 
@@ -511,7 +523,7 @@
                         <lb/><said aloud="true">»kra, kra»!</said>
                     </p>
                     <p>  
-                        <lb/><said aloud="true">–– Ja, kraxa och kackla ni! ––</said> skrattade Pomperipossa
+                        <lb rend="indented"/><said aloud="true">–– Ja, kraxa och kackla ni! ––</said> skrattade Pomperipossa
                         <lb/>belåtet. <said aloud="true">–– Det är ingenting, som kan befria er från förtrollning- 
                         <lb/>en, om ni inte får höra det allra förfärligaste skrik i värl- 
                         <lb/>den man kan tänka sig. För då får allt, som jag har för- 
@@ -531,6 +543,8 @@
                     </p>
                     <p>
                         <lb rend="indented"/>Men se, <emph><hi rend="italic"> det</hi></emph> skulle hon aldrig ha gjort. 
+                    </p>
+                    <p>
                         <lb rend="indented"/>För nere i sjön var det en stor kräfta, 
                         <lb/>som inte hade fått middag på tre dagar. Och 
                         <lb/>den kräftan knep sig fast med sina stora klor

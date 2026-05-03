@@ -42,18 +42,18 @@
                         </li>
                     </ul>
                 </nav>
-                <main id="manuscript">
+                <main id="manuscript" class="transcription_container">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
                             <div class="col-sm">
-                                <h3>Faksimiler</h3>
+                                <h2>Faksimiler</h2>
                             </div>
                             <div class="col-sm">
                             </div>
                             <div class="col-sm">
-                                <h3>Diplomatisk transkribering</h3>
+                                <h2>Diplomatisk transkribering</h2>
                             </div>
                         </div>
                         <xsl:for-each select="//tei:front">
@@ -126,50 +126,11 @@
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
                                     <article class="transcription">
-                                            <xsl:apply-templates/>                                      
-                                    </article>
-                                </div>
-                            </div>
-                        </xsl:for-each>
-                        <xsl:for-each select="//tei:div[@type='colophon']">
-                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
-                            <!-- <xsl:variable name="facs" select="@facs"/> -->
-                            
-                            <div class="row">
-                                <!-- fill the first column with this page's image -->
-                                <div class="col-sm">
-                                    <article>
-                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <!-- <img class="img-full"> -->
-                                            <!-- give this HTML <img> attribute three more attributes:
-                                                    @src to locate the image file
-                                                    @title for a mouse-over effect
-                                                    @alt for alternative text (in case the image fails to load, 
-                                                        and so people with a visual impairment can still understant what the image displays 
-                                                  
-                                                  in the XPath expressions below, we use the variable $facs (declared above) 
-                                                        so we can use this page's @facs element with to find the corresponding <surface>
-                                                        (because it matches with the <surface's @xml:id) 
+                                            <xsl:apply-templates/>   
                                             
-                                                  we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                        we want to disregard the hashtag in the @facs attribute-->
-                                            
-                                            <!-- <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:graphic/@url"/>
-                                            </xsl:attribute> -->
-                                            <!-- <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute> -->
-                                        <!-- </img> -->
-                                    </article>
-                                </div>
-                                <!-- fill the second column with our transcription -->
-                                <div class='col-sm'>
-                                    <article class="transcription">
-                                            <xsl:apply-templates/>                                      
+                                            <xsl:if test="position() = last()">
+                                                <xsl:apply-templates select="//tei:div[@type='colophon']"/>
+                                            </xsl:if>
                                     </article>
                                 </div>
                             </div>
@@ -199,21 +160,75 @@
         </html>
     </xsl:template>
 
-    <!-- by default all text nodes are printed out, unless something else is defined.
-    We don't want to show the metadata. So we write a template for the teiHeader that
-    stops the text nodes underneath (=nested in) teiHeader from being printed into our
-    html-->
     <xsl:template match="tei:teiHeader"/>
 
-    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
-    <xsl:template match="tei:lb">
-        <br/>
+    <!-- XSL för pageHeader-elementet -->
+    <xsl:template match="tei:div[@type='pageHeader']">
+        <div class="pageHeader container">
+            <div class="row">
+                <xsl:apply-templates/>
+            </div>
+        </div>    
     </xsl:template>
-    <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
-    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
-    apply to the nodes nested within it.-->
 
-    <!-- we turn the tei head element (headline) into an html h1 element-->
+    <xsl:template match="tei:fw[@type='pageNum']">
+        <xsl:choose>
+            <xsl:when test="@place='top-left'">
+                <div class="col num_left">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
+            <xsl:otherwise>
+                <div class="col num_right">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:otherwise>
+        </xsl:choose>
+            
+    </xsl:template>
+
+    <xsl:template match="tei:fw[@type='header']">
+        <div class="col">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+
+    <!-- testar om <lb>-taggen har ett @rend-attribut för indentering och renderar beroende på -->
+    <xsl:template match="tei:lb">
+        <xsl:choose>
+            <xsl:when test="@rend='indented'">
+            <!-- <br/>  -->
+            <span class="indented">
+                <xsl:apply-templates/>
+            </span>
+                       
+            </xsl:when>
+        <xsl:otherwise>
+            <br/>
+        </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="tei:said[@rend = 'indented']">
+        <!-- <br class="indented_br"/>  -->
+            <span class="indented">
+                <xsl:apply-templates/>
+            </span>
+    </xsl:template>
+
+    <!-- <xsl:template match="tei:hi[@rend = 'indented']">
+        <span class="indented">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template> -->
+
+    <!-- Markerar ny kolumn med en linje -->
+    <xsl:template match="tei:cb[@n = '2']">
+        <div class="column_line">
+        </div>
+    </xsl:template>
+
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
@@ -228,32 +243,28 @@
         </p>
     </xsl:template>
 
-    <!-- transform tei del into html del -->
-    <!-- <xsl:template match="tei:del">
-        <del>
+    <xsl:template match="tei:hi[@rend = 'italic']">
+        <i>
             <xsl:apply-templates/>
-        </del>
-    </xsl:template> -->
+        </i>
+    </xsl:template>
 
-    <!-- transform tei add into html sup -->
-    <!-- <xsl:template match="tei:add">
-        <sup>
+    <xsl:template match="tei:*[@rend = 'italic']">
+        <i>
             <xsl:apply-templates/>
-        </sup>
-    </xsl:template> -->
+        </i>
+    </xsl:template>
 
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
-        <u>
+    <xsl:template match="tei:lg">
+        <div>
             <xsl:apply-templates/>
-        </u>
+        </div>
     </xsl:template>
 
     <xsl:template match="tei:l">
-        <span class="line">
-        <xsl:apply-templates/>
-        </span>
+        <!-- <span class="line"> -->
+            <xsl:apply-templates/>
+        <!-- </span> -->
         <br/>
     </xsl:template>
 
