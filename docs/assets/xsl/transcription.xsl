@@ -128,7 +128,9 @@
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
                                     <article class="transcription">
+                                        
                                             <xsl:apply-templates/>   
+                                            
                                             <!-- Testar om nuvarande "page" är den sista sidan, om ja så läggs <back>-taggen till i article -->
                                             <xsl:if test="position() = last()">
                                                 <xsl:apply-templates select="//tei:div[@type='colophon']"/>
@@ -163,6 +165,27 @@
     </xsl:template>
 
     <xsl:template match="tei:teiHeader"/>
+
+    <!-- Skriver ut "Illustration x för varje figDesc. Börjar räkna från 1 vid efter varje div type="page" -->
+    <xsl:template match="tei:figDesc">
+        <div class="italic text-center figdesc_container"><p>&#91;Illustration
+        <xsl:text> </xsl:text>
+        <xsl:number
+        level="any" from="tei:div[@type='page']"
+        count="tei:figDesc"
+        /> 
+        <xsl:text>. </xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text> &#93;</xsl:text>
+        </p></div>
+    </xsl:template>
+
+    <xsl:template match="tei:signed">
+        <span class="signed">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
 
     <!-- XSL för pageHeader-elementet -->
     <xsl:template match="tei:div[@type='page_header']">
@@ -202,7 +225,6 @@
     <xsl:template match="tei:lb">
         <xsl:choose>
             <xsl:when test="@rend='indented'">
-            <!-- <br/>  -->
             <span class="indented">
                 <xsl:apply-templates/>
             </span>
@@ -215,7 +237,6 @@
     </xsl:template>
 
     <xsl:template match="tei:said[@rend = 'indented']">
-        <!-- <br class="indented_br"/>  -->
             <span class="indented">
                 <xsl:apply-templates/>
             </span>
@@ -227,7 +248,7 @@
         </span>
     </xsl:template>
 
-    <!-- Markerar ny kolumn med en linje -->
+    <!-- Markerar ny kolumn med en dottad-linje -->
     <xsl:template match="tei:cb[@n = '2']">
         <div class="column_line">
         </div>

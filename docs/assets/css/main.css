@@ -323,7 +323,8 @@ footer {
 }
 
 .transcription h2 {
-    font-size: 1rem;
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .transcription p {
@@ -354,6 +355,18 @@ footer {
 
 .initial {
     font-size: 2rem;
+}
+
+.figdesc_container {
+    padding:1rem;
+    font-weight: normal;
+    font-size: 16px !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signed {
+    font-size: 16px !important;
+    font-weight: normal;
 }
 
 /* Media queries */
