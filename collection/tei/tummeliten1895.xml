@@ -266,8 +266,8 @@
             <!-- Sida 2 -->
             <pb facs="#tummeliten_02" n="2" />
             <div type="page" facs="#tummeliten_02" n="2">
-                <div type="pageHeader">
-                    <fw type="pageNum" place="top-left">2</fw>
+                <div type="page_header">
+                    <fw type="page_num" place="top-left">2</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
                 <!-- Pomperipossa -->
@@ -485,8 +485,8 @@
             <!-- Sida 3 -->
             <pb facs="#tummeliten_03" n="3"/>
             <div type="page" n="3" facs="#tummeliten_03">    
-                <div type="pageHeader">
-                    <fw type="pageNum" place="top-right">3</fw>
+                <div type="page_header">
+                    <fw type="page_num" place="top-right">3</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
                 
@@ -686,8 +686,8 @@
             <!-- Sida 4-->
             <pb facs="#tummeliten_04" n="4"/>
             <div type="page" facs="#tummeliten_04" n="4"> 
-                <div type="pageHeader">
-                    <fw type="pageNum" place="top-left">4</fw>
+                <div type="page_header">
+                    <fw type="page_num" place="top-left">4</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
 
@@ -786,8 +786,8 @@
             <!-- Sida 5 -->
             <pb facs="#tummeliten_05" n="5"/>
             <div type="page" facs="#tummeliten_05" n="5">   
-                <div type="pageHeader">
-                    <fw type="pageNum" place="top-right">5</fw>
+                <div type="page_header">
+                    <fw type="page_num" place="top-right">5</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
                 
@@ -845,8 +845,8 @@
             <!-- Sida 6 -->
             <pb facs="#tummeliten_06" n="6"/>
             <div type="page" facs="#tummeliten_06" n="6">    
-                <div type="pageHeader">
-                    <fw type="pageNum" place="top-left">6</fw>
+                <div type="page_header">
+                    <fw type="page_num" place="top-left">6</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
                 <div type="pictureStory">
@@ -981,8 +981,8 @@
             <pb facs="#tummeliten_07" n="7"/>
             <div type="page" facs="#tummeliten_07" n="7">
     
-                <div type="pageHeader">
-                    <fw type="pageNum" place="top-right">7</fw>
+                <div type="page_header">
+                    <fw type="page_num" place="top-right">7</fw>
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
                 <div type="poem" subtype="song">
