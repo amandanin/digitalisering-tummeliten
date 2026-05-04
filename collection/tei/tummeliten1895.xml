@@ -53,6 +53,15 @@
                         </persName>
                     </editor>
                     
+                    <respStmt>
+                        <resp>Medredaktör</resp>
+                        <persName xml:id="a_hammarlund" ref="https://libris.kb.se/qn247pw82x2b7f5#it">
+                            <surname>Hammarlund</surname>
+                            <forename>Amanda</forename>
+                        </persName>
+                        <note type="historicalContext">Amanda Hammarlund omnämns inte formellt i den tryckta tidskriften, men fungerade i praktiken som en avgörande drivkraft och medredaktör för utgivningen.</note>
+                    </respStmt>
+                    
                     <author>
                         <persName xml:id="a_wallengren" ref="https://libris.kb.se/dbqspmvx0kvm6b5#it">
                             <surname>Wallengren</surname>
@@ -171,10 +180,12 @@
                     
                     <author>
                         <name xml:id="snorre" type="pseudonym">Snorre</name>
+                        <note>Pseudonym. Verklig upphovsperson är okänd.</note>
                     </author>
                     
                     <author>
                         <name xml:id="onkel_pompe" type="pseudonym">Onkel Pompe</name>
+                        <note>Pseudonym. Verklig upphovsperson är okänd.</note>
                     </author>
                 </bibl>
                 
@@ -194,6 +205,7 @@
                 
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
             <projectDesc>
                 <p>Detta digitaliseringsprojekt syftar till att tillgängliggöra 1895 års utgåva av barntidningen 
@@ -203,10 +215,23 @@
                     masterprogrammet i biblioteks- och informationsvetenskap vid Högskolan i Borås, vårterminen 2026. 
                     Arbetet har skett i dialog med Svenska barnboksinstitutet som har tillhandahållit det fysiska materialet.</p>
             </projectDesc>
+            <editorialDecl>
+                <p>Denna digitala utgåva är baserad på en diplomatisk transkribering. Det innebär att vi har bevarat originalets stavning, 
+                    skiljetecken, versalisering och radbrytningar utan att göra några språkliga eller typografiska moderniseringar.</p>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy xml:id="saogf">
+                    <bibl>Svenska ämnesord Genre och Form (saogf)</bibl>
+                </taxonomy>
+                <taxonomy xml:id="loc_relators">
+                    <bibl>Library of Congress Relator terms</bibl>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <textClass>
-                <keywords scheme="https://id.kb.se/term/saogf">
+                <keywords scheme="#saogf">
                     <term ref="https://id.kb.se/term/saogf/Jultidningar">Jultidningar</term>
                     <term ref="https://id.kb.se/term/saogf/Barntidningar">Barntidningar</term>
                 </keywords>
