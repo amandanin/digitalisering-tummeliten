@@ -145,7 +145,12 @@ nav {
   height: auto;
   display: block;
 }
-
+/* 
+.cta_container {
+    border: 5px solid var(--darkblue);
+    padding: 2rem;
+    margin-top:5rem;
+} */
 
 
 /* Footer styling */
@@ -268,6 +273,7 @@ footer {
     text-decoration: none;
     color: var(--darkblue);
     font-weight: bold;
+    cursor: pointer;
 }
 
 .author_link span {

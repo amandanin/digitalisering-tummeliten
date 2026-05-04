@@ -46,18 +46,18 @@
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
-                        
+
                         <div class="row">
-                            <div class="col-sm">
+                            <div class="col-sm pb-2">
                                 <h2>Faksimiler</h2>
                             </div>
 
-                            <div class="col-sm text-align-left">
+                            <div class="col-sm text-align-left pb-2">
                                 <h2>Diplomatisk transkribering</h2>
                                 <p>
-                                    <b>Beskrivning av symboler: </b>
-                                    <br/>
-                                    <ul>
+                                    <b  class="author_link" onclick="toggleText()">Visa beskrivning av textsymboler <span class="author_link_arrow">&#10132; </span> </b>
+                                    
+                                    <ul class="hide_text" id="transc_desc_text">
                                         <li>
                                             Kursiverad text omgiven av &#91; och &#93; innebär en
                                             beskrivande text av en illustration. Denna text
@@ -67,10 +67,9 @@
                                         <li>
                                             En streckad linje indikerar en ny kolumn och/eller ett
                                             av tidningens layout tydligt begränsat avsnitt.
+                                            
                                         </li>
                                     </ul>
-
-                                    <br/>
                                 </p>
                             </div>
                         </div>

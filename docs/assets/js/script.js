@@ -19,7 +19,7 @@ document.querySelectorAll('.zoom-img').forEach(img => {
 
 // Script för toggla text på authorsida.
 function toggleText() {
-  let descText = document.getElementById('author_desc_text');
+  let descText = document.getElementById('transc_desc_text');
 
   if(descText.classList.contains('hide_text')) {
     // descText.classList.add('open_author')
