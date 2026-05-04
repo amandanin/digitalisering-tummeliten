@@ -294,7 +294,7 @@ footer {
 }
 
 .read_text_container {
-    max-width: 550px; /* används för att justera så att texten har samma width som karusellen nedan*/
+    /* max-width: 550px; används för att justera så att texten har samma width som karusellen nedan */
     margin: 0 auto;
 }
 
@@ -304,12 +304,25 @@ footer {
 
 .carousel-item img {
     max-width: 100%;
-    height: 760px; /*är satt för att bilderna inte ska "hacka" när man swipear */
+    height: 800px; 
+}
+
+.carousel-container {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .reading_spread_container{
     padding-top: 2rem;
+
 }
+.reading_spread_container div img{
+    padding-top: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
 
 /*transkriberingsstyling */
 
@@ -388,6 +401,14 @@ footer {
     height: auto;
   }
 
+  .reading_spread_container {
+        padding-top: 0;
+    }
+
+  .reading_spread_container div img{
+        max-width: 400px;
+        margin: 0 auto;
+    }
 
     .about_project_container, .author_container, .reading_container, .footer_container {
         padding: 1rem;
