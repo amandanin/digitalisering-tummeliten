@@ -127,7 +127,7 @@
                                 <div class='col-sm'>
                                     <article class="transcription">
                                             <xsl:apply-templates/>   
-                                            
+                                            <!-- Testar om nuvarande "page" är den sista sidan, om ja så läggs <back>-taggen till i article -->
                                             <xsl:if test="position() = last()">
                                                 <xsl:apply-templates select="//tei:div[@type='colophon']"/>
                                             </xsl:if>
@@ -163,7 +163,7 @@
     <xsl:template match="tei:teiHeader"/>
 
     <!-- XSL för pageHeader-elementet -->
-    <xsl:template match="tei:div[@type='pageHeader']">
+    <xsl:template match="tei:div[@type='page_header']">
         <div class="pageHeader container">
             <div class="row">
                 <xsl:apply-templates/>
@@ -171,15 +171,15 @@
         </div>    
     </xsl:template>
 
-    <xsl:template match="tei:fw[@type='pageNum']">
+    <xsl:template match="tei:fw[@type='page_num']">
         <xsl:choose>
             <xsl:when test="@place='top-left'">
-                <div class="col num_left">
+                <div class="col order-first">
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <xsl:otherwise>
-                <div class="col num_right">
+                <div class="col order-last text-end">
                     <xsl:apply-templates/>
                 </div>
             </xsl:otherwise>
@@ -188,9 +188,10 @@
     </xsl:template>
 
     <xsl:template match="tei:fw[@type='header']">
-        <div class="col">
+        <div class="col order-2">
             <xsl:apply-templates/>
         </div>
+        <div class="col"></div>
     </xsl:template>
 
 
