@@ -91,7 +91,6 @@
                         <xsl:for-each select="//tei:div[@type='page']">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
-                            
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
@@ -113,6 +112,9 @@
                                             
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:graphic/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="id"> 
+                                                <xsl:value-of select="substring(@facs, 2)"/>
                                             </xsl:attribute>
                                             <!-- <xsl:attribute name="title">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
@@ -164,7 +166,7 @@
 
     <!-- XSL för pageHeader-elementet -->
     <xsl:template match="tei:div[@type='page_header']">
-        <div class="pageHeader container">
+        <div class="page_header container">
             <div class="row">
                 <xsl:apply-templates/>
             </div>
@@ -177,11 +179,13 @@
                 <div class="col order-first">
                     <xsl:apply-templates/>
                 </div>
+                <div class="col order-last"></div>
             </xsl:when>
             <xsl:otherwise>
                 <div class="col order-last text-end">
                     <xsl:apply-templates/>
                 </div>
+                <div class="col order-first"></div>
             </xsl:otherwise>
         </xsl:choose>
             
@@ -191,7 +195,6 @@
         <div class="col order-2">
             <xsl:apply-templates/>
         </div>
-        <div class="col"></div>
     </xsl:template>
 
 
@@ -218,11 +221,11 @@
             </span>
     </xsl:template>
 
-    <!-- <xsl:template match="tei:hi[@rend = 'indented']">
-        <span class="indented">
+    <xsl:template match="tei:hi[@rend = 'initial']">
+        <span class="initial">
             <xsl:apply-templates/>
         </span>
-    </xsl:template> -->
+    </xsl:template>
 
     <!-- Markerar ny kolumn med en linje -->
     <xsl:template match="tei:cb[@n = '2']">
