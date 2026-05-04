@@ -29,7 +29,7 @@
                             <a class="nav-link" href="index.html">Hem</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="diplomatic.html">Diplomatisk transkribering</a>
+                            <a class="nav-link" href="transcription.html">Diplomatisk transkribering</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="reading.html">Läsvy</a>
@@ -46,14 +46,32 @@
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
+                        
                         <div class="row">
                             <div class="col-sm">
                                 <h2>Faksimiler</h2>
                             </div>
-                            <div class="col-sm">
-                            </div>
-                            <div class="col-sm">
+
+                            <div class="col-sm text-align-left">
                                 <h2>Diplomatisk transkribering</h2>
+                                <p>
+                                    <b>Beskrivning av symboler: </b>
+                                    <br/>
+                                    <ul>
+                                        <li>
+                                            Kursiverad text omgiven av &#91; och &#93; innebär en
+                                            beskrivande text av en illustration. Denna text
+                                            återfinns inte i tidningen utan är ett försök att
+                                            beskriva vad som sker i illustrationen.
+                                        </li>
+                                        <li>
+                                            En streckad linje indikerar en ny kolumn och/eller ett
+                                            av tidningens layout tydligt begränsat avsnitt.
+                                        </li>
+                                    </ul>
+
+                                    <br/>
+                                </p>
                             </div>
                         </div>
                         <xsl:for-each select="//tei:front">
@@ -94,7 +112,7 @@
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
-                                    <article>
+                                    <article class="sticky-top">
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                         <img class="img-full">
                                             <!-- give this HTML <img> attribute three more attributes:
