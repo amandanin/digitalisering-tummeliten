@@ -321,11 +321,11 @@
                     Sju barn spelar musik tillsammans. En av dem bär en hög hatt och en annan lockar på en katt. I taket hänger lampor i varierande storlek. 
                 </figDesc>
                 <signed>
-                    <persName ref="#a_engstrom">Albert Engström</persName>
+                    <persName ref="#a_engstrom">ALBERT ENGSTRÖM</persName>
                 </signed>
             </figure>
             <docTitle>
-                <titlePart type="main">Tummeliten</titlePart>
+                <titlePart type="main">TUMMELITEN</titlePart>
                 <lb/>
                 <titlePart type="sub">Jultidning för smått folk</titlePart>
             </docTitle>
@@ -699,7 +699,7 @@
                     <byline><hi rend="italic"><persName ref="#a_wallengren">Axel Wallengren.</persName> </hi></byline>
                 </div>
             
-                <div type="pictureStory">
+                <div type="pictureStory" xml:id="rta">
                     <figure resp="#o_adelborg">
                         <figDesc>Två barn sitter tillsammans med en korg bredvid sig. Det ena barnet håller i ett paraply.</figDesc>
                         <ab>
@@ -741,12 +741,12 @@
 
                     <figure>
                         <figDesc>De två barnen står bredvid varandra och håller varandra i handen.</figDesc>
+                        <signed><persName ref="#o_adelborg">O Adelborg</persName></signed>
                         <ab>
                         Nu ä vi framme!
                         <lb/>
                             <unclear reason="illegible"/> 6.
                         </ab>
-                        <signed><persName ref="#o_adelborg">O Adelborg</persName></signed>
                     </figure>
 
                     <head>RESAN TILL AMERIKA.</head><byline> Teckningar af <hi rend="italic"><persName ref="#o_adelborg">Ottilia Adelborg.</persName></hi></byline>
@@ -849,7 +849,7 @@
                 
                     <byline><hi rend="bold"><persName ref="#am_roos">Alfaro.</persName></hi></byline>
                 </div>
-                <div>
+                <div type="sheetMusic">
                     <ab rend="italic">Lifligt.</ab> 
                     <byline><hi rend="italic">Musik af <persName ref="#e_kohler">Emmy Köhler </persName></hi></byline>
                     <figure>
@@ -1017,7 +1017,7 @@
                     <byline><persName ref="#onkel_pompe">ONKEL POMPE</persName>.</byline>
                 </div>
               
-                <div type="story">
+                <div type="story" xml:id="por">
                     <head>
                         Pojken och räfven
                     </head>
@@ -1043,10 +1043,11 @@
                     <p rend="indented">Men när pojken gallskrek, vaknade räfven och stack i
                     <lb/>väg inåt skogen med en sådan fart, att pojken fick inte en
                     <lb/>gång så mycket som ett hårstrå ur svansen på honom. Och
-                    <lb/>så var det slut med den glädjen. Nej —
-                    
-                    <lb rend="indented"/>bäst att ta’, när man kan få,
-                    <lb rend="indented"/>ogjordt aldrig lita på.</p>
+                    <lb/>så var det slut med den glädjen. Nej —</p>
+                    <lg>
+                        <l rend="indented">bäst att ta’, när man kan få,</l>
+                        <l rend="indented">ogjordt aldrig lita på.</l>
+                    </lg>
                    <byline><persName ref="#ng_djurklou">G. Djurklou.</persName></byline> 
 
                 </div>
@@ -1140,6 +1141,7 @@
                         <l>den andra hette <rhyme label="a">Bibliblinka</rhyme>,</l>
                         <l>och den tredje hette Sten-knick-</l>
                         <l><rhyme label="a">knafveli-klinka</rhyme>.</l>
+                        <l></l>
                         <l>Så tog Blinka en <rhyme label="b">sten</rhyme></l>
                         <l>och kasta’ på Bibliblinkas <rhyme label="b">ben</rhyme>,</l>
                         <l>så Sten-knick-knafveli-klinka skrek.</l>
@@ -1147,7 +1149,7 @@
                 </div>
                 <cb n="2"/>
                     
-                <div type="pictureStory">
+                <div type="pictureStory" xml:id="ss">
                     <head>Små spelorrar.</head>
                     <div xml:id="ss1" next="#ss2">   
                         <figure resp="#e_hedberg">
@@ -1263,7 +1265,7 @@
                             <l>äfven en fridsam, hugnerik <rhyme label="b">jul</rhyme>!</l>
                         </lg>
                     </lg>   
-                    <byline><persName ref="#au_baath"><hi rend="italic">A. U. BÅÅTH.</hi></persName>.</byline>
+                    <byline><persName ref="#au_baath"><hi rend="italic">A. U. BÅÅTH.</hi></persName></byline>
                 </div>
             </div>    
         </body>
@@ -1273,9 +1275,12 @@
                 <ab>För redaktionen: <persName ref="#e_hammarlund">EMIL HAMMARLUND</persName>.
                 <lb/>Stockholm, Iduns Tryckeri Aktiebolag, 1895.</ab>
                 <cb n="2"/>
+                <lb/>
                 <ab>Pris 15 öre</ab>
                 <cb n="3"/>
+                <lb/>
                 <ab>Beställningar insändas till Svensk Läraretidnings exp., Stockholm.</ab>
+                <lb/>
                 <div>
                     <p>JULTOMTEN utsänder 1896 sin sjette årgång. Rekvireras före den 10
                     <lb/>november 1896 hos Svensk Läraretidning, Stockholm N.</p>

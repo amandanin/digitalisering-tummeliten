@@ -182,6 +182,18 @@
     </xsl:template>
 
     <xsl:template match="tei:teiHeader"/>
+
+    <xsl:template match="tei:head">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
+    </xsl:template>
+
+    <xsl:template match="tei:emph">
+        <strong>
+            <xsl:apply-templates/>
+        </strong>
+    </xsl:template>
     
     <!-- SIDA 1 -->
     <xsl:template match="tei:titlePart">
@@ -205,13 +217,58 @@
         </div>
     </xsl:template>
 
+    <xsl:template match="tei:docImprint">
+        <div class="transcription_page1_docimprint">
+            <xsl:apply-templates />
+        </div>
+    </xsl:template>
+
     <xsl:template match="tei:docDate">
         <h3 class="transcription_page1_docdate">
             <xsl:apply-templates />
         </h3>
     </xsl:template>
 
+    <xsl:template match="tei:persName">
+        <xsl:choose>
+            <xsl:when test="@ref='#a_wallengren'">
+                <span class="signed_right">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span>
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="tei:signed/tei:persName">
+        <span class="signed_right">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     
+    <xsl:template match="tei:byline/tei:persName">
+        <span class="signed_right">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@xml:id='rta']">
+        <div class="column_line_top">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@xml:id='rta']/tei:head">
+        <br/>
+        <br/>
+        <span>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
     <!-- Skriver ut "Illustration x för varje figDesc. Börjar räkna från 1 vid efter varje div type="page" -->
     <xsl:template match="tei:figDesc">
@@ -227,11 +284,11 @@
         </p></div>
     </xsl:template>
 
-    <xsl:template match="tei:signed">
+    <!-- <xsl:template match="tei:signed">
         <span class="signed">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
+    </xsl:template> -->
     
 
     <!-- XSL för pageHeader-elementet -->
@@ -300,12 +357,12 @@
         <div class="column_line">
         </div>
     </xsl:template>
+<!-- 
+    <xsl:template match="tei:cb[@n = '3']">
+        <div class="column_line">
+        </div>
+    </xsl:template> -->
 
-    <xsl:template match="tei:head">
-        <h2>
-            <xsl:apply-templates/>
-        </h2>
-    </xsl:template>
 
     <xsl:template match="tei:p">
         <p>
@@ -319,14 +376,14 @@
         </i>
     </xsl:template>
 
-    <xsl:template match="tei:*[@rend = 'italic']">
+    <xsl:template match="tei:*[contains(concat(' ', normalize-space(@rend), ' '), ' italic ')]">
         <i>
             <xsl:apply-templates/>
         </i>
     </xsl:template>
 
     <xsl:template match="tei:lg">
-        <div>
+        <div class="mt-3 mb-3 italic">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -338,5 +395,137 @@
         <br/>
     </xsl:template>
 
+    <xsl:template match="tei:l[@rend='indented']">
+        <span class="indented">
+                <xsl:apply-templates/>
+        </span>
+        <br/>
+    </xsl:template>
+
+    <xsl:template match="tei:p[@rend='indented']">
+        <span class="indented">
+            <xsl:apply-templates/>
+        </span>
+        <br/>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_04']//tei:head">
+        <xsl:choose>
+            <xsl:when test="@type='main'">
+            <h1 class="songlek_main_header">
+                <xsl:apply-templates/>
+            </h1>
+            </xsl:when>
+        <xsl:otherwise>
+            <h2 class="songlek_sub_header">
+                <xsl:apply-templates/>
+            </h2>
+            <br/>
+        </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <!-- sida 4 -->
+    <xsl:template match="tei:div[@facs='#tummeliten_04']//tei:stage">
+        <div class="italic mt-3 mb-3">
+            <span class="indented"></span>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_04']//tei:lg">
+        <div class="mt-3 mb-3">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:div[@facs='#tummeliten_04']//tei:persName[@ref='#am_roos']">
+        <span class="signed_right bold">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_04']//tei:div[@type='sheetMusic']">
+        <div>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <!-- sida 5 -->
+    <xsl:template match="tei:div[@facs='#tummeliten_05']//tei:ab">
+        <div class="text-center mb-3">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_05']//tei:head">
+        <span>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- sida 6 -->
+    <xsl:template match="tei:div[@facs='#tummeliten_06']//tei:head">
+        <div class="text-center">
+            <h2>
+                <xsl:apply-templates/>
+            </h2>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_06']//tei:div[@xml:id='por']//tei:lg">
+        <div class="pt-3 ml-5">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_06']//tei:div[@xml:id='por']">
+        <div class="pt-3 ml-5 column_line_top">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <!-- sida 7 -->
+    <xsl:template match="tei:div[@facs='#tummeliten_07']//tei:head">
+        <div class="text-center mt-3">
+            <h2>
+                <xsl:apply-templates/>
+            </h2>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_07']//tei:div[@subtype='song']">
+        <div class="text-center mt-3 mb-3 italic">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    
+    <xsl:template match="tei:div[@facs='#tummeliten_07']//tei:div[@subtype='languageExercise']">
+        <div class="column_line_top text-center mt-3 mb-3 italic">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_07']//tei:div[@type='pictureStory']//tei:lg">
+        <span class="ss">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- sida 8 -->
+    <xsl:template match="tei:div[@facs='#tummeliten_08']//tei:ab[contains(concat(' ', normalize-space(@rend), ' '), ' handwritten ')]">
+        <div class="handwritten">
+            <span>
+                <xsl:apply-templates/>
+            </span>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@type='colophon']">
+        <div class="colophon column_line_top pt-3">
+                <xsl:apply-templates/>
+        </div>
+    </xsl:template>
 
 </xsl:stylesheet>
