@@ -351,6 +351,28 @@ footer {
     padding: 0px;
 }
 
+.transcription_page1_title1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.transcription_page1_title2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.transcription_page1_docimprint{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.transcription_page1_docdate{
+  font-size: 4rem;
+}
+
 .indented {
     margin-left:2rem;
     margin-top:0px;

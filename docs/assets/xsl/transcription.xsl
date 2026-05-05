@@ -182,6 +182,36 @@
     </xsl:template>
 
     <xsl:template match="tei:teiHeader"/>
+    
+    <!-- SIDA 1 -->
+    <xsl:template match="tei:titlePart">
+        <xsl:choose>
+            <xsl:when test="@type='main'">
+                <h1 class="transcription_page1_title1">
+                    <xsl:apply-templates/>
+                </h1>
+            </xsl:when>
+            <xsl:otherwise>
+                <h2 class="transcription_page1_title2">
+                    <xsl:apply-templates/>
+                </h2>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="tei:docImprint">
+        <div class="transcription_page1_docimprint">
+            <xsl:apply-templates />
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:docDate">
+        <h3 class="transcription_page1_docdate">
+            <xsl:apply-templates />
+        </h3>
+    </xsl:template>
+
+    
 
     <!-- Skriver ut "Illustration x för varje figDesc. Börjar räkna från 1 vid efter varje div type="page" -->
     <xsl:template match="tei:figDesc">
@@ -277,10 +307,8 @@
         </h2>
     </xsl:template>
 
-    <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
-            <!-- apply matching templates for anything that was nested in tei:p -->
             <xsl:apply-templates/>
         </p>
     </xsl:template>
