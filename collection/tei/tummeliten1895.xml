@@ -762,6 +762,10 @@
                     <fw type="header" place="top-center"> TUMMELITEN 1895 </fw>
                 </div>
 
+                <figure resp="#e_maartman">
+                    <figDesc>Barn som leker utomhus, en räv som sover och en höna, kycklingar och en räv utomhus.</figDesc>
+                </figure>
+
                 <cb n="1"/>
 
                 <div type="poem" subtype="song">
@@ -929,7 +933,7 @@
                     
                     <cb n="1"/>
                     
-                    <div>
+                    <div xml:id="jv1" next="#jv2">
                         <figure resp="#ce_torner">
                             <figDesc>
                                 Per och Lisa står och pratar tillsammans.
@@ -946,7 +950,7 @@
                     </div>
                     <cb n="2"/>
                     
-                    <div>
+                    <div xml:id="jv2" next="#jv3" prev="#jv1">
                         <figure resp="#ce_torner">
                             <figDesc>
                                 Per släpar på en gran i förgrunden, och i bakgrunden syns Lisa som står på en stol och sträcker sig efter en tallrik (?).
@@ -962,7 +966,7 @@
                         </lg>
                     </div>
                     <cb n="3"/>
-                    <div>
+                    <div xml:id="jv3" next="#jv4" prev="#jv2">
                         <figure resp="#ce_torner">
                             <figDesc>
                                 En person, Kajsa, kommer gäspande nedför trappan med ett ljus i handen. Det ligger en sopkvast tvärsöver trappan och framför den står en skurhink.
@@ -978,7 +982,7 @@
                         </lg>
                     </div>
                     <cb n="1"/>
-                    <div>
+                    <div xml:id="jv4" next="#jv5" prev="#jv3">
                         <figure resp="#ce_torner">
                             <figDesc>
                                 Kajsa snubblar på sopkvasten och faller med huvudet före ner i skurhinken.
@@ -994,7 +998,7 @@
                         </lg>
                     </div>
                     <cb n="2"/>
-                    <div>
+                    <div xml:id="jv5" next="#jv6" prev="#jv4">
                         <figure resp="#ce_torner">
                             <figDesc>
                                 Kajsa ramlar in i köket där någon har skrivit "GOD JUL KAJSA LILLA" med diverse köksredskap och mat. Per och Lisa sitter gömda i en kista, och bara deras huvuden sticker upp.
@@ -1143,54 +1147,78 @@
                 </div>
                 <cb n="2"/>
                     
-                <div type="pictureStory" rhyme="">
+                <div type="pictureStory">
                     <head>Små spelorrar.</head>
-                        
-                    <figure resp="#e_hedberg" xml:id="ss1" next="#ss2">
-                        <figDesc>Två barn, Johan och Per, sitter på marken och spelar ett spel med knappar.</figDesc>
-                        <ab>Johan spelar med Per om knappar.</ab>
-                    </figure>
-                        
-                    <figure resp="#e_hedberg" xml:id="ss2" next="#ss3" prev="#ss1">
-                        <figDesc>Två barn, Johan och Per, sitter på marken och spelar ett spel med knappar. Det ena barnet, Johan, vinner.</figDesc>
-                        <ab>Johan vinner och Pelle tappar.</ab>
-                    </figure>
-                        
-                    <figure resp="#e_hedberg" xml:id="ss3" next="#ss4" prev="#ss2">
-                        <figDesc>Till höger sitter Johan och räknar knappar. Per står bredvid och har en jacka utan knappar på sig. </figDesc>
-                        <ab>Johan högtals med knappar har,
-                        <lb/>ej ens i jackan Per dem har kvar.</ab>
-                    </figure>
-        
-                    <figure resp="#e_hedberg" xml:id="ss4" next="#ss5" prev="#ss3">
-                        <figDesc>Johan, som vunnit knapparna, skrattar, och Per gråter.</figDesc>
-                        <ab>Johan skrattar och Pelle gråter;
-                        <lb/>sin förlust får ej stackar’n åter</ab>
-                    </figure>
-                        
-                    <figure resp="#e_hedberg" xml:id="ss5" next="#ss6" prev="#ss4">
-                        <figDesc>En vuxen, moster Anna, uppenbarar sig bakom barnen. Moster Anna har händerna på höfterna och ser missnöjd ut.</figDesc>
-                        <ab>Den skrattar bäst dock, som skrattar sist,
-                        <lb/>ty moster Anna nu kom – förvisst.</ab>
-                    </figure>
-                        
-                    <figure resp="#e_hedberg" xml:id="ss6" next="#ss7" prev="#ss5">
-                        <figDesc>Moster Anna bär Johan under armen och har höjt handen i en gest som att hon ska ge honom smisk.</figDesc>
-                        <ab>Hon reda tog uppå hela saken,
-                        <lb/>och Johan fick, så det sved på baken.</ab>
-                    </figure>
-                           
-                    <figure resp="#e_hedberg" xml:id="ss7" next="#ss8" prev="#ss6">
-                       <figDesc>Moster Anna nyper Per i örat och höjer fingret mot honom.</figDesc>
-                        <ab> Nog Pelle lofva »så mer ej göra»
-                        <lb/> men fick sig ändå ett nyp i öra’.</ab>
-                    </figure>    
-                         
-                    <figure resp="#e_hedberg" xml:id="ss8" prev="#ss7">
-                       <figDesc>Johan står och gråter. Per står snett bakom och torkar tårar.</figDesc>
-                        <ab> På ändan illa det går, du finner,
-                        <lb/>för den, som spelar, om ock han vinner. </ab>
-                    </figure>
+                    <div xml:id="ss1" next="#ss2">   
+                        <figure resp="#e_hedberg">
+                            <figDesc>Två barn, Johan och Per, sitter på marken och spelar ett spel med knappar.</figDesc>
+                        </figure>
+                        <lg>
+                            <l>Johan spelar med Per om knappar</l>
+                        </lg>
+                    </div>
+                    <div xml:id="ss2" next="#ss3" prev="#ss1">
+                        <figure resp="#e_hedberg">
+                            <figDesc>Två barn, Johan och Per, sitter på marken och spelar ett spel med knappar. Det ena barnet, Johan, vinner.</figDesc>
+                        </figure>
+                        <lg>
+                            <l>Johan vinner och Pelle tappar.</l>
+                        </lg>
+                    </div>   
+                    <div xml:id="ss3" next="#ss4" prev="#ss2">
+                        <figure resp="#e_hedberg">
+                            <figDesc>Till höger sitter Johan och räknar knappar. Per står bredvid och har en jacka utan knappar på sig. </figDesc>
+                        </figure>
+                        <lg rhyme="aa">
+                            <l>Johan högtals med knappar <rhyme label="a">har</rhyme>,</l>
+                            <l>ej ens i jackan Per dem har <rhyme label="a">kvar</rhyme>.</l>
+                        </lg>
+                    </div>    
+                    <div xml:id="ss4" next="#ss5" prev="#ss3">
+                        <figure resp="#e_hedberg">
+                            <figDesc>Johan, som vunnit knapparna, skrattar, och Per gråter.</figDesc>
+                        </figure>
+                        <lg rhyme="aa">
+                            <l>Johan skrattar och Pelle <rhyme label="a">gråter</rhyme>;</l>
+                            <l>sin förlust får ej stackar’n <rhyme label="a">åter</rhyme></l>
+                        </lg>
+                    </div>
+                    <div xml:id="ss5" next="#ss6" prev="#ss4">
+                        <figure resp="#e_hedberg">
+                            <figDesc>En vuxen, moster Anna, uppenbarar sig bakom barnen. Moster Anna har händerna på höfterna och ser missnöjd ut.</figDesc>
+                        </figure>
+                        <lg rhyme="aa">
+                            <l>Den som skrattar bäst dock, som skrattar <rhyme label="a">sist</rhyme>,</l>
+                            <l>ty moster Anna nu kom - <rhyme label="a">förvisst</rhyme>.</l>
+                        </lg>
+                    </div>  
+                    <div xml:id="ss6" next="#ss7" prev="#ss5">
+                        <figure resp="#e_hedberg">
+                            <figDesc>Moster Anna bär Johan under armen och har höjt handen i en gest som att hon ska ge honom smisk.</figDesc>
+                        </figure>
+                        <lg rhyme="aa">
+                            <l>Hon reda tog uppå hela <rhyme label="a">saken</rhyme>,</l>
+                            <l>och Johan fick, så det sved på <rhyme label="a">baken</rhyme>.</l>
+                        </lg>
+                    </div>
+                    <div xml:id="ss7" next="#ss8" prev="#ss6">
+                        <figure resp="#e_hedberg">
+                           <figDesc>Moster Anna nyper Per i örat och höjer fingret mot honom.</figDesc>
+                        </figure>    
+                        <lg rhyme="aa">
+                            <l>Nog Pelle lofva »så mer ej <rhyme label="a">göra»</rhyme></l>
+                            <l>men fick sig ändå ett nyp i <rhyme label="a">öra’</rhyme></l>
+                        </lg>
+                    </div>       
+                    <div xml:id="ss8" prev="#ss7">
+                        <figure resp="#e_hedberg">
+                           <figDesc>Johan står och gråter. Per står snett bakom och torkar tårar.</figDesc>
+                        </figure>
+                        <lg rhyme="aa">
+                            <l>På ändan illa det går, du <rhyme label="a">finner</rhyme>,</l>
+                            <l>för den, som spelar, om ock han <rhyme label="a">vinner</rhyme>.</l>
+                        </lg>
+                    </div>     
                                          
                     <byline><persName ref="#e_hedberg">ECKE H.</persName></byline>
 
@@ -1201,7 +1229,7 @@
             <pb facs="#tummeliten_08" n="8"/>
             <div type="page" n="8" facs="#tummeliten_08">
                 <div>
-                    <ab rend="handwritten">0750</ab>
+                    <ab rend="handwritten top-right">0750</ab>
                 </div>
                 
                 <figure resp="#e_forsstrom">
