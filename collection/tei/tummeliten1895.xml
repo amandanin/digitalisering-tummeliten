@@ -87,9 +87,9 @@
                     </author>
                     
                     <author>
-                        <persName xml:id="s_alvarsson" ref="https://libris.kb.se/khwz1l432ldkznl#it">
+                        <persName xml:id="s_alvarsson" ref="https://libris.kb.se/86lnr2ks0m93drh#it" cert="low">
                             <surname>Wranér</surname>
-                            <forename>Signe</forename>
+                            <forename>Henrik</forename>
                             <roleName type="pseudonym">Signe Alvarsson</roleName>
                         </persName>
                     </author>
