@@ -241,28 +241,74 @@
     
     <facsimile>
         <surface xml:id="tummeliten_01">
-            <graphic url="assets/img/documents/Tummeliten-1895-sida-01.jpg"/>
+            <figure>
+                <label>Tummeliten s.1</label>
+                <figDesc>
+                En större illustration i rött och blått på beige bakgrund. Illustrationen föreställer sju barn som är uppklädda, spelar musik och klappar i händerna under ett antal asiatiska lyktor som hänger från taket. Titel, årtal och utgivningsinformation i blå text på den nedre delen av bilden. 
+                </figDesc>
+                <graphic url="assets/img/documents/Tummeliten-1895-sida-01.jpg"/>
+            </figure>
         </surface>
         <surface xml:id="tummeliten_02">
-            <graphic url="assets/img/documents/Tummeliten-1895-sida-02.jpg"/>
+            <figure>
+                <label>Tummeliten s.2</label>
+                <figDesc>
+                    Sagan om Pomperipossa med den långa näsan. Röd överskrift med en illustration av Pomperipossa. Blå text och fyra illustrationer föreställande en stuga, hovmarskalken och kungabarnen, Pomperipossa med två gäss och hovmarskalken med Pomperipossa och gässen vid vattnet.
+                </figDesc>
+                <graphic url="assets/img/documents/Tummeliten-1895-sida-02.jpg"/>
+            </figure>
         </surface>
         <surface xml:id="tummeliten_03">
-            <graphic url="assets/img/documents/Tummeliten-1895-sida-03.jpg"/>
+            <figure>
+                <label>Tummeliten s.3</label>
+                <figDesc>
+                    Sagan om Pomperipossa med den långa näsan. Blå text och tre illustrationer föreställande Pomperipossa och kråkan, Pomperipossa när hon blir biten i näsan av kräftan och kungen på sin tron med hovmarskalken och de två kungabarnen framför sig. En serieruta i rött föreställande fem teckningar av två barn som leker att de reser till Amerika.
+                </figDesc>
+                <graphic url="assets/img/documents/Tummeliten-1895-sida-03.jpg"/>
+            </figure>
         </surface>
         <surface xml:id="tummeliten_04">
-            <graphic url="assets/img/documents/Tummeliten-1895-sida-04.jpg"/>
+            <figure>
+                <label>Tummeliten s.4</label>
+                <figDesc>
+                    Sångtext och noter i blått till sångleken “Räf och höns”. Illustrationer i rött föreställande barn som leker utomhus, en räv som sover och en höna, kycklingar och en räv utomhus.
+                </figDesc>
+                <graphic url="assets/img/documents/Tummeliten-1895-sida-04.jpg"/>
+            </figure>
         </surface>
         <surface xml:id="tummeliten_05">
-            <graphic url="assets/img/documents/Tummeliten-1895-sida-05.jpg"/>
+            <figure>
+                <label>Tummeliten s.5</label>
+                <figDesc>En blå illustration föreställande sju barn som bakar vid ett bord och en tillhörande vers. På nedre delen av sidan en illustration av en samling glada katter som trängs på en gungbräda gjord av en bräda över en stock.</figDesc>
+                <graphic url="assets/img/documents/Tummeliten-1895-sida-05.jpg"/>
+            </figure>
         </surface>
         <surface xml:id="tummeliten_06">
-            <graphic url="assets/img/documents/Tummeliten-1895-sida-06.jpg"/>
+            <figure>
+                <label>Tummeliten s.6</label>
+                <figDesc>
+                    En vers med fem illustrationer i blått föreställande två barn, barnen i skafferiet, en kvinna i en trappa, kvinnan som faller huvudstupa i ett vattenkar och kvinnan sittandes på golvet i en vattenpöl i ett julpyntat rum. På nedre delen av sidan finns en kort saga i blått.
+                </figDesc>
+                <graphic url="assets/img/documents/Tummeliten-1895-sida-06.jpg"/>
+            </figure>
         </surface>
         <surface xml:id="tummeliten_07">
-            <graphic url="assets/img/documents/Tummeliten-1895-sida-07.jpg"/>
+            <figure>
+                <label>Tummeliten s.7</label>
+                <figDesc>
+                    På sidans vänstra del finns en visa och en talövning i blått. På den högra sidan finns en serie i rött som består av åtta illustrationer föreställande två pojkar som spelar kula och blir påkomna av sin moster Anna som ger den ena pojken smisk på rumpan och den andra pojken ett nyp i örat.
+                </figDesc>
+                <graphic url="assets/img/documents/Tummeliten-1895-sida-07.jpg"/>
+            </figure>
         </surface>
         <surface xml:id="tummeliten_08">
-            <graphic url="assets/img/documents/Tummeliten-1895-sida-08.jpg"/>
+            <figure>
+                <label>Tummeliten s.8</label>
+                <figDesc>
+                    Baksidan. En vers i blått och en större illustration i blått och rött föreställande fem barn i olika åldrar som doppar i grytan. I bakgrunden ser deras föräldrar leende på dem. Runt illustrationen finns en utsmyckad bård med julmotiv. Längst ned på sidan finns uppgifter om redaktionen och pris- och beställningsinformation. 
+                </figDesc>
+                <graphic url="assets/img/documents/Tummeliten-1895-sida-08.jpg"/>
+            </figure>
         </surface>
     </facsimile>
 
@@ -1084,56 +1130,64 @@
                 </div>
                 <div type="poem" subtype="languageExercise">
                     <head>Talöfning.</head>
-                   <lg> 
+                   <lg rhyme="aaabb"> 
                         <l>Min fru hade tre döttrar.</l>
-                        <l>Den första hette Blinka,</l>
-                        <l>den andra hette Bibliblinka,</l>
+                        <l>Den första hette <rhyme label="a">Blinka</rhyme>,</l>
+                        <l>den andra hette <rhyme label="a">Bibliblinka</rhyme>,</l>
                         <l>och den tredje hette Sten-knick-</l>
-                        <l>knafveli-klinka.</l>
-                        <l>Så tog Blinka en sten</l>
-                        <l>och kasta’ på Bibliblinkas ben,</l>
+                        <l><rhyme label="a">knafveli-klinka</rhyme>.</l>
+                        <l>Så tog Blinka en <rhyme label="b">sten</rhyme></l>
+                        <l>och kasta’ på Bibliblinkas <rhyme label="b">ben</rhyme>,</l>
                         <l>så Sten-knick-knafveli-klinka skrek.</l>
                     </lg>
                 </div>
                 <cb n="2"/>
                     
-                <div type="pictureStory">
+                <div type="pictureStory" rhyme="">
                     <head>Små spelorrar.</head>
                         
                     <figure resp="#e_hedberg" xml:id="ss1" next="#ss2">
+                        <figDesc>Två barn, Johan och Per, sitter på marken och spelar ett spel med knappar.</figDesc>
                         <ab>Johan spelar med Per om knappar.</ab>
                     </figure>
                         
                     <figure resp="#e_hedberg" xml:id="ss2" next="#ss3" prev="#ss1">
+                        <figDesc>Två barn, Johan och Per, sitter på marken och spelar ett spel med knappar. Det ena barnet, Johan, vinner.</figDesc>
                         <ab>Johan vinner och Pelle tappar.</ab>
                     </figure>
                         
                     <figure resp="#e_hedberg" xml:id="ss3" next="#ss4" prev="#ss2">
+                        <figDesc>Till höger sitter Johan och räknar knappar. Per står bredvid och har en jacka utan knappar på sig. </figDesc>
                         <ab>Johan högtals med knappar har,
                         <lb/>ej ens i jackan Per dem har kvar.</ab>
                     </figure>
         
                     <figure resp="#e_hedberg" xml:id="ss4" next="#ss5" prev="#ss3">
+                        <figDesc>Johan, som vunnit knapparna, skrattar, och Per gråter.</figDesc>
                         <ab>Johan skrattar och Pelle gråter;
                         <lb/>sin förlust får ej stackar’n åter</ab>
                     </figure>
                         
                     <figure resp="#e_hedberg" xml:id="ss5" next="#ss6" prev="#ss4">
+                        <figDesc>En vuxen, moster Anna, uppenbarar sig bakom barnen. Moster Anna har händerna på höfterna och ser missnöjd ut.</figDesc>
                         <ab>Den skrattar bäst dock, som skrattar sist,
                         <lb/>ty moster Anna nu kom – förvisst.</ab>
                     </figure>
                         
                     <figure resp="#e_hedberg" xml:id="ss6" next="#ss7" prev="#ss5">
+                        <figDesc>Moster Anna bär Johan under armen och har höjt handen i en gest som att hon ska ge honom smisk.</figDesc>
                         <ab>Hon reda tog uppå hela saken,
                         <lb/>och Johan fick, så det sved på baken.</ab>
                     </figure>
                            
                     <figure resp="#e_hedberg" xml:id="ss7" next="#ss8" prev="#ss6">
+                       <figDesc>Moster Anna nyper Per i örat och höjer fingret mot honom.</figDesc>
                         <ab> Nog Pelle lofva »så mer ej göra»
                         <lb/> men fick sig ändå ett nyp i öra’.</ab>
                     </figure>    
                          
                     <figure resp="#e_hedberg" xml:id="ss8" prev="#ss7">
+                       <figDesc>Johan står och gråter. Per står snett bakom och torkar tårar.</figDesc>
                         <ab> På ändan illa det går, du finner,
                         <lb/>för den, som spelar, om ock han vinner. </ab>
                     </figure>

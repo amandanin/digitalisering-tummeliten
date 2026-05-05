@@ -85,14 +85,14 @@
                                         <img class="img-full">
                                            
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:graphic/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
                                             <!-- <xsl:attribute name="title">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
+                                            </xsl:attribute>-->
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute> -->
+                                            </xsl:attribute>
                                         </img>
                                     </article>
                                 </div>
@@ -128,17 +128,17 @@
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:graphic/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="id"> 
                                                 <xsl:value-of select="substring(@facs, 2)"/>
                                             </xsl:attribute>
                                             <!-- <xsl:attribute name="title">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
+                                            </xsl:attribute>-->
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute> -->
+                                            </xsl:attribute>
                                         </img>
                                     </article>
                                 </div>
