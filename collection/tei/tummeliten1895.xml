@@ -111,6 +111,19 @@
                     </author>
                     
                     <author>
+                        <persName xml:id="snorre" ref="http://viaf.org/viaf/39365217">
+                        <surname>Nordlund</surname>
+                            <forename>Sigrid</forename>
+                            <roleName type="pseudonym">Snorre</roleName>
+                        </persName>
+                    </author>
+                    
+                    <author>
+                        <name xml:id="onkel_pompe" type="pseudonym">Onkel Pompe</name>
+                        <note>Pseudonym. Verklig upphovsperson är okänd.</note>
+                    </author>
+                    
+                    <author>
                         <persName xml:id="o_adelborg" ref="https://libris.kb.se/sq466t3b4s743md#it">
                             <surname>Adelborg</surname>
                             <forename>Ottilia</forename>
@@ -178,15 +191,6 @@
                         </persName>
                     </respStmt>
                     
-                    <author>
-                        <name xml:id="snorre" type="pseudonym">Snorre</name>
-                        <note>Pseudonym. Verklig upphovsperson är okänd.</note>
-                    </author>
-                    
-                    <author>
-                        <name xml:id="onkel_pompe" type="pseudonym">Onkel Pompe</name>
-                        <note>Pseudonym. Verklig upphovsperson är okänd.</note>
-                    </author>
                 </bibl>
                 
                 <listBibl>
@@ -200,6 +204,11 @@
                         <title>Svensk läraretidning, nr 49</title>
                         <date when="1895-12-04">4 december 1895</date>
                         <ref target="https://runeberg.org/svlartid/1895/0660.html">Svensk läraretidning (1895), nr 49, sid 656 (via Projekt Runeberg)</ref>
+                    </bibl>
+                    <bibl xml:id="svenskt_portrattgalleri" type="book">
+                        <title>Svenskt porträttgalleri XV : Författare</title>
+                        <date when="1900">1900</date>
+                        <ref target="https://litteraturbanken.se/f%C3%B6rfattare/HildebrandA/titlar/SvensktPortr%C3%A4ttgalleri15/sida/211/faksimil">Svenskt porträttgalleri XV, Pseudonym- och signaturregister, sid 211</ref>
                     </bibl>
                 </listBibl>
                 
