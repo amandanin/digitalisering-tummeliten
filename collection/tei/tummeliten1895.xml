@@ -239,6 +239,9 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="swe">Svenska</language>
+            </langUsage>
             <textClass>
                 <keywords scheme="#saogf">
                     <term ref="https://id.kb.se/term/saogf/Jultidningar">Jultidningar</term>
