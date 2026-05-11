@@ -65,8 +65,12 @@
                                             beskriva vad som sker i illustrationen.
                                         </li>
                                         <li>
-                                            En streckad linje indikerar en ny kolumn och/eller ett
-                                            av tidningens layout tydligt begränsat avsnitt.
+                                            En linje med långa streck som sträcker sig över hela sidan indikerar ett
+                                            av tidningens layout tydligt begränsat avsnitt. 
+                                            
+                                        </li>
+                                        <li>
+                                            En kortare linje, med mindre streck indikerar en ny kolumn i sagotexterna. 
                                             
                                         </li>
                                     </ul>
@@ -189,11 +193,6 @@
         </h2>
     </xsl:template>
 
-    <xsl:template match="tei:emph">
-        <strong>
-            <xsl:apply-templates/>
-        </strong>
-    </xsl:template>
     
     <!-- SIDA 1 -->
     <xsl:template match="tei:titlePart">
@@ -284,11 +283,15 @@
         </p></div>
     </xsl:template>
 
-    <!-- <xsl:template match="tei:signed">
-        <span class="signed">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template> -->
+
+    <!-- & illustration 1. för front-elementet -->
+    <xsl:template match="tei:front//tei:figDesc">
+        <div class="italic text-center figdesc_container"><p>&#91;Illustration 1.
+        <xsl:text> </xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text> &#93;</xsl:text>
+        </p></div>
+    </xsl:template>
     
 
     <!-- XSL för pageHeader-elementet -->
@@ -325,7 +328,7 @@
     </xsl:template>
 
 
-    <!-- testar om <lb>-taggen har ett @rend-attribut för indentering och renderar beroende på -->
+    <!-- testar om <lb>-taggen har ett @rend-attribut för indentering och renderar därefter med eller utan indentering-->
     <xsl:template match="tei:lb">
         <xsl:choose>
             <xsl:when test="@rend='indented'">
@@ -357,23 +360,12 @@
         <div class="column_line">
         </div>
     </xsl:template>
-<!-- 
-    <xsl:template match="tei:cb[@n = '3']">
-        <div class="column_line">
-        </div>
-    </xsl:template> -->
 
 
     <xsl:template match="tei:p">
         <p>
             <xsl:apply-templates/>
         </p>
-    </xsl:template>
-
-    <xsl:template match="tei:hi[@rend = 'italic']">
-        <i>
-            <xsl:apply-templates/>
-        </i>
     </xsl:template>
 
     <xsl:template match="tei:*[contains(concat(' ', normalize-space(@rend), ' '), ' italic ')]">
@@ -389,17 +381,23 @@
     </xsl:template>
 
     <xsl:template match="tei:l">
-        <!-- <span class="line"> -->
-            <xsl:apply-templates/>
-        <!-- </span> -->
-        <br/>
-    </xsl:template>
 
-    <xsl:template match="tei:l[@rend='indented']">
-        <span class="indented">
+        <xsl:choose>
+            <xsl:when test="@rend='indented'">
+            <span class="indented">
                 <xsl:apply-templates/>
-        </span>
-        <br/>
+            </span>
+            <br/>        
+            </xsl:when>
+            <xsl:otherwise>
+            
+            <!-- <span class="line"> -->
+                <xsl:apply-templates/>
+            <!-- </span> -->
+            <br/>
+            </xsl:otherwise>
+        </xsl:choose>
+
     </xsl:template>
 
     <xsl:template match="tei:p[@rend='indented']">
@@ -409,6 +407,14 @@
         <br/>
     </xsl:template>
 
+    <!-- sida 1 -->
+    <xsl:template match="tei:front//tei:persName[@ref='#a_engstrom']">
+        <span class="signed bold">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- sida 4 -->
     <xsl:template match="tei:div[@facs='#tummeliten_04']//tei:head">
         <xsl:choose>
             <xsl:when test="@type='main'">
@@ -425,7 +431,6 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- sida 4 -->
     <xsl:template match="tei:div[@facs='#tummeliten_04']//tei:stage">
         <div class="italic mt-3 mb-3">
             <span class="indented"></span>
@@ -483,6 +488,12 @@
         <div class="pt-3 ml-5 column_line_top">
             <xsl:apply-templates/>
         </div>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@facs='#tummeliten_06']//tei:emph">
+        <strong>
+            <xsl:apply-templates/>
+        </strong>
     </xsl:template>
 
     <!-- sida 7 -->

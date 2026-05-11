@@ -355,14 +355,15 @@ footer {
 
 .transcription_page1_title1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
-    padding-top: 16rem;
+    /* padding-top: 17rem; */
+    padding-top: 2rem;
 }
 
 .transcription_page1_title2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -381,8 +382,6 @@ footer {
     margin-left:2rem;
     margin-top:0px;
     padding-top: 0px;
-    /* color: red;
-    background-color: brown; */
 }
 
 .page_header {
@@ -394,12 +393,14 @@ footer {
 
 .column_line {
     border-bottom: 2px dotted rgb(161, 160, 160);
+    margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    width: 80%;
 }
 
 .column_line_top {
-    border-top: 2px dotted rgb(161, 160, 160);
+    border-top: 2px dashed rgb(161, 160, 160);
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
