@@ -227,10 +227,25 @@
             <editorialDecl>
                 <p>Denna digitala utgåva är baserad på en diplomatisk transkribering. Det innebär att vi har bevarat originalets stavning, 
                     skiljetecken, versalisering och radbrytningar utan att göra några språkliga eller typografiska moderniseringar.</p>
+                <interpretation>
+                    <p>Vi har kategoriserat tidningens innehåll genom attributet @type på div-elementen. De tre huvudkategorierna är:</p>
+                    <p>- poem: Bidrag på rimmad vers (lg). För dessa används även @subtype för att specificera om det rör sig om en visa (song), en ramsa (nurseryRhyme) eller en språkövning (languageExercise).</p>
+                    <p>- story: Vanliga prosatexter (p).</p>
+                    <p>- pictureStory: Bidrag där bild och text samverkar narrativt.</p>
+                </interpretation>
             </editorialDecl>
             <classDecl>
                 <taxonomy xml:id="saogf">
-                    <bibl>Svenska ämnesord Genre och Form (saogf)</bibl>
+                    <bibl>Svenska ämnesord Genre Form (saogf)</bibl>
+                </taxonomy>
+                <taxonomy xml:id="sao">
+                    <bibl>Svenska ämnesord (sao)</bibl>
+                </taxonomy>
+                <taxonomy xml:id="barngf">
+                    <bibl>Barnämnesord Genre Form (barngf)</bibl>
+                </taxonomy>
+                <taxonomy xml:id="barn">
+                    <bibl>Barnämnesord (barn)</bibl>
                 </taxonomy>
                 <taxonomy xml:id="loc_relators">
                     <bibl>Library of Congress Relator terms</bibl>
@@ -243,10 +258,20 @@
                 <language ident="swe">Svenska</language>
             </langUsage>
             <textClass>
+                <!-- Genre/Form från Svenska ämnesord -->
                 <keywords scheme="#saogf">
                     <term ref="https://id.kb.se/term/saogf/Jultidningar">Jultidningar</term>
                     <term ref="https://id.kb.se/term/saogf/Barntidningar">Barntidningar</term>
                 </keywords>
+                <!-- Svenska ämnesord (för vuxna läsare/forskare) -->
+                <keywords scheme="#sao">
+                    <term ref="https://id.kb.se/term/sao/Aga">Aga</term>
+                </keywords>
+                <!-- Genre/Form specifikt för barnlitteratur -->
+                <keywords scheme="#barngf">
+                    <term ref="https://id.kb.se/term/barngf/Rim%20och%20ramsor">Rim och ramsor</term>
+                </keywords>
+                
             </textClass>
         </profileDesc>
     </teiHeader>
