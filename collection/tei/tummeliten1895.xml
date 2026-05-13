@@ -46,15 +46,16 @@
                         <measure type="width" unit="cm">23,7</measure>
                     </extent>
                     
-                    <editor role="#pbl">
+                    <editor role="#pbl #edt">
                         <persName xml:id="e_hammarlund" ref="http://viaf.org/viaf/12290298">
                             <surname>Hammarlund</surname>
                             <forename>Emil</forename>
+                            <roleName>Ansvarig utgivare och redaktör för Tummeliten</roleName>
                         </persName>
                     </editor>
                     
                     <respStmt>
-                        <resp>Medredaktör</resp>
+                        <resp ref="#edt">Medredaktör</resp>
                         <persName xml:id="a_hammarlund" ref="https://libris.kb.se/qn247pw82x2b7f5#it">
                             <surname>Hammarlund</surname>
                             <forename>Amanda</forename>
@@ -223,11 +224,17 @@
                 </hyphenation>
                 <interpretation>
                     <p>Vi har kategoriserat tidningens innehåll genom attributet @type på div-elementen. De tre huvudkategorierna är:</p>
-                    <p>- poem: Bidrag på rimmad vers (lg). För dessa används även @subtype för att specificera om det rör sig om en visa (song), en ramsa (nurseryRhyme) eller en språkövning (languageExercise).</p>
+                    <p>- poem: Bidrag på rimmad vers (lg). För dessa används även @subtype för att specificera om det rör sig om en visa (song), 
+                        en ramsa (nurseryRhyme) eller en språkövning (languageExercise).</p>
                     <p>- story: Vanliga prosatexter (p).</p>
                     <p>- pictureStory: Bidrag där bild och text samverkar narrativt.</p>
+                    <p>För instruktionerna till sångleken Räf och höns har elementet "stage" använts. </p>
                 </interpretation>
             </editorialDecl>
+            <metDecl>
+                <p>Rimschema har markerats på versgrupper "lg" genom attributet @rhyme. Bokstavsbeteckningar (t.ex. "aabb" eller "abab") 
+                    används för att indikera rimmönster inom strofen.</p>
+            </metDecl>
             <classDecl>
                 <taxonomy xml:id="saogf">
                     <bibl>Svenska ämnesord Genre Form (saogf)</bibl>
@@ -249,6 +256,7 @@
                     <category xml:id="aut"><catDesc>Författare</catDesc></category>
                     <category xml:id="ill"><catDesc>Illustratör</catDesc></category>
                     <category xml:id="pbl"><catDesc>Utgivare</catDesc></category>
+                    <category xml:id="edt"><catDesc>Redaktör</catDesc></category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
@@ -262,16 +270,33 @@
                 <keywords scheme="#saogf">
                     <term ref="https://id.kb.se/term/saogf/Jultidningar">Jultidningar</term>
                     <term ref="https://id.kb.se/term/saogf/Barntidningar">Barntidningar</term>
+                    <term ref="https://id.kb.se/term/saogf/Sagor">Sagor</term>
                 </keywords>
                 <!-- Svenska ämnesord (för vuxna läsare/forskare) -->
                 <keywords scheme="#sao">
                     <term ref="https://id.kb.se/term/sao/Aga">Aga</term>
+                    <term ref="https://id.kb.se/term/sao/Amerika%20%28kontinent%29">Amerika (kontinent)</term>
+                    <term ref="https://id.kb.se/term/sao/F%C3%B6rm%C3%A4nskligade%20djur">Förmänskligade djur</term>
+                    <term ref="https://id.kb.se/term/sao/H%C3%A4xor">Häxor</term>
+                    <term ref="https://id.kb.se/term/sao/Julen">Julen</term>
+                    <term ref="https://id.kb.se/term/sao/Katter">Katter</term>
+                    <term ref="https://id.kb.se/term/sao/Lekar">Lekar</term>
+                    <term ref="https://id.kb.se/term/sao/L%C3%A4rodiktning">Lärodiktning</term>
+                    <term ref="https://id.kb.se/term/sao/R%C3%A4var">Rävar</term>
                 </keywords>
                 <!-- Genre/Form specifikt för barnlitteratur -->
                 <keywords scheme="#barngf">
                     <term ref="https://id.kb.se/term/barngf/Rim%20och%20ramsor">Rim och ramsor</term>
+                    <term ref="https://id.kb.se/term/barngf/S%C3%A5nglekar">Sånglekar</term>
                 </keywords>
-                
+                <!-- Barnämnesord -->
+                <keywords scheme="#barn">
+                    <term ref="https://id.kb.se/term/barn/F%C3%B6rm%C3%A4nskligade%20djur">Förmänskligade djur</term>
+                    <term ref="https://id.kb.se/term/barn/H%C3%A4xor">Häxor</term>
+                    <term ref="https://id.kb.se/term/barn/Julen">Julen</term>
+                    <term ref="https://id.kb.se/term/barn/Katter">Katter</term>
+                    <term ref="https://id.kb.se/term/barn/R%C3%A4var">Rävar</term>
+                </keywords>
             </textClass>
         </profileDesc>
     </teiHeader>
