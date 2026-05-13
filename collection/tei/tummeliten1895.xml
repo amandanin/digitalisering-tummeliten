@@ -123,20 +123,19 @@
                         <note>Pseudonym. Verklig upphovsperson är okänd.</note>
                     </author>
                     
-                    <author role="#aut">
+                    <author role="#aut #ill">
                         <persName xml:id="o_adelborg" ref="https://libris.kb.se/sq466t3b4s743md#it">
                             <surname>Adelborg</surname>
                             <forename>Ottilia</forename>
                         </persName>
                     </author>
                     
-                    <respStmt>
-                        <resp ref="#ill">Illustratör</resp>
-                        <persName ref="https://libris.kb.se/sq466t3b4s743md#it">
-                            <surname>Adelborg</surname>
-                            <forename>Ottilia</forename>
+                    <author role="#aut #ill">
+                        <persName xml:id="e_hedberg" ref="https://libris.kb.se/nl037r364xrn5gg#it">
+                            <surname>Hedberg</surname>
+                            <forename>Erik</forename>
                         </persName>
-                    </respStmt>
+                    </author>
                     
                     <respStmt>
                         <resp ref="#ill">Illustratör</resp>
@@ -174,14 +173,6 @@
                             <forename>Erik</forename>
                         </persName>
                     </respStmt>
-                    
-                   <respStmt>
-                       <resp ref="#ill">Illustratör</resp>
-                       <persName xml:id="e_hedberg" ref="https://libris.kb.se/nl037r364xrn5gg#it">
-                           <surname>Hedberg</surname>
-                           <forename>Erik</forename>
-                       </persName>
-                   </respStmt>
                     
                     <respStmt>
                         <resp ref="#ill">Illustratör</resp>
