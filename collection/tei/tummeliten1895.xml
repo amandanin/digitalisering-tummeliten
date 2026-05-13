@@ -218,6 +218,9 @@
             <editorialDecl>
                 <p>Denna digitala utgåva är baserad på en diplomatisk transkribering. Det innebär att vi har bevarat originalets stavning, 
                     skiljetecken, versalisering och radbrytningar utan att göra några språkliga eller typografiska moderniseringar.</p>
+                <hyphenation eol="all">
+                    <p>Originalets radbrytningar och avstavningar har bevarats i den diplomatiska transkriberingen.</p>
+                </hyphenation>
                 <interpretation>
                     <p>Vi har kategoriserat tidningens innehåll genom attributet @type på div-elementen. De tre huvudkategorierna är:</p>
                     <p>- poem: Bidrag på rimmad vers (lg). För dessa används även @subtype för att specificera om det rör sig om en visa (song), en ramsa (nurseryRhyme) eller en språkövning (languageExercise).</p>
