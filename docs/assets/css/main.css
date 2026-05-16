@@ -355,16 +355,17 @@ footer {
 
 .transcription_page1_title1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
-    /* padding-top: 17rem; */
-    padding-top: 2rem;
+    padding-top: 20.1rem;
+    /* padding-top: 2rem; */
 }
 
 .transcription_page1_title2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     text-align: center;
+    font-weight: 300;
 }
 
 .transcription_page1_docimprint{
@@ -436,6 +437,10 @@ footer {
     text-align: right;
 }
 
+.signed_left {
+    font-size: 1rem;
+}
+
 .move-right {
     display: block;
     text-align: right;
@@ -443,6 +448,10 @@ footer {
 
 .songlek_main_header {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.songlek_sub_header {
+    margin-left: 5rem;
 }
 
 .handwritten {
@@ -461,6 +470,31 @@ footer {
 .hide {
     display: none;
 }
+
+.signature_left {
+    text-align: start;
+}
+
+.jv_small_header {
+    font-size: 1rem;
+}
+
+.jv_middle_header {
+    font-size: 1.3rem;
+}
+
+.julvisa_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talofning_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
 
 /* Media queries */
 @media only screen and (max-width: 480px) {
