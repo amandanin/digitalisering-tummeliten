@@ -452,8 +452,14 @@ footer {
     color: rgb(130, 128, 128);
 }
 
-.align-right {
-    text-align: end;
+.align-right-image_container {
+    align-self: center;
+}
+
+
+
+.hide {
+    display: none;
 }
 
 /* Media queries */
