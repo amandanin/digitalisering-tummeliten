@@ -331,19 +331,19 @@
     <!-- testar om <lb>-taggen har ett @rend-attribut för indentering och renderar därefter med eller utan indentering-->
     <xsl:template match="tei:lb">
         <xsl:choose>
-            <xsl:when test="@rend='indented'">
+            <xsl:when test="contains(concat(' ', normalize-space(@rend), ' '), ' indented ')">
             <span class="indented">
                 <xsl:apply-templates/>
             </span>
                        
             </xsl:when>
-        <xsl:otherwise>
+            <xsl:otherwise>
             <br/>
-        </xsl:otherwise>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
-    <xsl:template match="tei:said[@rend = 'indented']">
+    <xsl:template match="tei:said[contains(concat(' ', normalize-space(@rend), ' '), ' indented ')]">
             <span class="indented">
                 <xsl:apply-templates/>
             </span>
@@ -400,7 +400,7 @@
 
     </xsl:template>
 
-    <xsl:template match="tei:p[@rend='indented']">
+    <xsl:template match="tei:p[contains(concat(' ', normalize-space(@rend), ' '), ' indented ')]">
         <span class="indented">
             <xsl:apply-templates/>
         </span>

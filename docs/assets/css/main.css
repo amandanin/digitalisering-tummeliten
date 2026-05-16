@@ -452,6 +452,10 @@ footer {
     color: rgb(130, 128, 128);
 }
 
+.align-right {
+    text-align: end;
+}
+
 /* Media queries */
 @media only screen and (max-width: 480px) {
   .image-box, img {
